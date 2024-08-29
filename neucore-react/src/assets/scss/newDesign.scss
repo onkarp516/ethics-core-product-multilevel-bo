@@ -1,0 +1,349 @@
+// ? Purchse Invoice Style
+.invoice-title-style {
+  box-sizing: border-box;
+  /* position: absolute; */
+  margin-left: 0px;
+  // right: -10px;
+  margin-top: 0px;
+  bottom: 0px;
+  background: white;
+  border: 1px solid #dfe4e9;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+  height: 36px;
+  // width: 1920px;
+
+  .title1 {
+    // width: 150px;
+    height: 12px;
+    // margin-left: 10px;
+    margin-top: 12px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #85878e;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .title2 {
+    // width: 200px;
+    height: 12px;
+    // margin-left: 20px;
+    margin-top: 12px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #85878e;
+    padding: 0px;
+  }
+
+  .title3 {
+    // width: 280px;
+    height: 12px;
+    // margin-left: 0px;
+    margin-top: 12px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #85878e;
+    padding: 0px;
+  }
+
+  .icon-title {
+    // width: 36px;
+    height: 36px;
+    // margin-left: 1874px;
+    // margin-right: 10px;
+    // margin-bottom: 0px;
+    // margin-top: -25px;
+    // border-radius: 6px;
+    // background: #EEF5FB;
+  }
+
+  .table-style {
+    @media (min-width: 700px) and (max-width: 1368px) {
+      height: 53vh;
+    }
+
+    @media (min-width: 1369px) {
+      height: 69vh;
+    }
+
+    // margin-left: 10px;
+    margin-top: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    table-layout: fixed;
+
+    thead {
+      background: #edf2f7;
+      border: 1px solid #e1e5ea;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
+    }
+
+    th {
+      z-index: 9;
+      background: #edf2f7;
+      font-family: "Lato";
+      font-style: normal;
+      // font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      border-bottom: none;
+      position: sticky;
+      top: -1px;
+    }
+
+    td {
+      font-family: "Lato";
+      font-style: normal;
+      font-size: 14px;
+      line-height: 20px;
+      padding: 4px !important;
+    }
+
+    tr:hover {
+      background: #faf6e0;
+    }
+  }
+
+  .bottom-style {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 42px;
+    background: #c6e7f5;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #a1cee2;
+
+    .total-style {
+      @media (min-width: 700px) and (max-width: 1368px) {
+        margin-left: 70px;
+      }
+
+      @media (min-width: 1369px) {
+        margin-left: 570px;
+      }
+    }
+  }
+
+  .readonly-input {
+    background: transparent !important;
+    border: none;
+    font-size: 14px;
+    text-align: end;
+    padding: 0;
+  }
+
+  .readonly-input:focus {
+    box-shadow: none;
+    background: transparent !important;
+    border: none;
+    font-size: 14px;
+    text-align: end;
+    padding: 0;
+  }
+}
+
+.tax_design {
+  margin-top: 10px;
+  // border-radius: 10x;
+
+  td {
+    font-size: 14px;
+    line-height: 5px;
+    // padding: 1px;
+    font-family: "Lato";
+    font-style: normal;
+  }
+
+  th {
+    // border-top-right-radius: 5px;
+    // border-top-left-radius: 5px;
+    font-size: 11px;
+    line-height: 3px;
+    // padding: 1px;
+    font-weight: 500;
+    font-family: "Lato";
+    font-style: normal;
+    background-color: #dde2ed;
+  }
+
+  thead {
+    border: 2px solid transparent;
+  }
+
+  @media (min-width: 700px) and (max-width: 1368px) {
+    width: 220px !important;
+  }
+
+  @media (min-width: 1369px) {
+    width: 246px !important;
+  }
+
+  height: 70px;
+}
+
+// ? Stock summery Style
+
+.stock-summery {
+  //29-12-22 harish
+
+  .TBfilter_icon {
+    height: 12px;
+    margin-bottom: 10px;
+  }
+  .filter_btn {
+    background: rgba(217, 217, 217, 0.32);
+    mix-blend-mode: multiply;
+    border: 1px solid #c4cbd2;
+    border-radius: 4px;
+  }
+  // .btn_filter_icon {
+  //   background: rgba(217, 217, 217, 0.32);
+  //   mix-blend-mode: multiply;
+  //   border: 1px solid #c4cbd2;
+  //   border-radius: 4px;
+  // }
+  .filter_icon {
+    color: "#A0A3BD";
+    width: "30px";
+    height: "30px";
+  }
+  .navbar-light .navbar-nav .nav-link {
+    background: rgba(217, 217, 217, 0.32);
+    mix-blend-mode: multiply;
+    border: 1px solid #c4cbd2;
+    border-radius: 4px;
+    margin-top: -8px;
+    padding: 5px 10px;
+  }
+  .company_text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }
+  .from_date_text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+  }
+
+  @media (min-width: 700px) and (max-width: 1368px) {
+    height: 86vh;
+  }
+
+  @media (min-width: 1369px) {
+    height: 89vh;
+  }
+
+  // overflow-y: scroll;
+  overflow-x: hidden;
+
+  .table-style {
+    @media (min-width: 700px) and (max-width: 1368px) {
+      height: 57vh;
+    }
+
+    @media (min-width: 1369px) {
+      height: 77vh;
+    }
+
+    // overflow-y: scroll;
+    // overflow-x: hidden;
+    overflow: auto;
+
+    // table {
+
+    //     border-collapse: separate;
+    //     border-spacing: 0 15px;
+    // }
+
+    thead {
+      background: #e2e9ee;
+      border: 1px solid #e1e5ea;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
+      padding: 5px !important;
+      // z-index: 2;
+      // position: sticky;
+      // top: 0px;
+    }
+
+    .thead1 {
+      th {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        color: #000000;
+
+        // z-index: 2;
+        // background: #edf2f7;
+        // font-family: "Lato";
+        // font-style: normal;
+        // //     // font-weight: 700;
+        // font-size: 14px;
+        // line-height: 17px;
+        // border-bottom: 1px solid #f2f2f2;
+        // position: sticky;
+        // top: -1px;
+      }
+    }
+
+    .thead2 {
+      th {
+        z-index: 2;
+        background: #edf2f7;
+        font-family: "Lato";
+        font-style: normal;
+        //     // font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        border-bottom: 1px solid #f2f2f2;
+        position: sticky;
+        top: 48px;
+      }
+    }
+
+    td {
+      font-family: "Lato";
+      font-style: normal;
+      font-size: 14px;
+      // line-height: 20px;
+      text-align: center;
+      height: 34px;
+      padding: 0px !important;
+    }
+
+    tbody {
+      tr:hover {
+        background: #e9f9e8;
+      }
+    }
+  }
+
+  .dropdown-toggle::after {
+    display: none !important;
+  }
+
+  .dropdown-menu {
+    padding: 0px !important;
+    top: 100% !important;
+    right: 0% !important;
+    left: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}

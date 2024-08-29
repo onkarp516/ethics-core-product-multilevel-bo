@@ -1,0 +1,1045 @@
+.accountentrynewstyle {
+  .frm-accountentry {
+    .form-label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      width: max-content;
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 12px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 12px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 10px;
+        line-height: 15px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 12px;
+        width: max-content;
+      }
+
+      line-height: 17px;
+      // letter-spacing: -0.02em;
+      color: #000000;
+    }
+
+    .accountentry-text-box {
+      background: #ffffff;
+      height: 34px;
+      text-align: start;
+      @media (min-width: 1601px) and (max-width: 1680px) {
+        height: 32px;
+        font-size: 14px;
+      }
+      @media (min-width: 1441px) and (max-width: 1600px) {
+        height: 30px;
+        font-size: 12px;
+      }
+      @media (min-width: 1401px) and (max-width: 1440px) {
+        height: 30px;
+        font-size: 12px;
+      }
+      @media (min-width: 1369px) and (max-width: 1400px) {
+        height: 30px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 28px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 28px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        height: 26px;
+        font-size: 10px !important;
+      }
+      width: 100%;
+      // font-family: "Inter";
+      // font-style: normal;
+      font-weight: 400;
+      resize: none;
+      // font-size: 10px !important;
+      line-height: 15px;
+      // letter-spacing: -0.02em;
+      border-radius: 4px;
+      border: 1px solid #dcdcdc;
+
+      color: #000000;
+
+      &:focus {
+        background: #d5effb;
+        border: 2px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 2px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      // &:hover {
+      //   border: 1px solid #00a0f5 !important;
+      //   box-shadow: none !important;
+      // }
+    }
+
+    .accountentry-date-style {
+      font-size: 14px;
+      height: 34px;
+      @media (min-width: 1601px) and (max-width: 1680px) {
+        height: 32px;
+        font-size: 14px;
+      }
+      @media (min-width: 1441px) and (max-width: 1600px) {
+        height: 30px;
+        font-size: 12px;
+      }
+      @media (min-width: 1401px) and (max-width: 1440px) {
+        height: 30px;
+        font-size: 12px;
+      }
+      @media (min-width: 1369px) and (max-width: 1400px) {
+        height: 30px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 28px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 28px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        height: 26px;
+        font-size: 10px !important;
+        padding-left: 7px !important;
+      }
+
+      padding: 3px;
+      border: 1px solid #dcdcdc;
+      border-radius: 4px;
+      width: 100%;
+
+      // &:hover {
+      //   border: 1px solid #00a0f5 !important;
+      //   padding: 3px;
+      // }
+
+      &:focus,
+      &:focus-visible {
+        background: #d5effb;
+        border: 2px solid #00a0f5;
+        box-shadow: none;
+        outline: none;
+      }
+    }
+  }
+  .div-style {
+    background: linear-gradient(0deg, #d9f0fb, #d9f0fb),
+      linear-gradient(180deg, #ffffff 0%, #d5fbdd 100%);
+    padding: 15px;
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      padding: 12px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      padding: 10px;
+    }
+    @media (min-width: 700px) and (max-width: 1280px) {
+      padding: 8px;
+    }
+  }
+  .inner-div-account {
+    padding: 13px;
+    @media (min-width: 1601px) and (max-width: 1920px) {
+      padding: 13px;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      padding: 11px;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      padding: 6px;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      padding: 7px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      padding: 6px;
+    }
+    // box-shadow: 5px 5px 5px #D8DEE5;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 60.42%),
+      #d5effb;
+    border: 1px solid #d8dee5;
+    border-radius: 6px;
+  }
+
+  .tbl-body-style-new1 {
+    background: white;
+
+    @media (min-width: 1681px) and (max-width: 1920px) {
+      overflow-y: scroll;
+      height: 40.5vh;
+    }
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      overflow-y: scroll;
+      height: 42vh;
+    }
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 36.5vh;
+      overflow-y: scroll;
+      // height: fit-content;
+    }
+    @media (min-width: 1401px) and (max-width: 1440px) {
+      height: 37.8vh;
+      overflow-y: scroll;
+      // height: fit-content;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1400px) {
+      height: 43.7vh;
+      overflow-y: scroll;
+      // height: fit-content;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 33.5vh;
+      overflow-y: scroll;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 31.2vh;
+      overflow-y: scroll;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 38.1vh;
+      overflow-y: scroll;
+    }
+
+    overflow: auto;
+    overflow-x: hidden;
+
+    thead {
+      // position: sticky;
+      // background: linear-gradient(
+      //     180deg,
+      //     rgba(255, 255, 255, 0.3) 0%,
+      //     rgba(186, 187, 188, 0.3) 59.37%
+      //   ),
+      //   linear-gradient(180deg, #ffffff 0%, #dadada 63.02%);
+
+      th {
+        line-height: 15px;
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          line-height: 15px;
+          font-size: 14px;
+        }
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          line-height: 12px;
+          font-size: 12px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          line-height: 11px;
+          font-size: 10px;
+          z-index: 999;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          line-height: 10px;
+          font-size: 10px;
+          z-index: 999;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          line-height: 10px;
+          font-size: 10px;
+          z-index: 999;
+        }
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        // text-align: center;
+        // padding: 6px 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #000000;
+        position: sticky;
+        border: 1px solid #a8adb3;
+        z-index: 999;
+        top: -1px;
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(167, 173, 173, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #e1e0e0 63.02%);
+      }
+    }
+    tbody {
+      border-top: transparent;
+
+      tr {
+        border-bottom: 1px solid #a8adb3;
+        padding: 0px;
+        margin: 0px;
+
+        &:hover {
+          background-color: #e9f9e8;
+          border: 1px solid #e9f9e8;
+        }
+      }
+
+      td {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+        background-color: transparent;
+        border-left: 1px solid #d9d9d9;
+        border-bottom: 1px solid #d9d9d9;
+
+        .table-text-box {
+          font-size: 14px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          height: 38px;
+          text-align: right;
+          background-color: transparent !important;
+          border-radius: 0%;
+          padding: 3px;
+          border-color: 1px solid transparent !important;
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            font-size: 13px;
+            height: 32px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            font-size: 12px;
+            height: 30px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            font-size: 12px;
+            height: 30px;
+          }
+          @media (min-width: 700px) and (max-width: 1024px) {
+            font-size: 10px !important;
+            height: 28px;
+          }
+          &:focus {
+            // background-color: transparent !important;
+            border: 2px solid #00a0f5 !important;
+            background-color: #d5effb !important;
+          }
+        }
+
+        &:hover {
+          background-color: #ffffff;
+          border: 1px solid #00a0f5;
+          border-top: 1px solid #00a0f5;
+          outline: none;
+        }
+        &:focus {
+          background-color: #ffffff;
+          border: 1px solid #00a0f5;
+          border-top: 1px solid #00a0f5;
+          outline: none;
+        }
+      }
+    }
+
+    .form-control:focus {
+      box-shadow: none !important;
+    }
+
+    .account-prod-style {
+      line-height: 5px;
+      border: none;
+      background-color: transparent;
+      font-size: 14px;
+      height: 38px;
+      border-radius: 0%;
+      padding-left: 5px;
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 32px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 30px;
+        font-size: 12px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 30px;
+      }
+      @media (min-width: 700px) and (max-width: 1024px) {
+        height: 28px;
+      }
+
+      &:hover {
+        border: none;
+        background-color: transparent;
+      }
+
+      &:focus {
+        outline: none;
+        border: 2px solid #00a0f5 !important;
+        background-color: #d5effb !important;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .contrTable {
+    background: white;
+
+    @media (min-width: 1681px) and (max-width: 1920px) {
+      overflow-y: scroll;
+      height: 64vh;
+    }
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      overflow-y: scroll;
+      height: 64vh;
+    }
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 60vh;
+      overflow-y: scroll;
+      // height: fit-content;
+    }
+    @media (min-width: 1401px) and (max-width: 1440px) {
+      height: 61vh;
+      overflow-y: scroll;
+      // height: fit-content;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1400px) {
+      height: 66vh;
+      overflow-y: scroll;
+      // height: fit-content;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 59vh;
+      overflow-y: scroll;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 59vh;
+      overflow-y: scroll;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 60vh;
+      overflow-y: scroll;
+    }
+
+    overflow: auto;
+    overflow-x: hidden;
+
+    thead {
+      // position: sticky;
+      // background: linear-gradient(
+      //     180deg,
+      //     rgba(255, 255, 255, 0.3) 0%,
+      //     rgba(186, 187, 188, 0.3) 59.37%
+      //   ),
+      //   linear-gradient(180deg, #ffffff 0%, #dadada 63.02%);
+
+      th {
+        line-height: 15px;
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          line-height: 15px;
+          font-size: 14px;
+        }
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          line-height: 12px;
+          font-size: 12px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          line-height: 11px;
+          font-size: 10px;
+          z-index: 999;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          line-height: 10px;
+          font-size: 10px;
+          z-index: 999;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          line-height: 10px;
+          font-size: 10px;
+          z-index: 999;
+        }
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        // text-align: center;
+        // padding: 6px 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #000000;
+        position: sticky;
+        border: 1px solid #a8adb3;
+        z-index: 999;
+        top: -1px;
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(167, 173, 173, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #e1e0e0 63.02%);
+      }
+    }
+    tbody {
+      border-top: transparent;
+
+      tr {
+        border-bottom: 1px solid #a8adb3;
+        padding: 0px;
+        margin: 0px;
+
+        &:hover {
+          background-color: #e9f9e8;
+          border: 1px solid #e9f9e8;
+        }
+      }
+
+      td {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+        background-color: transparent;
+        border-left: 1px solid #d9d9d9;
+
+        .table-text-box {
+          font-size: 14px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          height: 38px;
+          text-align: right;
+          background-color: transparent !important;
+          border-radius: 0%;
+          padding: 3px;
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            font-size: 13px;
+            height: 32px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            font-size: 12px;
+            height: 30px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            font-size: 12px;
+            height: 30px;
+          }
+          @media (min-width: 700px) and (max-width: 1024px) {
+            font-size: 10px !important;
+            height: 28px;
+          }
+          &:focus {
+            // background-color: transparent !important;
+            border: 2px solid #00a0f5 !important;
+            background-color: #d5effb !important;
+          }
+        }
+
+        &:hover {
+          background-color: #ffffff;
+          border: 1px solid #00a0f5;
+          outline: none;
+        }
+        &:focus {
+          background-color: #ffffff;
+          border: 1px solid #00a0f5;
+          outline: none;
+        }
+      }
+    }
+
+    .form-control:focus {
+      box-shadow: none !important;
+    }
+
+    .account-prod-style {
+      line-height: 5px;
+      border: none;
+      background-color: transparent;
+      font-size: 14px;
+      height: 38px;
+      border-radius: 0%;
+      padding-left: 5px;
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 32px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 30px;
+        font-size: 12px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 30px;
+      }
+      @media (min-width: 700px) and (max-width: 1024px) {
+        height: 28px;
+      }
+
+      &:hover {
+        border: none;
+        background-color: transparent;
+      }
+
+      &:focus {
+        outline: none;
+        border: 2px solid #00a0f5 !important;
+        background-color: #d5effb !important;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .account_btm_part {
+    margin: 0;
+
+    border: none;
+    .btmpart {
+      text-align: start;
+      border-bottom: 1px solid transparent;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 25px;
+      letter-spacing: -0.03em;
+      padding-right: 10px !important;
+      color: #333333;
+
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        font-size: 16px;
+        line-height: 30px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 12px;
+        line-height: 21px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 12px;
+        line-height: 22px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 10px;
+        line-height: 17px;
+      }
+    }
+
+    td {
+      line-height: 15px;
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        line-height: 15px;
+        font-size: 13px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        line-height: 12px;
+        font-size: 12px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        line-height: 11px;
+        font-size: 10px;
+        z-index: 999;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        line-height: 10px;
+        font-size: 10px;
+        z-index: 999;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        line-height: 10px;
+        font-size: 10px;
+        z-index: 999;
+      }
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      // text-align: center;
+      padding: 0px;
+      // padding-top: 6px;
+      // padding-bottom: 6px;
+      color: #000000;
+      position: sticky;
+      z-index: 999;
+      bottom: 0;
+      background: #a0efd2;
+      border: 0px solid #dee4eb;
+    }
+  }
+  .btm-data {
+    background-color: #e9f7fd;
+    box-shadow: 0px 4px 8px 0px #0000001a;
+    padding-top: 20px;
+    .title-style {
+      margin-top: -21px;
+      border: 1px solid #ead8b1;
+      width: fit-content;
+      background: #ead8b1;
+      border-radius: 38px;
+      padding: 4px 8px;
+      margin-left: 0px;
+      font-size: 14px;
+      color: #b6762b;
+      font-weight: 600;
+      font-family: "Inter";
+      line-height: 18px;
+      text-decoration: none;
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 12px;
+        // margin-top: -13px;
+        height: 24px;
+        line-height: 13px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 12px;
+        height: 24px;
+        line-height: 14px;
+        // margin-top: -16px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 10px !important;
+        line-height: 11px !important;
+        height: 20px;
+        margin-top: -13px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 12px;
+        width: max-content;
+        height: 25px;
+        // margin-top: -15px;
+        line-height: 15px;
+      }
+    }
+    .accountentry-description-style {
+      background: #f8f0d2;
+      border-radius: 3px;
+      border: 1px solid #ead8b1;
+      padding: 8px 15px;
+      margin: auto;
+      // height: 110px;
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        padding: 7px 0px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        padding: 4px 13px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        padding: 1px 12px;
+        height: 95px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        padding: 2px 11px;
+        height: 90px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        padding: 2px 10px;
+      }
+
+      .span-lable {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          font-size: 14px;
+        }
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 12px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 12px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 11px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          font-size: 10px;
+          line-height: 20px;
+        }
+
+        line-height: 23px;
+        color: #b6762b;
+      }
+
+      .span-value {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          font-size: 14px;
+        }
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 12px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 12px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 11px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          font-size: 10px;
+        }
+        line-height: 18px;
+        color: #000000;
+      }
+
+      .custom_hr_style {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        align-items: end;
+        color: #b6762b;
+        margin-bottom: auto;
+        margin-top: 5px;
+        float: right;
+      }
+    }
+    .account-prod-style {
+      line-height: 5px;
+      border: 1px solid #dcdcdc;
+      background-color: #ffffff;
+      font-size: 14px;
+      height: 38px;
+      border-radius: 4px;
+      padding-left: 5px;
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 32px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 30px;
+        font-size: 12px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 30px;
+      }
+      @media (min-width: 700px) and (max-width: 1024px) {
+        height: 28px;
+      }
+
+      &:hover {
+        border: none;
+        background-color: transparent;
+      }
+
+      &:focus {
+        outline: none;
+        border: 2px solid #00a0f5 !important;
+        background-color: #d5effb !important;
+        box-shadow: none;
+      }
+    }
+  }
+  .accountentry-info-table {
+    height: 14vh;
+    overflow: auto;
+    overflow-x: hidden;
+    @media (min-width: 1440px) and (max-width: 1680px) {
+      height: 12.5vh;
+    }
+    @media (min-width: 1369px) and (max-width: 1400px) {
+      height: 13vh;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 11vh;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 14vh;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 10vh;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    thead {
+      background: #d9d9d9;
+      position: sticky;
+      top: 0;
+    }
+
+    th {
+      position: sticky;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 12px;
+        line-height: 14px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 12px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 10px;
+        line-height: 13px;
+      }
+      line-height: 20px;
+      letter-spacing: -0.03em;
+      color: #333333;
+      padding: 3px 6px;
+    }
+
+    tbody {
+      height: 6vh;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      border-top: 2px solid transparent;
+    }
+
+    td {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 11px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 11px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 10px;
+      }
+      line-height: 20px;
+      letter-spacing: -0.03em;
+      color: #333333;
+      padding: 0;
+      border-bottom: 1px solid transparent;
+      .form-control {
+        border-color: 1px solid transparent;
+      }
+    }
+  }
+
+  .btm-rows-btn1 {
+    border-top: 1px solid #c7c7cd;
+    position: sticky;
+    bottom: 0px;
+    padding-top: 5px;
+    width: 100%;
+    background: #eeeff2;
+    // margin-top: -17px;
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      padding-top: 3px;
+      height: 23px;
+    }
+
+    @media (min-width: 1401px) and (max-width: 1440px) {
+      padding-top: 3px;
+      height: 23px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      padding-top: 3px;
+      height: 23px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      padding-top: 3px;
+      height: 23px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      padding-top: 3px;
+      height: 20px;
+    }
+    .btm-label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      /* identical to box height */
+
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+
+      color: #000000;
+      width: 180px;
+      opacity: 0.7;
+      @media (min-width: 700px) and (max-width: 1368px) {
+        font-size: 11px;
+      }
+    }
+
+    .shortkey {
+      font-family: "Inter";
+      font-style: italic;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      /* identical to box height */
+
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+
+      color: #000000;
+      font-variation-settings: "slnt" -10;
+
+      opacity: 1;
+      @media (min-width: 700px) and (max-width: 1368px) {
+        font-size: 11px;
+      }
+    }
+  }
+}
+//! payment
+.payment-ledger-selected-tr {
+  background-color: #e9f9e8;
+}

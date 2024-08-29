@@ -1,0 +1,668 @@
+// ? Product Style 03-06-2022
+
+.product-style {
+  background: #f5f9fc;
+
+  @media (min-width: 700px) and (max-width: 1024px) {
+    height: 86vh;
+
+    .card-style {
+      background: #ffffff;
+
+      .form-label {
+        font-size: 10px !important;
+      }
+
+      img {
+        width: 13px;
+      }
+
+      .input-group,
+      .form-control {
+        font-size: 11px !important;
+        height: 24px !important;
+      }
+
+      textarea.form-control {
+        font-size: 11px !important;
+        height: 80px !important;
+      }
+
+      .input-group-text {
+        font-size: 11px;
+        padding: 0px;
+        color: gray;
+      }
+
+      .btn-add-pckg {
+        background-color: rgba(1, 128, 240, 0.01);
+        border: 1px solid rgb(1, 128, 240);
+        border-radius: 4px;
+        color: rgb(1, 128, 240);
+        font-size: 11px;
+        padding: 5px 10px;
+      }
+
+      .form-check-input {
+        margin: 0;
+        margin-left: 5px;
+        margin-top: 3px;
+        // background: #eef0f4;
+        cursor: pointer;
+        border: 1px solid #bdc3d0;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.14);
+        border-radius: 3px;
+      }
+    }
+
+    .css-1u6mcux-control {
+      height: 24px;
+      min-height: 24px;
+      font-size: 11px;
+    }
+
+    .dd-style {
+      .css-1wy0on6 {
+        background: #e9ecef;
+        height: 22px;
+        width: 14px;
+        font-size: 9px;
+
+        .css-tj5bde-Svg {
+          color: rgb(184, 183, 183);
+          width: 14px;
+          margin-top: 0px;
+        }
+      }
+
+      .css-14el2xx-placeholder,
+      .css-qc6sy-singleValue {
+        margin-top: -6px;
+      }
+
+      .css-ackcql {
+        margin-top: -6px;
+      }
+
+      .css-1d8n9bt {
+        margin-top: 3px;
+      }
+    }
+
+    .invoice-date-style {
+      font-size: 11px;
+      height: 24px;
+      margin-top: 0px;
+    }
+
+    .product-list {
+      margin-top: 7px;
+      height: 12px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 12px;
+      color: #000000;
+    }
+
+    .unit-dd-style {
+      .css-1wy0on6 {
+        background: #e9ecef;
+        height: 22px;
+        width: 16px;
+
+        .css-tj5bde-Svg {
+          color: rgb(184, 183, 183);
+          width: 16px;
+          margin-top: 0px;
+        }
+      }
+
+      .css-14el2xx-placeholder,
+      .css-qc6sy-singleValue {
+        margin-top: -6px;
+      }
+
+      .css-ackcql {
+        margin-top: -6px;
+      }
+
+      .css-1d8n9bt {
+        margin-top: 3px;
+      }
+    }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1368px) {
+    height: 86vh;
+
+    .card-style {
+      background: #ffffff;
+
+      .form-label {
+        font-size: 12px !important;
+
+        img {
+          width: 16px;
+        }
+      }
+
+      .input-group,
+      .form-control {
+        font-size: 12px !important;
+        height: 28px !important;
+      }
+
+      textarea.form-control {
+        font-size: 12px !important;
+        height: 80px !important;
+      }
+
+      .input-group-text {
+        font-size: 12px;
+        padding: 1px;
+        color: gray;
+      }
+
+      .btn-add-pckg {
+        background-color: rgba(1, 128, 240, 0.01);
+        border: 1px solid rgb(1, 128, 240);
+        border-radius: 4px;
+        color: rgb(1, 128, 240);
+        font-size: 12px;
+        padding: 5px 15px;
+      }
+
+      .form-check-input {
+        margin: 0;
+        margin-left: 5px;
+        margin-top: 3px;
+        // background: #eef0f4;
+        cursor: pointer;
+        border: 1px solid #bdc3d0;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.14);
+        border-radius: 3px;
+      }
+    }
+
+    .css-1u6mcux-control {
+      height: 28px;
+      min-height: 28px;
+      font-size: 12px;
+    }
+
+    .dd-style {
+      .css-1wy0on6 {
+        background: #e9ecef;
+        height: 26px;
+        width: 17px;
+
+        .css-tj5bde-Svg {
+          color: rgb(184, 183, 183);
+          width: 17px;
+          margin-top: 0px;
+        }
+      }
+
+      .css-14el2xx-placeholder,
+      .css-qc6sy-singleValue {
+        margin-top: -6px;
+      }
+
+      .css-ackcql {
+        margin-top: -6px;
+      }
+
+      .css-1d8n9bt {
+        margin-top: 3px;
+      }
+    }
+
+    .invoice-date-style {
+      font-size: 12px;
+      height: 28px;
+      margin-top: 0px;
+    }
+
+    .product-list {
+      margin-top: 7px;
+      height: 12px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 12px;
+      color: #000000;
+      // .form-check {
+      //     display: block;
+      //     padding-right: 8px;
+      //     min-height: 1.5rem;
+      //     padding-left: 1.5em;
+      //     margin-bottom: 0.125rem;
+      //     font-size: 13px;
+    }
+
+    .unit-dd-style {
+      .css-1wy0on6 {
+        background: #e9ecef;
+        height: 23px;
+        width: 18px;
+
+        .css-tj5bde-Svg {
+          color: rgb(184, 183, 183);
+          width: 18px;
+          margin-top: 0px;
+        }
+      }
+
+      .css-14el2xx-placeholder,
+      .css-qc6sy-singleValue {
+        margin-top: -6px;
+      }
+
+      .css-ackcql {
+        margin-top: -6px;
+      }
+
+      .css-1d8n9bt {
+        margin-top: 3px;
+      }
+    }
+  }
+
+  @media (min-width: 1369px) {
+    height: 91vh;
+
+    .card-style {
+      background: #ffffff;
+
+      .form-label {
+        font-size: 13px !important;
+
+        img {
+          width: 19px;
+        }
+      }
+
+      .input-group,
+      .form-control {
+        font-size: 13px !important;
+        height: 32px !important;
+      }
+
+      textarea.form-control {
+        font-size: 13px !important;
+        height: 90px !important;
+      }
+
+      .input-group-text {
+        font-size: 13px;
+        padding: 2px;
+        color: gray;
+      }
+
+      .btn-add-pckg {
+        background-color: rgba(1, 128, 240, 0.01);
+        border: 1px solid rgb(1, 128, 240);
+        border-radius: 4px;
+        color: rgb(1, 128, 240);
+        font-size: 13px;
+        padding: 5px 20px;
+      }
+
+      .form-check-input {
+        margin: 0;
+        margin-left: 5px;
+        margin-top: 3px;
+        // background: #eef0f4;
+        cursor: pointer;
+        border: 1px solid #bdc3d0;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.14);
+        border-radius: 3px;
+      }
+    }
+
+    .css-1u6mcux-control {
+      height: 32px;
+      min-height: 32px;
+      font-size: 13px;
+    }
+
+    .dd-style {
+      .css-1wy0on6 {
+        background: #e9ecef;
+        height: 30px;
+        width: 19px;
+
+        .css-tj5bde-Svg {
+          color: rgb(184, 183, 183);
+          width: 19px;
+          margin-top: 0px;
+        }
+      }
+
+      .css-14el2xx-placeholder,
+      .css-qc6sy-singleValue {
+        margin-top: -6px;
+      }
+
+      .css-ackcql {
+        margin-top: -6px;
+      }
+
+      .css-1d8n9bt {
+        margin-top: 3px;
+      }
+    }
+
+    .invoice-date-style {
+      font-size: 13px;
+      height: 32px;
+      margin-top: 0px;
+    }
+
+    .product-list {
+      margin-top: 7px;
+      height: 12px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 12px;
+      color: #000000;
+    }
+
+    .unit-dd-style {
+      .css-1wy0on6 {
+        background: #e9ecef;
+        height: 24px;
+        width: 20px;
+
+        .css-tj5bde-Svg {
+          color: rgb(184, 183, 183);
+          width: 20px;
+          margin-top: 0px;
+        }
+      }
+
+      .css-14el2xx-placeholder,
+      .css-qc6sy-singleValue {
+        margin-top: -6px;
+      }
+
+      .css-ackcql {
+        margin-top: -6px;
+      }
+
+      .css-1d8n9bt {
+        margin-top: 3px;
+      }
+    }
+  }
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  .inputbox-style {
+    line-height: 0.5;
+    height: 32px;
+    padding: 5px;
+    width: 35px !important;
+    font-size: 14px !important;
+    font-family: "Lato";
+    color: #2f3033 !important;
+  }
+
+  .inputbox-style:focus {
+    line-height: 0.5;
+    height: 32px;
+    padding: 5px;
+    width: 35px !important;
+    font-size: 14px !important;
+    font-family: "Lato";
+    color: #2f3033 !important;
+    box-shadow: none !important;
+  }
+
+
+  .unit-inputbox-style {
+    line-height: 0.5;
+    height: 26px;
+    padding: 5px;
+    width: 35px !important;
+    font-size: 14px !important;
+    font-family: "Lato";
+    color: #2f3033 !important;
+  }
+
+  .unit-inputbox-style:focus {
+    line-height: 0.5;
+    height: 26px;
+    padding: 5px;
+    width: 35px !important;
+    font-size: 14px !important;
+    font-family: "Lato";
+    color: #2f3033 !important;
+    box-shadow: none !important;
+  }
+
+  .form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+    font-size: 13px;
+  }
+
+  .table-style {
+    .table > :not(caption) > * > * {
+      border-bottom: none !important;
+    }
+
+    .tr-collapse {
+      border-collapse: separate;
+      border-spacing: 0 15px;
+    }
+
+    @media (min-width: 700px) and (max-width: 1024px) {
+      height: 44vh;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1368px) {
+      height: 43.7vh;
+    }
+
+    @media (min-width: 1369px) {
+      height: 61vh;
+    }
+
+    overflow: auto;
+
+    thead {
+      background: #edf2f7;
+      border-bottom: 5px solid #ffffff;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
+    }
+
+    @media (min-width: 700px) and (max-width: 1024px) {
+      th {
+        z-index: 2;
+        background: #edf2f7;
+        font-family: "Lato";
+        font-style: normal;
+        // font-weight: 700;
+        font-size: 11px;
+        line-height: 17px;
+        border-bottom: none;
+        position: sticky;
+        top: 0px;
+      }
+
+      .unit-td-style {
+        td {
+          height: 40px;
+          padding: 3px 1px;
+          border-bottom: 5px solid #edf2f6;
+        }
+
+        .form-control {
+          font-size: 11px !important;
+          height: 24px !important;
+          border-top-right-radius: 0px !important;
+          border-bottom-right-radius: 0px !important;
+        }
+
+        span {
+          font-size: 9px !important;
+          height: 24px !important;
+        }
+      }
+    }
+
+    @media (min-width: 1025px) and (max-width: 1368px) {
+      th {
+        z-index: 2;
+        background: #edf2f7;
+        font-family: "Lato";
+        font-style: normal;
+        // font-weight: 700;
+        font-size: 12px;
+        line-height: 17px;
+        border-bottom: none;
+        position: sticky;
+        top: 0px;
+      }
+
+      .unit-td-style {
+        td {
+          height: 40px;
+          padding: 3px 1px;
+          border-bottom: 5px solid #edf2f6;
+        }
+
+        .form-control {
+          font-size: 12px !important;
+          height: 25px !important;
+          border-top-right-radius: 0px !important;
+          border-bottom-right-radius: 0px !important;
+        }
+
+        span {
+          font-size: 10px !important;
+          height: 25px !important;
+        }
+      }
+    }
+
+    @media (min-width: 1369px) {
+      th {
+        z-index: 2;
+        background: #edf2f7;
+        font-family: "Lato";
+        font-style: normal;
+        // font-weight: 700;
+        font-size: 13px;
+        line-height: 17px;
+        border-bottom: none;
+        position: sticky;
+        top: 0px;
+      }
+
+      .unit-td-style {
+        td {
+          height: 40px;
+          padding: 3px 1px;
+          border-bottom: 5px solid #edf2f6;
+        }
+
+        .form-control {
+          font-size: 13px !important;
+          height: 26px !important;
+          border-top-right-radius: 0px !important;
+          border-bottom-right-radius: 0px !important;
+        }
+
+        span {
+          font-size: 11px !important;
+          height: 26px !important;
+        }
+      }
+    }
+
+    .tr-card-style {
+      border-top: 5px solid #ffffff;
+    }
+  }
+}
+
+// ! file_upload_mdl
+.file_upload_mdl {
+  .modal-content {
+    height: 453px;
+  }
+
+  .modal-header {
+    background: #dfe4ec;
+    padding: 6px;
+    height: 36px;
+
+    .modal-title {
+      font-size: 14px;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+
+    button {
+      font-size: 10px;
+      margin-right: 0px;
+    }
+  }
+
+  .modal-footer {
+    background: white;
+    padding: 6px;
+    height: 36px;
+    justify-content: start;
+
+    .modal-title {
+      font-size: 13px;
+      margin-left: 10px;
+      color: #7c849a;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+
+  .custome-file {
+    border: 1px solid;
+    text-align: center;
+    padding-top: 5px;
+    width: 160px;
+    border: 1px solid #0180f0;
+    border-radius: 4px;
+    height: 32px;
+    color: #0180f0;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 10px;
+
+    .upload-btn-wrapper {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+      height: 100%;
+    }
+
+    .upload-btn-wrapper input[type="file"] {
+      font-size: 100px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

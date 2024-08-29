@@ -1,0 +1,63 @@
+
+ th ,td{
+  border: 1px solid black;
+}
+table{
+  border-collapse: collapse;
+}
+
+.tb-form{
+  width: 1000px;
+  height: 400px;
+  text-align: center;
+  // border-collapse: collapse;
+
+}
+.text{
+  text-align: left;
+}
+.text1{
+  text-align: left;
+}
+.col{
+  background-color: rgb(208, 202, 202);
+}
+.logo{
+  width: 300px;
+  height: 80px;
+}
+.text-bank{
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.text-bold{
+  font-weight: bold;
+}
+.sign{
+  height: 100px;
+}
+.text-size{
+  font-size: 13px;
+  font-weight: 400;
+}
+.terms{
+  text-decoration: underline;
+  font-weight: 500;
+}
+.text-align{
+  text-align: right;
+}
+.text-rg{
+  text-align: left  ;
+  font-weight: bold;
+}
+.text-rt{
+  text-align:justify;
+}
+
+
+.border-danger{
+  border-radius: 5px;
+
+}

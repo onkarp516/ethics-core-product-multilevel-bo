@@ -1,0 +1,3606 @@
+.purchase-tranx {
+  overflow-y: hidden;
+  box-sizing: border-box;
+  /* position: absolute; */
+  margin-left: 0px;
+  // right: -10px;
+  margin-top: 0px;
+  bottom: 0px;
+  background: white;
+  border: 1px solid #dfe4e9;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    border-radius: 4px;
+    border: 2px solid #00a0f5;
+    background: #d9f0fb;
+    display: flex;
+    width: 80px;
+    height: 30px;
+    // padding: 2px 10px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: #333;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+      margin-top: 0px;
+      height: 24px;
+      line-height: 13px;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+      margin-top: 0px;
+      height: 24px;
+      line-height: 13px;
+    }
+
+    @media (min-width: 700px) and (max-width: 1024px) {
+      font-size: 10px;
+      line-height: 15px;
+      height: 20px;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 12px;
+      width: max-content;
+      height: 25px;
+    }
+  }
+  .nav-pills .nav-link {
+    border-radius: 4px;
+    border: 1px solid rgba(181, 198, 206, 0.5);
+    background: #ebf7fd;
+    display: flex;
+    width: 80px;
+    height: 30px;
+    // padding: 2px 10px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: #333;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+      margin-top: 0px;
+      height: 24px;
+      line-height: 13px;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+      margin-top: 0px;
+      height: 24px;
+      line-height: 13px;
+    }
+
+    @media (min-width: 700px) and (max-width: 1024px) {
+      font-size: 10px;
+      line-height: 15px;
+      height: 20px;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 12px;
+      width: max-content;
+      height: 25px;
+    }
+
+    .btn {
+      margin-left: -1.18px !important;
+    }
+    .btn:focus {
+      margin-left: -1.18px !important;
+      box-shadow: none !important;
+      border: 2px solid #00a0f5 !important;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1024px) {
+    .div-styleNew {
+      padding: 8px !important;
+    }
+  }
+
+  .div-style {
+    background: linear-gradient(0deg, #d9f0fb, #d9f0fb),
+      linear-gradient(180deg, #ffffff 0%, #d5fbdd 100%);
+    padding: 15px;
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      padding: 12px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      padding: 10px;
+    }
+    @media (min-width: 700px) and (max-width: 1280px) {
+      padding: 10px;
+    }
+  }
+  .tMS {
+    margin-top: 10px;
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      margin-top: 5px;
+    }
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      margin-top: 5px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      margin-top: 3px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      margin-top: 3px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      margin-top: 0px;
+    }
+  }
+
+  .TGST-body {
+    font-size: 14px;
+    font-family: "Inter";
+    font-style: normal;
+    .TGST {
+      font-size: 14px;
+      @media (width: 1680px) {
+        font-size: 13px;
+      }
+      height: 10px !important;
+      border-bottom: 1px solid rgb(217, 217, 217);
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 12px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 10px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 10px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 9px;
+      }
+      .footer-table-text-box {
+        font-size: 14px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        height: 30px;
+        width: 99%;
+        border-radius: 4px;
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 13px;
+          height: 24px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 12px;
+          height: 22px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 11px;
+          height: 23px;
+        }
+        @media (min-width: 700px) and (max-width: 1024px) {
+          font-size: 11px;
+          height: 20px;
+          padding: 5px;
+        }
+        &:focus {
+          box-shadow: none;
+          // background-color: transparent !important;
+          border: 2px solid #00a0f5 !important;
+          background-color: #d5effb !important;
+        }
+      }
+    }
+  }
+
+  .tgstFooter_tabl_style {
+    height: 21vh;
+    overflow-y: scroll;
+    // overflow-x: scroll;
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 20vh;
+    }
+    @media (min-width: 1401px) and (max-width: 1600px) {
+      height: 21vh;
+    }
+    @media (min-width: 1369px) and (max-width: 1400px) {
+      height: 15vh;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 20vh;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 17vh;
+    }
+
+    thead {
+      th {
+        font-weight: 500;
+        font-size: 14px;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 13px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 12px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 12px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          font-size: 10px;
+        }
+      }
+    }
+    .thwidth1 {
+      width: 50%;
+    }
+    .thwidth {
+      width: 120px;
+      @media (min-width: 992px) and (max-width: 1024px) {
+        width: 180px;
+      }
+      @media (min-width: 1369px) and (max-width: 1400px) {
+        width: 130px;
+      }
+    }
+
+    .TGST-body {
+      font-size: 14px;
+      font-family: "Inter";
+      font-style: normal;
+      .TGST {
+        height: 10px !important;
+        border-bottom: 1px solid rgb(217, 217, 217);
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 11px;
+          font-family: "Inter";
+          font-style: normal;
+        }
+
+        @media (min-width: 1281px) and (max-width: 1366px) {
+          font-size: 11px;
+          font-family: "Inter";
+          font-style: normal;
+        }
+      }
+    }
+    td {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 11px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 11px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 10px;
+      }
+      line-height: 20px;
+      letter-spacing: -0.03em;
+      color: #333333;
+      padding: 0;
+      border-bottom: 1px solid transparent;
+    }
+    .tfoot-style {
+      border: 0px solid #dee4eb;
+      position: sticky;
+      z-index: 999;
+      top: 205px;
+      bottom: 0;
+      border: 1px solid transparent;
+      height: 32px;
+      background: linear-gradient(0deg, #d2f6e9 0%, #d2f6e9 100%),
+        linear-gradient(
+          180deg,
+          rgba(248, 223, 131, 0.5) 0%,
+          rgba(248, 223, 131, 0.01) 99.99%,
+          rgba(248, 223, 131, 0) 100%
+        ),
+        #f8f0d2;
+    }
+  }
+
+  .paddingtop {
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      padding-top: 3px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      padding-top: 3px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      padding-top: 5px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      padding-top: 7px;
+    }
+  }
+  .Roff {
+    margin-bottom: 0px;
+
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      margin-top: 0px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      margin-top: 3px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      margin-top: 3px;
+    }
+    @media (min-width: 700px) and (max-width: 1024px) {
+      font-size: 10px;
+      margin-top: 3px;
+    }
+  }
+  .form-check {
+    padding-right: 10px;
+    width: max-content;
+    white-space: nowrap;
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      padding-right: 4px;
+    }
+    @media (min-width: 1366px) and (max-width: 1440px) {
+      padding-right: 9px;
+      font-size: 12px;
+    }
+    @media (min-width: 1281px) and (max-width: 1367px) {
+      font-size: 11px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 11px;
+    }
+    @media (min-width: 700px) and (max-width: 1024px) {
+      font-size: 8px;
+    }
+    .label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+    }
+
+    .form-check-input::before {
+      background-color: #00a0f5;
+    }
+
+    .form-check-input:checked {
+      box-shadow: none !important;
+      background-color: #00a0f5 !important;
+    }
+
+    .form-check-input:focus,
+    .form-check-input:active {
+      box-shadow: none !important;
+      border: 3px solid #00a0f5 !important;
+    }
+  }
+
+  //harish 14-06-2023 start
+  @media (min-width: 1024px) and (max-width: 1680px) {
+    .outer-wrapper {
+      margin: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      // border: 1px solid black;
+      border-radius: 4px;
+      // box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.9);
+      max-width: fit-content;
+      max-height: fit-content;
+    }
+    .table-wrapper {
+      // overflow-y: scroll;
+      // overflow-x: scroll;
+      // height: fit-content;
+    }
+  }
+
+  //harish end
+
+  .inner-div-style {
+    padding: 13px 0;
+    @media (min-width: 1601px) and (max-width: 1920px) {
+      padding: 13px 0;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      padding: 11px 0;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      padding: 6px 0;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      padding: 5px 0;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      padding: 6px 0;
+    }
+    // box-shadow: 5px 5px 5px #D8DEE5;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 60.42%),
+      #d5effb;
+    border: 1px solid #d8dee5;
+    border-radius: 6px;
+  }
+
+  .frm-tnx-purchase-invoice {
+    .form-label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      width: max-content;
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 12px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 12px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 10px;
+        line-height: 15px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 12px;
+        width: max-content;
+      }
+
+      line-height: 17px;
+      // letter-spacing: -0.02em;
+      color: #000000;
+    }
+
+    .tnx-pur-inv-text-box {
+      background: #ffffff;
+      height: 34px;
+      text-align: start;
+      @media (min-width: 1601px) and (max-width: 1680px) {
+        height: 32px;
+        font-size: 14px;
+      }
+      @media (min-width: 1441px) and (max-width: 1600px) {
+        height: 30px;
+        font-size: 12px;
+      }
+      @media (min-width: 1401px) and (max-width: 1440px) {
+        height: 30px;
+        font-size: 12px;
+      }
+      @media (min-width: 1369px) and (max-width: 1400px) {
+        height: 30px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 28px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 28px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        height: 26px;
+        font-size: 10px !important;
+      }
+      width: 100%;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      resize: none;
+      // font-size: 10px !important;
+      line-height: 15px;
+      // letter-spacing: -0.02em;
+      border-radius: 4px;
+      border: 1px solid #dcdcdc;
+
+      color: #000000;
+
+      &:focus {
+        background: #d5effb;
+        border: 2px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 2px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      // &:hover {
+      //   border: 1px solid #00a0f5 !important;
+      //   box-shadow: none !important;
+      // }
+    }
+
+    .tnx-pur-inv-date-style {
+      font-size: 14px;
+      height: 34px;
+      @media (min-width: 1601px) and (max-width: 1680px) {
+        height: 32px;
+        font-size: 14px;
+      }
+      @media (min-width: 1441px) and (max-width: 1600px) {
+        height: 30px;
+        font-size: 12px;
+      }
+      @media (min-width: 1401px) and (max-width: 1440px) {
+        height: 30px;
+        font-size: 12px;
+      }
+      @media (min-width: 1369px) and (max-width: 1400px) {
+        height: 30px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 28px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 28px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        height: 26px;
+        font-size: 10px !important;
+        padding-left: 7px !important;
+      }
+
+      padding: 3px;
+      border: 1px solid #dcdcdc;
+      border-radius: 4px;
+      width: 100%;
+
+      // &:hover {
+      //   border: 1px solid #00a0f5 !important;
+      //   padding: 3px;
+      // }
+
+      &:focus,
+      &:focus-visible {
+        background: #d5effb;
+        border: 2px solid #00a0f5;
+        box-shadow: none;
+        outline: none;
+      }
+    }
+    .pendingstyle {
+      color: #00a0f5;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-decoration-line: underline;
+      margin-bottom: 0px;
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 12px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 12px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 10px;
+        line-height: 15px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 12px;
+        width: max-content;
+      }
+    }
+    .pending-style {
+      color: #000;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 0px;
+      // text-decoration-line: underline;
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 12px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 12px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 10px;
+        line-height: 15px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 12px;
+        width: max-content;
+      }
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1024px) {
+    .for_remove_padding {
+      padding: 0;
+    }
+  }
+
+  .tnx-pur-inv-tbl-style {
+    background: white;
+
+    @media (min-width: 1681px) and (max-width: 1920px) {
+      overflow-y: scroll;
+      overflow-x: scroll;
+      height: 37vh;
+    }
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      overflow-y: scroll;
+      overflow-x: scroll;
+      height: 36.3vh;
+    }
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 34vh;
+      overflow-y: scroll;
+      overflow-x: scroll;
+      // height: fit-content;
+    }
+    @media (min-width: 1401px) and (max-width: 1440px) {
+      height: 34vh;
+      overflow-y: scroll;
+      overflow-x: scroll;
+      // height: fit-content;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1400px) {
+      height: 41.7vh;
+      overflow-y: scroll;
+      overflow-x: scroll;
+      // height: fit-content;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 31.5vh;
+      overflow-y: scroll;
+      overflow-x: scroll;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 30.5vh;
+      overflow-y: scroll;
+      overflow-x: scroll;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 34vh;
+      overflow-y: scroll;
+      overflow-x: scroll;
+    }
+
+    overflow: auto;
+    overflow-x: hidden;
+
+    table {
+      @media (min-width: 1024px) and (max-width: 1680px) {
+        width: max-content;
+      }
+      margin: 0;
+    }
+
+    thead {
+      // position: sticky;
+      // background: linear-gradient(
+      //     180deg,
+      //     rgba(255, 255, 255, 0.3) 0%,
+      //     rgba(186, 187, 188, 0.3) 59.37%
+      //   ),
+      //   linear-gradient(180deg, #ffffff 0%, #dadada 63.02%);
+
+      th {
+        line-height: 15px;
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          line-height: 15px;
+          font-size: 13px;
+        }
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          line-height: 12px;
+          font-size: 12px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          line-height: 11px;
+          font-size: 10px;
+          z-index: 999;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          line-height: 10px;
+          font-size: 10px;
+          z-index: 999;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          line-height: 10px;
+          font-size: 10px;
+          z-index: 999;
+        }
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        // text-align: center;
+        // padding: 6px 5px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: #000000;
+        position: sticky;
+        border: 1px solid #a8adb3;
+        z-index: 999;
+        top: -1px;
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(167, 173, 173, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #e1e0e0 63.02%);
+      }
+      .Level_ABC {
+        text-align: center;
+        width: 200px;
+        border-collapse: collapse;
+        table-layout: fixed;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 180px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 180px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 157px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 157px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 170px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 150px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 128px;
+        }
+      }
+      .Level_AB {
+        text-align: center;
+        width: 220px;
+        border-collapse: collapse;
+        table-layout: fixed;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 200px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 190px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 167px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 167px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 180px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 160px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 138px;
+        }
+      }
+      .Level_A {
+        text-align: center;
+        width: 230px;
+        border-collapse: collapse;
+        table-layout: fixed;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 210px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 200px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 185px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 185px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 165px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 145px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 138px;
+        }
+      }
+      .Level_no {
+        text-align: center;
+        width: 0px;
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+      .sr_no_width {
+        text-align: center;
+        width: 35px;
+        border-right: 1px solid #a8adb2;
+      }
+      .purticular-width {
+        width: 428px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 473px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 540px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 488px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 450px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 396px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 377px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 300px;
+        }
+      }
+      .unit_width {
+        width: 100px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 100px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 100px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 80px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 80px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 85px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 80px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 70px;
+        }
+      }
+      .batch_width {
+        width: 200px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 180px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 150px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 145px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 145px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 130px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 125px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 120px;
+        }
+      }
+      .qty_width {
+        width: 115px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 115px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 95px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 100px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 100px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 75px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 80px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 65px;
+        }
+      }
+      .free_width {
+        width: 135px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 135px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 100px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 90px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 90px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 70px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 70px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 60px;
+        }
+      }
+      .rate_width {
+        width: 150px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 135px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 125px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 108px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 108px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 110px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 110px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 100px;
+        }
+      }
+      .amt_width {
+        width: 135px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 135px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 140px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 120px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 120px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 125px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 125px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 115px;
+        }
+      }
+      .dis1_width {
+        width: 75px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 75px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 70px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 65px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 65px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 70px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 60px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 50px;
+        }
+      }
+      .dis2_width {
+        width: 75px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 75px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 70px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 65px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 65px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 70px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 60px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 50px;
+        }
+      }
+      .disc_width {
+        width: 100px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 90px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 90px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 80px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 80px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 90px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 70px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 60px;
+        }
+      }
+      .tax_width {
+        width: 75px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 75px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 80px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 60px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 60px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 80px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 60px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 50px;
+        }
+      }
+      .net_ant_width {
+        width: 150px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 110px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 135px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 120px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 120px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 125px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 120px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 115px;
+        }
+      }
+      .add_del_btn_width {
+        text-align: center;
+        width: 25px;
+        border-right: 1px solid #a8adb2;
+      }
+    }
+    tbody {
+      border-top: transparent;
+
+      tr {
+        border-bottom: 1px solid #a8adb3;
+        padding: 0px;
+        margin: 0px;
+
+        &:hover {
+          background-color: #e9f9e8;
+          border: 1px solid #e9f9e8;
+        }
+      }
+      .sr-no-style {
+        font-size: 14px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        line-height: 38px;
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 14px;
+          line-height: 32px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 12px;
+          line-height: 30px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 12px;
+          line-height: 28px;
+        }
+        @media (min-width: 700px) and (max-width: 1024px) {
+          font-size: 10px;
+          line-height: 28px;
+        }
+      }
+
+      td {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+        background-color: transparent;
+        border-left: 1px solid #d9d9d9;
+
+        .table-text-box {
+          font-size: 14px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          height: 38px;
+          text-align: right;
+          background-color: transparent !important;
+          border-radius: 0%;
+          padding: 3px;
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            font-size: 13px;
+            height: 32px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            font-size: 12px;
+            height: 30px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            font-size: 12px;
+            height: 30px;
+          }
+          @media (min-width: 700px) and (max-width: 1024px) {
+            font-size: 10px !important;
+            height: 28px;
+          }
+          &:focus {
+            // background-color: transparent !important;
+            border: 2px solid #00a0f5 !important;
+            background-color: #d5effb !important;
+          }
+        }
+
+        &:hover {
+          background-color: #ffffff;
+          border: 1px solid #00a0f5;
+          outline: none;
+        }
+        &:focus {
+          background-color: #ffffff;
+          border: 1px solid #00a0f5;
+          outline: none;
+        }
+      }
+    }
+
+    .form-control:focus {
+      box-shadow: none !important;
+    }
+
+    .tnx-pur-inv-prod-style {
+      line-height: 5px;
+      border: none;
+      background-color: transparent;
+      font-size: 14px;
+      height: 38px;
+      border-radius: 0%;
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 32px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 30px;
+        font-size: 12px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 30px;
+      }
+      @media (min-width: 700px) and (max-width: 1024px) {
+        height: 28px;
+      }
+
+      &:hover {
+        border: none;
+        background-color: transparent;
+      }
+
+      &:focus {
+        outline: none;
+        border: 2px solid #00a0f5 !important;
+        background-color: #d5effb !important;
+        box-shadow: none;
+      }
+    }
+    .btn_img_style {
+      border: none;
+      background: transparent;
+      padding: 0%;
+      height: 38px;
+      // @media (min-width: 1281px) and (max-width: 1368px) {
+      //   height: 24px;
+      // }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 30px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        height: 28px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 30px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 32px;
+      }
+
+      .btnimg {
+        height: 30px;
+        width: 30px;
+        // margin-top: 10px;
+
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          height: 27px;
+          width: 23px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          height: 24px;
+          width: 24px;
+          margin-top: 0px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          height: 24px;
+          width: 24px;
+          margin-bottom: 3px;
+        }
+      }
+      &:focus {
+        border: 2px solid #00a0f5 !important;
+        background-color: #d5effb !important;
+        box-shadow: none !important;
+        border-radius: 0%;
+      }
+    }
+  }
+
+  .tnx-pur-inv-description-style {
+    background: #f8f0d2;
+    border: 1px solid #ead8b1;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin: auto;
+    @media (min-width: 1601px) and (max-width: 1920px) {
+      padding: 7px 0px;
+      margin: 7px 0px 5px 0px;
+    }
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      padding: 4px 0px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      padding: 1px 0px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      padding: 2px 0px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      padding: 1px 0px;
+    }
+
+    .title-style {
+      margin-top: -21px;
+      border: 1px solid #ead8b1;
+      width: fit-content;
+      background: #ead8b1;
+      border-radius: 38px;
+      padding: 4px 8px;
+      margin-left: 0px;
+      font-size: 14px;
+      color: #b6762b;
+      font-weight: 600;
+      font-family: "Inter";
+      line-height: 18px;
+      text-decoration: none;
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 12px;
+        margin-top: -13px;
+        height: 24px;
+        line-height: 13px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 12px;
+        height: 24px;
+        line-height: 14px;
+        margin-top: -13px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 10px !important;
+        line-height: 11px !important;
+        height: 20px;
+        margin-top: -12px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 12px;
+        width: max-content;
+        height: 25px;
+        margin-top: -15px;
+        line-height: 15px;
+      }
+    }
+
+    .span-lable {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #b6762b;
+
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        font-size: 14px;
+        line-height: 23px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 12px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 12px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 11px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 10px;
+      }
+    }
+
+    .span-value {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        font-size: 14px;
+        line-height: 23px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 12px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 12px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 11px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 10px;
+      }
+    }
+    .col-top-margin {
+      padding-top: 10px;
+    }
+    .custom_hr_style {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      align-items: end;
+      color: #b6762b;
+      margin-bottom: auto;
+      margin-top: 5px;
+      float: right;
+    }
+  }
+
+  .btm-data {
+    // margin-top: 25px;
+    background-color: #e9f7fd;
+    box-shadow: 0px 4px 8px 0px #0000001a;
+    height: 394px;
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      height: 382px;
+    }
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 325px;
+    }
+    @media (min-width: 1369px) and (max-width: 1440px) {
+      height: 325px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 290px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 300px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 270px;
+    }
+
+    // @media (min-width: 992px) and (max-width: 1024px) {
+    //   .rPStyle {
+    //     padding-right: 0;
+    //   }
+    //   .rP {
+    //     padding: 5px;
+    //   }
+    // }
+  }
+
+  .btm-data-saleOrder {
+    // margin-top: 25px;
+    background-color: #e9f7fd;
+    box-shadow: 0px 4px 8px 0px #0000001a;
+    height: 367px;
+    // @media (min-width: 1601px) and (max-width: 1920px) {
+    //   height: 248px;
+    // }
+
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 310px;
+    }
+    @media (min-width: 1369px) and (max-width: 1440px) {
+      height: 315px;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 290px;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 300px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 272px;
+    }
+    .tnx-pur-ord-info-table {
+      height: 18vh;
+      overflow: auto;
+      overflow-x: hidden;
+
+      table {
+        border-collapse: collapse;
+      }
+
+      thead {
+        background: #d9d9d9;
+        position: sticky;
+        top: 0;
+      }
+
+      th {
+        position: sticky;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          font-size: 14px;
+        }
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 13px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 11px;
+          line-height: 14px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 11px;
+          line-height: 14px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          font-size: 10px;
+          line-height: 14px;
+        }
+        line-height: 20px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 3px 6px;
+      }
+
+      tbody {
+        height: 6vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border-top: 2px solid transparent;
+      }
+
+      td {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          font-size: 14px;
+        }
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 13px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 11px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 11px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          font-size: 10px;
+        }
+        line-height: 20px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 0;
+        border-bottom: 1px solid transparent;
+      }
+    }
+  }
+
+  .tnx-pur-inv-info-table {
+    height: 13.5vh;
+    overflow: auto;
+    overflow-x: hidden;
+    @media (min-width: 1440px) and (max-width: 1680px) {
+      height: 12.5vh;
+    }
+    @media (min-width: 1369px) and (max-width: 1440px) {
+      height: 13vh;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 11vh;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 11vh;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 12vh;
+    }
+    table {
+      border-collapse: collapse;
+    }
+
+    thead {
+      background: #d9d9d9;
+      position: sticky;
+      top: 0;
+    }
+
+    th {
+      position: sticky;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 12px;
+        line-height: 14px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 12px;
+        line-height: 16px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 10px;
+        line-height: 13px;
+      }
+      line-height: 20px;
+      letter-spacing: -0.03em;
+      color: #333333;
+      padding: 3px 6px;
+    }
+
+    tbody {
+      height: 6vh;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      border-top: 2px solid transparent;
+    }
+
+    td {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 11px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 11px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 10px;
+      }
+      line-height: 20px;
+      letter-spacing: -0.03em;
+      color: #333333;
+      padding: 0;
+      border-bottom: 1px solid transparent;
+    }
+  }
+  .btm-row-size {
+    margin: 5px;
+    text-align: end;
+    justify-content: end;
+    @media (min-width: 1601px) and (max-width: 1920px) {
+      margin-top: 16px;
+      margin-bottom: 16px;
+      text-align: end;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      // margin: 12px;
+      margin: 0;
+      margin-top: 6px;
+      margin-bottom: 6px;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      margin: 8px;
+      text-align: end;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      margin: 6px;
+      text-align: end;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      margin: -1px;
+      margin-top: 3px;
+      margin-bottom: 6px;
+      // display: flex;
+      text-align: end;
+    }
+  }
+
+  .orderbtn {
+    position: absolute;
+    bottom: 28px;
+    right: 10px;
+  }
+
+  .tnx-pur-inv-span-text {
+    font-size: 16px;
+    color: #b6762b;
+    font-family: "Inter";
+    font-size: "normal";
+    font-weight: 500;
+
+    @media (min-width: 1601px) and (max-width: 1920px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 13px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+    }
+  }
+
+  .tnx-pur-inv-span-placeholder {
+    font-size: 16px;
+    @media (min-width: 1601px) and (max-width: 1920px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 11px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+    }
+    // color: #b6762b;
+    font-family: "Inter";
+    font-size: "normal";
+    font-weight: 500;
+
+    //line-height: 18px;
+  }
+  .btm-tbl-padding {
+    padding-right: 5px;
+  }
+
+  .tnx-pur-inv-btm-amt-tbl {
+    margin: 0;
+    background: linear-gradient(0deg, #d2f7e9, #d2f7e9),
+      linear-gradient(
+        180deg,
+        rgba(248, 223, 131, 0.5) 0%,
+        rgba(248, 223, 131, 0.00520833) 99.99%,
+        rgba(248, 223, 131, 0) 100%
+      ),
+      #f8f0d2;
+    border: 0px solid #dee4eb;
+
+    height: 210px;
+    @media (min-width: 1601px) and (max-width: 1920px) {
+      height: 205px;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      height: 193px;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 160px;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 167px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 163px;
+    }
+
+    th {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        line-height: 26px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 16px;
+        line-height: 19px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 13px;
+        line-height: 19px;
+        padding: 8px 8px 6px 8px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 14px;
+        line-height: 19px;
+        padding: 8px 8px 6px 8px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 11px;
+        line-height: 18px;
+        padding: 2px 2px 2px 2px;
+      }
+
+      line-height: 25px;
+      text-align: start;
+      letter-spacing: -0.02em;
+      color: #333333;
+      padding: 10px 10px 8px 10px;
+      background: #a0efd2;
+    }
+
+    td {
+      width: 50%;
+      text-align: start;
+      border-bottom: 1px solid transparent;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: -0.03em;
+      padding-right: 10px !important;
+      color: #333333;
+
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        font-size: 14px;
+        line-height: 30px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 12px;
+        line-height: 21px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        font-size: 11px;
+        line-height: 18px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 12px;
+        line-height: 22px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 10px;
+        line-height: 17px;
+      }
+
+      .lebleclass {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          font-size: 14px;
+          line-height: 30px;
+        }
+
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 12px;
+          line-height: 21px;
+        }
+
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 11px;
+          line-height: 18px;
+        }
+
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 11px;
+          line-height: 22px;
+          padding-right: 2px !important;
+        }
+
+        @media (min-width: 992px) and (max-width: 1024px) {
+          font-size: 10px;
+          line-height: 17px;
+          padding-right: 0px !important;
+        }
+
+        line-height: 30px;
+        letter-spacing: -0.03em;
+        padding-right: 5px !important;
+        color: #333333;
+      }
+    }
+    .form-check-input {
+      margin-top: 0.6em;
+      @media (min-width: 1281px) and (max-width: 1600px) {
+        margin-top: 0.3em;
+      }
+    }
+    .btn_img_style {
+      border: none;
+      background: transparent;
+      padding: 0%;
+      height: 32px;
+      // @media (min-width: 1281px) and (max-width: 1368px) {
+      //   height: 24px;
+      // }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 24px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        height: 23px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 30px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 32px;
+      }
+
+      .btnimg {
+        height: 28px;
+        width: 30px;
+        // margin-top: 10px;
+
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          height: 27px;
+          width: 23px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          height: 19px;
+          width: 19px;
+          margin-top: -6px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          height: 17px;
+          width: 17px;
+          margin-bottom: 9px;
+        }
+      }
+      &:focus {
+        border: 2px solid #00a0f5 !important;
+        background-color: #d5effb !important;
+        box-shadow: none !important;
+        border-radius: 0%;
+      }
+    }
+  }
+
+  .successbtn-style {
+    padding: 5px 14px !important;
+    width: 100px !important;
+    height: 32px !important;
+    margin-right: 0px !important;
+    font-size: 14px !important;
+    background-color: #21c78a !important;
+    border: 1px solid #21c78a !important;
+    border-radius: 6px !important;
+
+    @media (min-width: 700px) and (max-width: 1024px) {
+      font-size: 10px !important;
+      height: 25px !important;
+      padding: 0px 5px !important;
+      width: 70px !important;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px !important;
+      height: 26px !important;
+      padding: 0px 0px !important;
+      width: 80px !important;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px !important;
+      height: 26px !important;
+      padding: 0px 0px !important;
+      width: 80px !important;
+    }
+    @media (min-width: 1369px) and (max-width: 1440px) {
+      font-size: 12px !important;
+      height: 28px !important;
+      padding: 0px 0px !important;
+      margin-right: 0px !important;
+    }
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 28px !important;
+      font-size: 12px !important;
+      padding: 0px 0px !important;
+    }
+  }
+  .successbtn-style:focus,
+  .successbtn-style:active,
+  .successbtn-style:hover {
+    box-shadow: 0 0 0 0.25rem #b9f9bc !important;
+  }
+  .cancel-btn {
+    margin-right: 0px !important;
+    font-size: 14px !important;
+    width: 100px !important;
+    height: 32px !important;
+    padding: 5px 14px !important;
+    background-color: #a0aab4 !important;
+    color: #fff !important;
+    border: 1px solid #a0aab4 !important;
+    border-radius: 6px !important;
+
+    @media (min-width: 700px) and (max-width: 1024px) {
+      font-size: 10px !important;
+      height: 25px !important;
+      padding: 0px 5px !important;
+      width: 70px !important;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px !important;
+      height: 26px !important;
+      padding: 0px 0px !important;
+      width: 80px !important;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px !important;
+      height: 26px !important;
+      padding: 0px 0px !important;
+      width: 80px !important;
+    }
+    @media (min-width: 1369px) and (max-width: 1440px) {
+      font-size: 12px !important;
+      height: 28px !important;
+      padding: 0px 0px !important;
+      margin-right: 0px !important;
+    }
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 28px !important;
+      font-size: 12px !important;
+      padding: 0px 0px !important;
+    }
+  }
+  .cancel-btn:hover,
+  .cancel-btn:focus {
+    box-shadow: 0 0 0 0.25rem #d8dadc !important;
+  }
+
+  .btm-rows-btn1 {
+    border-top: 1px solid #c7c7cd;
+    position: sticky;
+    bottom: 0px;
+    padding-top: 5px;
+    width: 100%;
+    background: #eeeff2;
+    // margin-top: -17px;
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      padding-top: 3px;
+      height: 23px;
+    }
+
+    @media (min-width: 1401px) and (max-width: 1440px) {
+      padding-top: 3px;
+      height: 23px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      padding-top: 3px;
+      height: 20px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      padding-top: 3px;
+      height: 23px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      padding-top: 3px;
+      height: 20px;
+    }
+    .btm-label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      /* identical to box height */
+
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+
+      color: #000000;
+
+      opacity: 0.7;
+      @media (min-width: 700px) and (max-width: 1368px) {
+        font-size: 11px;
+      }
+    }
+
+    .shortkey {
+      font-family: "Inter";
+      font-style: italic;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      /* identical to box height */
+
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+
+      color: #000000;
+      font-variation-settings: "slnt" -10;
+
+      opacity: 1;
+      @media (min-width: 700px) and (max-width: 1368px) {
+        font-size: 11px;
+      }
+    }
+  }
+
+  .tnx-sale-ord-tbl-style {
+    // -webkit-transform: translateZ(0);
+    background: white;
+    @media (min-width: 1681px) and (max-width: 1920px) {
+      overflow-y: scroll;
+      overflow-x: scroll;
+      height: 39vh;
+    }
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      height: 38vh;
+      overflow-y: scroll;
+      overflow-x: scroll;
+    }
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 35.7vh;
+      overflow-y: scroll;
+      overflow-x: scroll;
+    }
+
+    @media (min-width: 1401px) and (max-width: 1440px) {
+      height: 35vh;
+      overflow-y: scroll;
+      overflow-x: scroll;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1400px) {
+      height: 47vh;
+      overflow-y: scroll;
+      overflow-x: scroll;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 31.5vh;
+      overflow-y: scroll;
+      overflow-x: scroll;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 30.5vh;
+      overflow-y: scroll;
+      overflow-x: scroll;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 33.5vh;
+      overflow-y: scroll;
+      overflow-x: scroll;
+    }
+    overflow: auto;
+    overflow-x: hidden;
+
+    table {
+      @media (min-width: 1024px) and (max-width: 1680px) {
+        width: max-content;
+      }
+      margin: 0;
+    }
+
+    thead {
+      // position: sticky;
+      // background: linear-gradient(
+      //     180deg,
+      //     rgba(255, 255, 255, 0.3) 0%,
+      //     rgba(186, 187, 188, 0.3) 59.37%
+      //   ),
+      //   linear-gradient(180deg, #ffffff 0%, #dadada 63.02%);
+
+      th {
+        line-height: 15px;
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          line-height: 15px;
+          font-size: 13px;
+        }
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          line-height: 12px;
+          font-size: 12px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          line-height: 11px;
+          font-size: 10px;
+          z-index: 999;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          line-height: 10px;
+          font-size: 11px;
+          z-index: 999;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          line-height: 10px;
+          font-size: 10px;
+          z-index: 999;
+        }
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        // text-align: center;
+        // padding: 6px 5px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: #000000;
+        position: sticky;
+        border: 1px solid #a8adb3;
+        z-index: 999;
+        top: -1px;
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(167, 173, 173, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #e1e0e0 63.02%);
+      }
+      .Level_ABC {
+        text-align: center;
+        width: 200px;
+        border-collapse: collapse;
+        table-layout: fixed;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 180px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 180px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 157px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 157px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 170px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 150px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 128px;
+        }
+      }
+      .Level_AB {
+        text-align: center;
+        width: 220px;
+        border-collapse: collapse;
+        table-layout: fixed;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 200px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 190px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 167px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 167px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 180px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 160px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 138px;
+        }
+      }
+      .Level_A {
+        text-align: center;
+        width: 230px;
+        border-collapse: collapse;
+        table-layout: fixed;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 210px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 200px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 185px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 185px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 165px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 145px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 138px;
+        }
+      }
+      .Level_no {
+        text-align: center;
+        width: 0px;
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+      .sr_no_width {
+        text-align: center;
+        width: 35px;
+        border-right: 1px solid #a8adb2;
+      }
+
+      .purticular-width {
+        width: 630px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 630px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 600px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 590px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 450px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 445px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 420px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 305px;
+        }
+      }
+      .unit_width {
+        width: 100px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 130px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 120px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 80px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 80px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 110px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 105px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 90px;
+        }
+      }
+      .batch_width {
+        width: 200px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 180px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 150px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 145px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 145px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 130px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 125px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 120px;
+        }
+      }
+      .qty_width {
+        width: 115px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 115px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 95px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 100px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 100px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 80px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 90px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 65px;
+        }
+      }
+      .free_width {
+        width: 135px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 135px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 100px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 90px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 90px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 70px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 70px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 60px;
+        }
+      }
+      .rate_width {
+        width: 150px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 150px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 138px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 108px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 108px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 120px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 120px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 100px;
+        }
+      }
+      .amt_width {
+        width: 135px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 176px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 160px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 140px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 120px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 145px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 140px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 115px;
+        }
+      }
+      .dis1_width {
+        width: 75px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 75px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 70px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 65px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 65px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 70px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 60px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 50px;
+        }
+      }
+      .dis2_width {
+        width: 75px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 75px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 70px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 65px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 65px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 70px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 60px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 50px;
+        }
+      }
+      .disc_width {
+        width: 100px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 90px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 90px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 80px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 80px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 90px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 70px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 60px;
+        }
+      }
+      .tax_width {
+        width: 75px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 75px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 80px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 60px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 60px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 80px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 60px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 50px;
+        }
+      }
+      .net_ant_width {
+        width: 150px;
+        @media (min-width: 1601px) and (max-width: 1680px) {
+          width: 160px;
+        }
+        @media (min-width: 1441px) and (max-width: 1600px) {
+          width: 170px;
+        }
+        @media (min-width: 1401px) and (max-width: 1440px) {
+          width: 140px;
+        }
+        @media (min-width: 1369px) and (max-width: 1400px) {
+          width: 120px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          width: 145px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          width: 140px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          width: 115px;
+        }
+      }
+
+      .add_del_btn_width {
+        text-align: center;
+        width: 25px;
+        border-right: 1px solid #a8adb2;
+      }
+    }
+    tbody {
+      border-top: transparent;
+
+      tr {
+        border-bottom: 1px solid #a8adb3;
+        padding: 0px;
+        margin: 0px;
+
+        &:hover {
+          background-color: #e9f9e8;
+          border: 1px solid #e9f9e8;
+        }
+      }
+      .sr-no-style {
+        font-size: 14px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        line-height: 38px;
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 14px;
+          line-height: 32px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 12px;
+          line-height: 30px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 12px;
+          line-height: 28px;
+        }
+        @media (min-width: 700px) and (max-width: 1024px) {
+          font-size: 10px;
+          line-height: 28px;
+        }
+      }
+
+      td {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+        background-color: transparent;
+        border-left: 1px solid #d9d9d9;
+
+        .table-text-box {
+          font-size: 14px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          height: 38px;
+          text-align: right;
+          background-color: transparent !important;
+          border-radius: 0%;
+          padding: 3px;
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            font-size: 13px;
+            height: 32px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            font-size: 12px;
+            height: 30px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            font-size: 12px;
+            height: 30px;
+          }
+          @media (min-width: 700px) and (max-width: 1024px) {
+            font-size: 10px !important;
+            height: 28px;
+          }
+          &:focus {
+            // background-color: transparent !important;
+            border: 2px solid #00a0f5 !important;
+            background-color: #d5effb !important;
+          }
+        }
+
+        &:hover {
+          background-color: #ffffff;
+          border: 1px solid #00a0f5;
+          outline: none;
+        }
+        &:focus {
+          background-color: #ffffff;
+          border: 1px solid #00a0f5;
+          outline: none;
+        }
+      }
+    }
+
+    .form-control:focus {
+      box-shadow: none !important;
+    }
+
+    .tnx-pur-inv-prod-style {
+      line-height: 5px;
+      border: none;
+      background-color: transparent;
+      font-size: 14px;
+      height: 38px;
+      border-radius: 0%;
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 32px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 30px;
+        font-size: 12px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 30px;
+      }
+      @media (min-width: 700px) and (max-width: 1024px) {
+        height: 28px;
+      }
+
+      &:hover {
+        border: none;
+        background-color: transparent;
+      }
+
+      &:focus {
+        outline: none;
+        border: 2px solid #00a0f5 !important;
+        background-color: #d5effb !important;
+        box-shadow: none;
+      }
+    }
+    .btn_img_style {
+      border: none;
+      background: transparent;
+      padding: 0%;
+      height: 38px;
+      // @media (min-width: 1281px) and (max-width: 1368px) {
+      //   height: 24px;
+      // }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 30px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        height: 28px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 30px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 32px;
+      }
+
+      .btnimg {
+        height: 30px;
+        width: 30px;
+        // margin-top: 10px;
+
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          height: 27px;
+          width: 24px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          height: 27px;
+          width: 24px;
+          margin-top: 3px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          height: 24px;
+          margin-bottom: 3px;
+          width: 24px;
+        }
+      }
+      &:focus {
+        border: 2px solid #00a0f5 !important;
+        background-color: #d5effb !important;
+        box-shadow: none !important;
+        border-radius: 0%;
+      }
+    }
+  }
+}
+
+.tnx-pur-inv-mdl-product {
+  .mdl {
+    background: #d9f0fb;
+  }
+
+  .subTitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+    }
+  }
+  .common_text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.6);
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+      margin-bottom: 0;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+      margin-bottom: 0;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+      margin-bottom: 0;
+    }
+  }
+  .red_text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(206, 82, 82, 0.6);
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+    }
+  }
+  @media (min-width: "992px") and (max-width: "1024px") {
+    .rP {
+      padding-right: 0;
+    }
+  }
+  .form-check {
+    font-family: Inter;
+    font-size: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 13px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+    }
+  }
+
+  .mdl-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    color: #000000;
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 12px;
+    }
+  }
+  .batch-img {
+    height: 28px;
+  }
+  .mdl-title-header {
+    color: #b6762b;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 4px 0px 0px 10px;
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 12px;
+    }
+  }
+  .mdl-title-name {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 4px 0px 0px 5px;
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 12px;
+    }
+  }
+  .mdl-text-box {
+    border: none;
+
+    &:focus {
+      border: none !important;
+      box-shadow: none !important;
+    }
+  }
+
+  .mdl-text {
+    background: #ffffff;
+    border: 1px solid #c4cbd2;
+    border-radius: 3px;
+
+    &:focus {
+      border: 2px solid #00a0f5 !important;
+      box-shadow: none !important;
+    }
+
+    &:focus-visible {
+      border: 2px solid #00a0f5 !important;
+      box-shadow: none !important;
+    }
+
+    &:hover {
+      // border: 2px solid #00a0f5 !important;
+      box-shadow: none !important;
+    }
+  }
+
+  .tnx-pur-inv-ModalStyle {
+    height: 37vh;
+    overflow: auto;
+    overflow-x: hidden;
+
+    .selected-tr {
+      background: #e1e0e0;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    thead {
+      position: sticky;
+
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.3) 0%,
+          rgba(218, 226, 232, 0.3) 59.37%
+        ),
+        linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+
+      th {
+        line-height: 25px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #000000;
+        position: sticky;
+        border: 1px solid #d9d9d9;
+        z-index: 999;
+        top: -1px;
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(218, 226, 232, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          line-height: 16px;
+          font-size: 13px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          line-height: 16px;
+          font-size: 12px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          line-height: 16px;
+          font-size: 12px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          line-height: 12px;
+          font-size: 10px;
+        }
+      }
+    }
+
+    tbody {
+      border-top: transparent;
+
+      tr {
+        border-top: none;
+        // line-height: 35px;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: 1px solid #d9d9d9;
+      }
+      tr:focus-visible {
+        outline: none;
+        border: 2px solid transparent;
+      }
+
+      td {
+        padding: 7px;
+        margin: 0px;
+        border: none;
+        background-color: transparent;
+        font-size: 14px;
+        height: 30px;
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 13px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 12px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 12px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          font-size: 10px;
+          padding: 3px;
+        }
+
+        &:hover {
+          // background-color: #ffffff;
+          // border: 1px solid #00a0f5;
+          outline: none;
+        }
+      }
+    }
+
+    @media (min-width: 700px) and (max-width: 1024px) {
+      .form-label {
+        font-size: 10px !important;
+      }
+    }
+
+    .mdl-icons {
+      height: 30px;
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 26px !important;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 24px !important;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 24px !important;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        height: 23px !important;
+      }
+    }
+  }
+
+  .batchModalNewStyle {
+    height: 37vh;
+    overflow: auto;
+    overflow-x: hidden;
+
+    .selected-tr {
+      background: #e1e0e0;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    thead {
+      position: sticky;
+
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.3) 0%,
+          rgba(218, 226, 232, 0.3) 59.37%
+        ),
+        linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+
+      th {
+        line-height: 25px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #000000;
+        position: sticky;
+        border: 1px solid #d9d9d9;
+        z-index: 999;
+        top: -1px;
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(218, 226, 232, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          line-height: 16px;
+          font-size: 13px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          line-height: 16px;
+          font-size: 12px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          line-height: 16px;
+          font-size: 12px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          line-height: 12px;
+          font-size: 10px;
+        }
+      }
+    }
+
+    tbody {
+      border-top: transparent;
+
+      tr {
+        border-top: none;
+        // line-height: 35px;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: 1px solid #d9d9d9;
+      }
+      tr:focus-visible {
+        outline: none;
+        border: 2px solid transparent;
+      }
+
+      td {
+        padding: 7px;
+        margin: 0px;
+        border: none;
+        background-color: transparent;
+        font-size: 14px;
+        height: 30px;
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 13px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 12px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 12px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          font-size: 10px;
+          padding: 3px;
+        }
+
+        &:hover {
+          // background-color: #ffffff;
+          // border: 1px solid #00a0f5;
+          outline: none;
+        }
+      }
+    }
+
+    @media (min-width: 700px) and (max-width: 1024px) {
+      .form-label {
+        font-size: 10px !important;
+      }
+    }
+
+    .mdl-icons {
+      height: 30px;
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 26px !important;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 24px !important;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 24px !important;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        height: 23px !important;
+      }
+    }
+  }
+  .costingModalNewStyle {
+    height: 30vh;
+    overflow: auto;
+    overflow-x: hidden;
+
+    .selected-tr {
+      background: #e1e0e0;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    thead {
+      position: sticky;
+
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.3) 0%,
+          rgba(218, 226, 232, 0.3) 59.37%
+        ),
+        linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+
+      th {
+        line-height: 25px;
+        font-family: "Inter";
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #000000;
+        position: sticky;
+        border: 1px solid #d9d9d9;
+        z-index: 999;
+        top: -1px;
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(218, 226, 232, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          line-height: 16px;
+          font-size: 13px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          line-height: 16px;
+          font-size: 12px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          line-height: 16px;
+          font-size: 12px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          line-height: 12px;
+          font-size: 10px;
+        }
+      }
+    }
+
+    tbody {
+      border-top: transparent;
+
+      tr {
+        border-top: none;
+        // line-height: 35px;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: 1px solid #d9d9d9;
+      }
+      tr:focus-visible {
+        outline: none;
+        border: 2px solid transparent;
+      }
+
+      td {
+        padding: 5px !important;
+        text-align: end;
+        margin: 0px;
+        border: none;
+        background-color: transparent;
+        font-size: 14px;
+        height: 30px;
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 13px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 12px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 12px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          font-size: 10px;
+          padding: 3px;
+        }
+
+        &:hover {
+          // background-color: #ffffff;
+          // border: 1px solid #00a0f5;
+          outline: none;
+        }
+      }
+    }
+
+    @media (min-width: 700px) and (max-width: 1024px) {
+      .form-label {
+        font-size: 10px !important;
+      }
+    }
+
+    .mdl-icons {
+      height: 30px;
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 26px !important;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 24px !important;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 24px !important;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        height: 23px !important;
+      }
+    }
+  }
+
+  .tbl-color {
+    // background: linear-gradient(271deg, #E7D9A5 0%, rgba(231, 217, 165, 0) 100%);
+    background: linear-gradient(
+      209deg,
+      #e7d9a5 0%,
+      rgba(231, 217, 165, 0) 100%
+    );
+
+    background-color: #f8f0d2;
+    border-style: solid;
+    border-color: #aebac7;
+    border-width: 1px 0px;
+  }
+
+  .colored_sub_text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 13px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+    }
+  }
+
+  .colored_label {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #b6762b;
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 13px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+    }
+  }
+
+  .pull-right {
+    float: right;
+    border-radius: 6px;
+    box-shadow: none;
+  }
+
+  .clsbtn {
+    padding: 0px 7px;
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  .clsbtn:hover {
+    padding: 0px 7px;
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  .tnx-pur-inv-mdl-body {
+    background: transparent;
+
+    .mdl-text-box {
+      background: transparent;
+      border: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        // border: transparent !important;
+
+        border-right: none !important;
+        outline: none !important;
+      }
+    }
+
+    .int-grp {
+      border: none;
+      background: transparent;
+      @media (min-width: 1601px) and (max-width: 1680px) {
+        border: none;
+        background: transparent !important;
+      }
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        border-left: none !important;
+        outline: none !important;
+      }
+    }
+  }
+}
+.form-check {
+  font-family: Inter;
+  font-size: normal;
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+  @media (min-width: 1369px) and (max-width: 1600px) {
+    font-size: 13px;
+  }
+  @media (min-width: 1281px) and (max-width: 1368px) {
+    font-size: 12px;
+  }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    font-size: 12px;
+  }
+  @media (min-width: 992px) and (max-width: 1024px) {
+    font-size: 10px;
+  }
+}
+
+.vh-75 {
+  max-height: 30vh;
+}
+
+.title-style {
+  margin-top: -21px;
+  border: 1px solid #ead8b1;
+  width: fit-content;
+  background: #ead8b1;
+  border-radius: 38px;
+  padding: 4px 8px;
+  margin-left: 0px;
+  font-size: 14px;
+  color: #b6762b;
+  font-weight: 600;
+  font-family: "Inter";
+  line-height: 18px;
+  text-decoration: none;
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    font-size: 12px;
+    margin-top: -13px;
+    height: 24px;
+    line-height: 13px;
+  }
+
+  @media (min-width: 1281px) and (max-width: 1368px) {
+    font-size: 12px;
+    height: 24px;
+    line-height: 14px;
+    margin-top: -16px;
+  }
+
+  @media (min-width: 700px) and (max-width: 1024px) {
+    font-size: 10px !important;
+    line-height: 11px !important;
+    height: 20px;
+    margin-top: -12px;
+  }
+
+  @media (min-width: 1369px) and (max-width: 1600px) {
+    font-size: 12px;
+    width: max-content;
+    height: 25px;
+    margin-top: -15px;
+    line-height: 15px;
+  }
+}

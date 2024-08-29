@@ -1,0 +1,32 @@
+[
+    {
+        "f_id":1,
+        "package":[{
+            "pack":1,
+            "units":[{
+                "unit_id":1
+            }]
+        }]
+    },
+    {
+        "f_id":2,
+        "package":[{
+            "pack":1,
+            "units":[{
+                "unit_id":1
+            },
+            {
+                "unit_id":2
+            }]
+        },
+        {
+            "pack":2,
+            "units":[{
+                "unit_id":1
+            },
+            {
+                "unit_id":2
+            }]
+        }]
+    }
+]

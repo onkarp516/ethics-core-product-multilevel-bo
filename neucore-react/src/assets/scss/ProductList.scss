@@ -1,0 +1,387 @@
+.product_list_style {
+  background: #fff;
+  margin-bottom: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  // height: 88vh;
+  .mdl-text-box {
+    background: transparent;
+    border: transparent;
+    height: 34px;
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      height: 32px;
+    }
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      height: 30px;
+    }
+    @media (min-width: 1025px) and (max-width: 1368px) {
+      height: 28px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 25px;
+    }
+
+    &:focus {
+      border: 2px solid #00a0f5 !important;
+      box-shadow: none !important;
+      background: #d5effb;
+    }
+  }
+
+  .int-grp {
+    border: "1px solid #fff";
+    background: transparent;
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 25px;
+    }
+    @media (min-width: 1025px) and (max-width: 1368px) {
+      height: 28px;
+    }
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      height: 30px;
+    }
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      height: 32px;
+    }
+    @media (min-width: 1681px) and (max-width: 1920px) {
+      height: 34px;
+    }
+
+    &:focus {
+      // border: 1px solid #aebac7 !important;
+      border-left: none !important;
+      outline: none !important;
+    }
+  }
+
+  .mdl-text {
+    background: #ffffff;
+    border: 1px solid #c4cbd2;
+    border-radius: 3px;
+
+    &:focus {
+      border: 2px solid #00a0f5 !important;
+      box-shadow: none !important;
+      background: #d5effb;
+    }
+
+    &:focus-visible {
+      border: 2px solid #00a0f5 !important;
+      box-shadow: none !important;
+      background: #d5effb;
+    }
+
+    // &:hover {
+    //   border: 1px solid #00a0f5 !important;
+    //   box-shadow: none !important;
+    // }
+  }
+
+  .create-btn {
+    font-size: 13px;
+    padding: 5px 15px;
+    border-color: #22c55e;
+    margin-right: 9px;
+    width: 100px;
+    background: #22c55e;
+    border-radius: 6px;
+
+    @media (min-width: 700px) and (max-width: 1024px) {
+      font-size: 12px;
+      padding: 2px 10px;
+      height: 28px;
+    }
+  }
+
+  .product_tbl_style {
+    height: 66vh !important;
+    overflow: auto;
+    overflow-x: hidden;
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      height: 66vh !important;
+    }
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 62vh !important;
+    }
+    @media (min-width: 1401px) and (max-width: 1440px) {
+      height: 62vh !important;
+    }
+    @media (min-width: 1369px) and (max-width: 1400px) {
+      height: 67.5vh !important;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 60vh !important;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 55.5vh !important;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 60vh !important;
+    }
+    .selected-tr {
+      background: #e1e0e0;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    thead {
+      position: sticky;
+
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.3) 0%,
+          rgba(218, 226, 232, 0.3) 59.37%
+        ),
+        linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+
+      th {
+        line-height: 28px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          line-height: 26px;
+          font-size: 14px;
+        }
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          line-height: 22px;
+          font-size: 12px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          line-height: 26px;
+          font-size: 12px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          line-height: 26px;
+          font-size: 12px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          line-height: 20px;
+          font-size: 10px;
+        }
+
+        color: #000000;
+        position: sticky;
+
+        border-bottom: 2px solid transparent !important;
+        background-color: #fff4df !important;
+        position: sticky;
+        top: -1px;
+        justify-content: flex-start;
+
+        padding: 5px;
+      }
+    }
+
+    tbody {
+      // border: 2px solid transparent;
+      border-top: transparent;
+
+      tr {
+        border-top: none;
+        // line-height: 35px;
+        padding: 0px;
+        margin: 0px;
+        // border: 2px solid transparent;
+        border-bottom: 1px solid #d9d9d9;
+      }
+
+      tr:focus-visible {
+        outline: none;
+        border: 2px solid transparent;
+      }
+
+      td {
+        line-height: 28px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        // border: 2px solid transparent;
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          line-height: 32px;
+          font-size: 14px;
+        }
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          line-height: 33px;
+          font-size: 12px;
+          padding: 2px 5px 2px 5px;
+        }
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          line-height: 33px;
+          font-size: 12px;
+          padding: 0px 4px 2px 4px;
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          line-height: 33px;
+          font-size: 12px;
+          padding: 0px 4px 0px 4px;
+        }
+        @media (min-width: 992px) and (max-width: 1024px) {
+          line-height: 30px;
+          font-size: 10px;
+          padding: 0px 4px 0px 4px;
+        }
+        padding: 2px 5px 2px 5px;
+        margin: 0px;
+        border: none;
+        background-color: transparent;
+
+        &:hover {
+          // background-color: #ffffff;
+          // border: 1px solid transparent;
+          outline: none;
+        }
+        &:focus {
+          background-color: #ffffff;
+          border: 2px solid transparent;
+          outline: none;
+        }
+      }
+    }
+
+    .mdl-icons {
+      height: 35px;
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 35px;
+      }
+      @media (min-width: 1681px) and (max-width: 1920px) {
+        height: 32px;
+      }
+      @media (min-width: 1601px) and (max-width: 1680px) {
+        height: 32px;
+      }
+      @media (min-width: 1441px) and (max-width: 1600px) {
+        height: 32px;
+      }
+      @media (min-width: 1401px) and (max-width: 1440px) {
+        height: 32px;
+      }
+      @media (min-width: 1369px) and (max-width: 1400px) {
+        height: 32px;
+      }
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 30px;
+      }
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 30px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        height: 28px;
+      }
+    }
+  }
+  .tbl-footer {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 43px;
+
+    background: #dde2ed;
+    color: #000 !important;
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      line-height: 36px;
+    }
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      line-height: 35px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      line-height: 34px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      line-height: 34px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 11px;
+      line-height: 30px;
+    }
+  }
+
+  .tbl-color {
+    // background: linear-gradient(271deg, #E7D9A5 0%, rgba(231, 217, 165, 0) 100%);
+    background: linear-gradient(
+      209deg,
+      #e7d9a5 0%,
+      rgba(231, 217, 165, 0) 100%
+    );
+
+    background-color: #f8f0d2;
+    border-style: solid;
+    border-color: #aebac7;
+    border-width: 1px 0px;
+  }
+
+  .colored_sub_text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 12px;
+      line-height: 14px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+      line-height: 10px;
+    }
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+      line-height: 10px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+      line-height: 9px;
+    }
+  }
+
+  .colored_label {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #b6762b;
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 13px;
+      line-height: 14px;
+    }
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px;
+      line-height: 10px;
+    }
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+      line-height: 9px;
+    }
+
+    th,
+    td {
+      height: 20px;
+      font-size: 14px;
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        font-size: 12px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 12px;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 10px;
+      }
+    }
+  }
+  .btm_text {
+    font-size: 14px !important;
+    margin-left: 24px;
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px !important;
+    }
+    @media (min-width: 1025px) and (max-width: 1600px) {
+      font-size: 12px !important;
+    }
+  }
+}

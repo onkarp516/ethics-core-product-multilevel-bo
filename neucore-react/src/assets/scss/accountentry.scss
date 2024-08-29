@@ -1,0 +1,7815 @@
+//Ledger list style
+@media (min-width: "700px") and(max-width:"1024px") {
+  .accountentrystyles {
+    background: #fff;
+    margin-bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 84vh;
+    .successbtn-style {
+      
+      padding: 5px 14px;
+      width: 60px;
+      height: 35px;
+
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        height: 32px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 27px;
+        font-size: 13px;
+        padding: 3px 13px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 26px;
+        padding: 1px 14px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 25px;
+        font-size: 11px;
+        line-height: 0px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        height: 23px;
+        font-size: 9px;
+        line-height: 0px;
+      }
+
+      margin-right: 3px;
+      font-size: 14px;
+      background-color: #21c78a;
+      border: 1px solid #21c78a;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .successbtn-style:focus,
+    .successbtn-style:active,
+    .successbtn-style:hover {
+      // padding: 5px 14px;
+      // line-height: 0px;
+      margin-right: 3px;
+      // font-size: 14px;
+      background-color: #21c78a;
+      border: 1px solid #21c78a;
+      border-radius: 4px;
+      box-shadow: 0 0 0 0.25rem #b9f9bc !important;
+    }
+
+    .cancel-btn {
+      margin-right: 2px;
+      font-size: 14px;
+      width: 60px;
+      height: 35px;
+
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        height: 32px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 28px;
+        padding: 3px 13px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 26px;
+        padding: 1px 14px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 25px;
+        font-size: 11px;
+        line-height: 0px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        height: 23px;
+        font-size: 9px;
+        line-height: 0px;
+      }
+
+      padding: 5px 14px;
+      background-color: #a0aab4;
+      color: #fff;
+      border: 1px solid #a0aab4;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .cancel-btn:hover,
+    .cancel-btn:focus {
+      box-shadow: 0 0 0 0.25rem #d8dadc !important;
+    }
+    .lbl {
+      font-size: 10px;
+      width: 100px;
+    }
+    .tdmarg {
+      margin-top: -2px;
+    }
+    .footerstyle {
+      background: #eeeff2;
+      border: 1px solid #c7c7c7;
+      height: 24px;
+      padding-top: 3px;
+    }
+    .btmstylelbl {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 16px;
+      width: 120px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      opacity: 0.7;
+    }
+    .shortkey {
+      font-family: "Inter";
+      font-style: italic;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      font-variation-settings: "slnt" -10;
+      opacity: 1;
+    }
+    .footereditstyle {
+      background: #eeeff2;
+      border: 1px solid #c7c7c7;
+      height: 29px;
+      padding-top: 6px;
+    }
+    .mdl-text-box {
+      background: transparent;
+      border: transparent;
+      height: 25px;
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        // border: transparent !important;
+        height: 25px;
+        // border-right: none !important;
+
+        // border-right: none !important;
+        outline: none !important;
+      }
+    }
+    .for_left_padding {
+      padding-left: 0;
+    }
+
+    .img_delete {
+      height: 29px;
+    }
+
+    .int-grp {
+      border: none;
+      background: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        border-left: none !important;
+        outline: none !important;
+      }
+    }
+
+    .form-control {
+      height: 25px !important;
+      font-size: 10px !important;
+    }
+
+    .form-control:focus {
+      box-shadow: none;
+      border: 2px solid #00a0f5 !important;
+      background: #d5effb !important;
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 5px !important;
+      height: 22px;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+    .delete-img {
+      height: 28px;
+    }
+
+    .btm-data {
+      // margin-top: 25px;
+      background-color: #cee7f1;
+      box-shadow: 0px 4px 8px 0px #0000001a;
+    }
+
+    .tbl-body-style {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 63vh;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12px;
+        }
+
+        td {
+          font-size: 12px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 14px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 14px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .tbl-body-style-new {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 55.3vh;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+    .tbl-body-style-new1{
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 36vh !important;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+    .voucher-info-table{
+      margin-top: 10px;
+      height: 17.7vh;
+      overflow: auto;
+      overflow-x: hidden;
+  
+      table {
+        border-collapse: collapse;
+      }
+  
+      thead {
+        background: #d9d9d9;
+        position: sticky;
+        top: 0;
+      }
+  
+      th {
+        position: sticky;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 3px 6px;
+      }
+      tbody {
+        height: 6vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border-top: 2px solid transparent;
+      }
+  
+      td {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 0;
+        border-bottom: 1px solid transparent;
+      }
+    }
+
+    .css-tj5bde-Svg {
+      color: #000000;
+    }
+
+    .css-1okebmr-indicatorSeparator {
+      background-color: transparent;
+    }
+
+    .btn-refresh {
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .btn-refresh:hover,
+    .btn-refresh:focus {
+      box-shadow: none !important;
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .create-btn {
+    //   font-size: 13px;
+    //   padding: 5px 15px;
+    //   border-color: #22c55e;
+    //   margin-right: 9px;
+    //   width: 100px;
+    //   background: #22c55e;
+    //   border-radius: 6px;
+
+    //   @media (min-width: 700px) and (max-width: 1024px) {
+    //     font-size: 12px;
+    //     padding: 2px 10px;
+    //   }
+    // }
+
+    // .create-btn:hover,
+    // .create-btn:focus,
+    // .create-btn:active {
+    //   background-color: #22c55e;
+    //   border: 1px solid #22c55e;
+    //   box-shadow: 0 0 0 0.25rem #b9f9bc !important;
+    // }
+    .srch_box {
+      width: 13px;
+      height: 13px;
+    }
+
+    .add-btn,
+    .add-btn:focus {
+      box-shadow: none;
+      border: 1px solid #f5f5f5;
+      background-color: #ffffff;
+      width: 36px;
+      padding: 0;
+      height: 36px;
+      color: #616161;
+      margin-top: auto;
+      margin-bottom: auto;
+      border-radius: 0;
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: -16px;
+    }
+
+    .input_gruop {
+      background: white;
+      border-left: none;
+    }
+
+    .pd {
+      padding-right: 0px;
+    }
+
+    .mdl-icons {
+      height: 30px;
+    }
+  }
+  .voucher-mdl-account-entry {
+    .mdl {
+      background: #d9f0fb;
+    }
+    .billhead {
+      font-size: 12px;
+    }
+    .bb-total {
+      font-size: 10px;
+    }
+    .mdl-title {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 18px;
+      line-height: 22px;
+      display: flex;
+      color: #000000;
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 15px;
+      }
+    }
+
+    .mdl-text-box {
+      border: none;
+
+      &:focus {
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 3px;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .tnx-pur-inv-ModalStyle {
+      height: 28.8vh !important;
+      overflow: auto;
+      overflow-x: hidden;
+
+      .selected-tr {
+        background: #e1e0e0;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      thead {
+        position: sticky;
+        vertical-align: middle;
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(218, 226, 232, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+
+        th {
+          line-height: 25px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          vertical-align: middle;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+          }
+          padding-top: 6px;
+          padding-bottom: 6px;
+          color: #000000;
+          position: sticky;
+          border: 1px solid #d9d9d9;
+          top: -1px;
+          background: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.3) 0%,
+              rgba(218, 226, 232, 0.3) 59.37%
+            ),
+            linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+        }
+      }
+
+      tbody {
+        border-top: transparent;
+
+        tr {
+          border-top: none;
+          // line-height: 35px;
+          padding: 0px;
+          margin: 0px;
+          border-bottom: 1px solid #d9d9d9;
+        }
+
+        td {
+          line-height: 28px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+          }
+          padding: 0px !important;
+          margin: 0px;
+          border: none;
+          background-color: transparent;
+          vertical-align: middle;
+          padding-left: 8px !important;
+
+          &:hover {
+            background-color: #ffffff;
+            // border: 1px solid #00a0f5;
+            outline: none;
+          }
+        }
+      }
+
+      .mdl-icons {
+        height: 30px;
+      }
+    }
+
+    .tbl-color {
+      // background: linear-gradient(271deg, #E7D9A5 0%, rgba(231, 217, 165, 0) 100%);
+      background: linear-gradient(
+        209deg,
+        #e7d9a5 0%,
+        rgba(231, 217, 165, 0) 100%
+      );
+
+      background-color: #f8f0d2;
+      border-style: solid;
+      border-color: #aebac7;
+      border-width: 1px 0px;
+    }
+
+    .colored_sub_text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .colored_label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #b6762b;
+
+      th,
+      td {
+        height: 20px;
+      }
+    }
+
+    .pull-right {
+      float: right;
+      border-radius: 6px;
+      box-shadow: none;
+    }
+
+    .clsbtn {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .clsbtn:hover {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .tnx-pur-inv-mdl-body {
+      background: transparent;
+
+      .mdl-text-box {
+        background: transparent;
+        border: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          // border: transparent !important;
+
+          border-right: none !important;
+          outline: none !important;
+        }
+      }
+      .btn-close {
+        &:hover,
+        &:focus {
+          background-image: url("data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23FF0000%27><path d=%27M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z%27/></svg>");
+        }
+      }
+
+      .int-grp {
+        border: none;
+        background: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          border-left: none !important;
+          outline: none !important;
+        }
+      }
+    }
+  }
+}
+@media (min-width: "1025px") and(max-width:"1280px") {
+  .accountentrystyles {
+    background: #fff;
+    margin-bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 85vh;
+    .lbl {
+      font-size: 12px;
+      width:max-content;
+    }
+    .footerstyle {
+      background: #eeeff2;
+      border: 1px solid #c7c7c7;
+      height: 28px;
+      padding-top: 5px;
+    }
+    .mdl-text-box {
+      background: transparent;
+      border: transparent;
+      height: 28px;
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        // border: transparent !important;
+        height: 28px;
+        // border-right: none !important;
+
+        // border-right: none !important;
+        outline: none !important;
+      }
+    }
+    .for_left_padding {
+      padding-left: 0;
+    }
+    .btmstylelbl {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 16px;
+      width: 120px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      opacity: 0.7;
+    }
+    .shortkey {
+      font-family: "Inter";
+      font-style: italic;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      font-variation-settings: "slnt" -10;
+      opacity: 1;
+    }
+    .int-grp {
+      border: none;
+      background: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        border-left: none !important;
+        outline: none !important;
+      }
+    }
+
+    .form-control {
+      height: 28px;
+      font-size: 12px;
+    }
+    .form-control:focus {
+      box-shadow: none;
+      border: 2px solid #00a0f5 !important;
+      background: #d5effb !important;
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 5px !important;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+    .delete-img {
+      height: 28px;
+    }
+    .btm-data {
+      // margin-top: 25px;
+      background-color: #cee7f1;
+      box-shadow: 0px 4px 8px 0px #0000001a;
+    }
+    .img_delete {
+      height: 29px;
+    }
+
+    .tbl-body-style {
+      height: 59vh;
+
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      tbody {
+        display: block;
+        height: 62vh;
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12px;
+        }
+
+        td {
+          font-size: 12px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 14px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .tbl-body-style-new {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 48.9vh;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+    .tbl-body-style-new1 {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 39.9vh;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+    .voucher-info-table{
+      margin-top: 10px;
+      height: 13vh;
+      overflow: auto;
+      overflow-x: hidden;
+  
+      table {
+        border-collapse: collapse;
+      }
+  
+      thead {
+        background: #d9d9d9;
+        position: sticky;
+        top: 0;
+      }
+  
+      th {
+        position: sticky;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 3px 6px;
+      }
+      tbody {
+        height: 6vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border-top: 2px solid transparent;
+      }
+  
+      td {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 0;
+        border-bottom: 1px solid transparent;
+      }
+    }
+
+    .css-tj5bde-Svg {
+      color: #000000;
+    }
+
+    .css-1okebmr-indicatorSeparator {
+      background-color: transparent;
+    }
+
+    .pd {
+      padding-right: 0px;
+    }
+
+    .btn-refresh {
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .btn-refresh:hover,
+    .btn-refresh:focus {
+      box-shadow: none !important;
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .create-btn {
+    //   font-size: 13px;
+    //   padding: 5px 15px;
+    //   border-color: #22c55e;
+    //   margin-right: 9px;
+    //   width: 100px;
+    //   background: #22c55e;
+    //   border-radius: 6px;
+
+    //   @media (min-width: 700px) and (max-width: 1024px) {
+    //     font-size: 12px;
+    //     padding: 2px 10px;
+    //   }
+    // }
+
+    // .create-btn:hover,
+    // .create-btn:focus,
+    // .create-btn:active {
+    //   background-color: #22c55e;
+    //   border: 1px solid #22c55e;
+    //   box-shadow: 0 0 0 0.25rem #b9f9bc !important;
+    // }
+    .srch_box {
+      width: 13px;
+      height: 13px;
+    }
+
+    .add-btn,
+    .add-btn:focus {
+      box-shadow: none;
+      border: 1px solid #f5f5f5;
+      background-color: #ffffff;
+      width: 36px;
+      padding: 0;
+      height: 36px;
+      color: #616161;
+      margin-top: auto;
+      margin-bottom: auto;
+      border-radius: 0;
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: -16px;
+    }
+
+    .input_gruop {
+      background: white;
+      border-left: none;
+    }
+  }
+  .voucher-mdl-account-entry {
+    .mdl {
+      background: #d9f0fb;
+    }
+    .billhead {
+      font-size: 13px;
+    }
+    .bb-total {
+      font-size: 12px;
+    }
+    .mdl-title {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 18px;
+      line-height: 15px;
+      display: flex;
+      color: #000000;
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 15px;
+      }
+    }
+
+    .mdl-text-box {
+      border: none;
+
+      &:focus {
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 3px;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .tnx-pur-inv-ModalStyle {
+      height: 29.2vh !important;
+      overflow: auto;
+      overflow-x: hidden;
+
+      .selected-tr {
+        background: #e1e0e0;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      thead {
+        position: sticky;
+
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(218, 226, 232, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+
+        th {
+          line-height: 25px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          vertical-align: middle;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+          }
+          padding-top: 6px;
+          padding-bottom: 6px;
+          color: #000000;
+          position: sticky;
+          border: 1px solid #d9d9d9;
+          top: -1px;
+          background: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.3) 0%,
+              rgba(218, 226, 232, 0.3) 59.37%
+            ),
+            linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+        }
+      }
+
+      tbody {
+        border-top: transparent;
+
+        tr {
+          border-top: none;
+          // line-height: 35px;
+          padding: 0px;
+          margin: 0px;
+          border-bottom: 1px solid #d9d9d9;
+        }
+
+        td {
+          line-height: 28px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          vertical-align: middle;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+          }
+          padding: 0px;
+          margin: 0px;
+          border: none;
+          background-color: transparent;
+
+          &:hover {
+            background-color: #ffffff;
+            // border: 1px solid #00a0f5;
+            outline: none;
+          }
+        }
+      }
+
+      .mdl-icons {
+        height: 30px;
+      }
+    }
+
+    .tbl-color {
+      // background: linear-gradient(271deg, #E7D9A5 0%, rgba(231, 217, 165, 0) 100%);
+      background: linear-gradient(
+        209deg,
+        #e7d9a5 0%,
+        rgba(231, 217, 165, 0) 100%
+      );
+
+      background-color: #f8f0d2;
+      border-style: solid;
+      border-color: #aebac7;
+      border-width: 1px 0px;
+    }
+
+    .colored_sub_text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .colored_label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #b6762b;
+
+      th,
+      td {
+        height: 20px;
+      }
+    }
+
+    .pull-right {
+      float: right;
+      border-radius: 6px;
+      box-shadow: none;
+    }
+
+    .clsbtn {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .clsbtn:hover {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .tnx-pur-inv-mdl-body {
+      background: transparent;
+
+      .mdl-text-box {
+        background: transparent;
+        border: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          // border: transparent !important;
+
+          border-right: none !important;
+          outline: none !important;
+        }
+      }
+
+      .int-grp {
+        border: none;
+        background: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          border-left: none !important;
+          outline: none !important;
+        }
+      }
+    }
+  }
+}
+@media (min-width: "1281px") and(max-width:"1368px") {
+  .accountentrystyles {
+    background: #fff;
+    margin-bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 85vh;
+    .lbl {
+      font-size: 12px;
+      width: max-content;
+    }
+    .btmstylelbl {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 16px;
+      width: 120px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      opacity: 0.7;
+    }
+    .shortkey {
+      font-family: "Inter";
+      font-style: italic;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      font-variation-settings: "slnt" -10;
+      opacity: 1;
+    }
+    .mdl-text-box {
+      background: transparent;
+      border: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        // border: transparent !important;
+
+        // border-right: none !important;
+        outline: none !important;
+      }
+    }
+    .for_left_padding {
+      padding-left: 0;
+    }
+
+    .int-grp {
+      border: none;
+      background: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        // border-left: none !important;
+        outline: none !important;
+      }
+    }
+
+    .form-control {
+      height: 28px;
+      font-size: 12px;
+    }
+    .form-control:focus {
+      box-shadow: none;
+      border: 2px solid #00a0f5 !important;
+      background: #d5effb !important;
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 5px !important;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+        background: #d5effb !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .btm-data {
+      // margin-top: 25px;
+      background-color: #cee7f1;
+      box-shadow: 0px 4px 8px 0px #0000001a;
+    }
+
+    .tbl-body-style {
+      height: 59vh;
+
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      tbody {
+        display: block;
+        height: 62vh;
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12px;
+        }
+
+        td {
+          font-size: 12px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 14px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 14px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .tbl-body-style-new {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 49.9vh;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+    .tbl-body-style-new1 {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 38vh;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+    .voucher-info-table{
+      margin-top: 10px;
+      height: 16vh;
+      overflow: auto;
+      overflow-x: hidden;
+  
+      table {
+        border-collapse: collapse;
+      }
+  
+      thead {
+        background: #d9d9d9;
+        position: sticky;
+        top: 0;
+      }
+  
+      th {
+        position: sticky;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 3px 6px;
+      }
+      tbody {
+        height: 6vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border-top: 2px solid transparent;
+      }
+  
+      td {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 0;
+        border-bottom: 1px solid transparent;
+      }
+    }
+
+    .css-tj5bde-Svg {
+      color: #000000;
+    }
+
+    .css-1okebmr-indicatorSeparator {
+      background-color: transparent;
+    }
+
+    .pd {
+      padding-right: 0px;
+    }
+
+    .btn-refresh {
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .btn-refresh:hover,
+    .btn-refresh:focus {
+      box-shadow: none !important;
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .create-btn {
+    //   font-size: 13px;
+    //   padding: 5px 15px;
+    //   border-color: #22c55e;
+    //   margin-right: 9px;
+    //   width: 100px;
+    //   background: #22c55e;
+    //   border-radius: 6px;
+
+    //   @media (min-width: 700px) and (max-width: 1024px) {
+    //     font-size: 12px;
+    //     padding: 2px 10px;
+    //   }
+    // }
+
+    // .create-btn:hover,
+    // .create-btn:focus,
+    // .create-btn:active {
+    //   background-color: #22c55e;
+    //   border: 1px solid #22c55e;
+    //   box-shadow: 0 0 0 0.25rem #b9f9bc !important;
+    // }
+    .srch_box {
+      width: 13px;
+      height: 13px;
+    }
+
+    .add-btn,
+    .add-btn:focus {
+      box-shadow: none;
+      border: 1px solid #f5f5f5;
+      background-color: #ffffff;
+      width: 36px;
+      padding: 0;
+      height: 36px;
+      color: #616161;
+      margin-top: auto;
+      margin-bottom: auto;
+      border-radius: 0;
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: -16px;
+    }
+
+    // .input_gruop {
+    //   background: white;
+    //   border-left: none;
+    // }
+  }
+  .voucher-mdl-account-entry {
+    .mdl {
+      background: #d9f0fb;
+    }
+    .billhead {
+      font-size: 13px;
+    }
+    .bb-total {
+      font-size: 12px;
+    }
+    .mdl-title {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 18px;
+      line-height: 22px;
+      display: flex;
+      color: #000000;
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 15px;
+      }
+    }
+
+    .mdl-text-box {
+      border: none;
+
+      &:focus {
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 3px;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .tnx-pur-inv-ModalStyle {
+      height: 28.8vh !important;
+      overflow: auto;
+      overflow-x: hidden;
+
+      .selected-tr {
+        background: #e1e0e0;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      thead {
+        position: sticky;
+
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(218, 226, 232, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+
+        th {
+          line-height: 25px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          vertical-align: middle;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+          }
+          padding-top: 6px;
+          padding-bottom: 6px;
+          color: #000000;
+          position: sticky;
+          border: 1px solid #d9d9d9;
+          top: -1px;
+          background: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.3) 0%,
+              rgba(218, 226, 232, 0.3) 59.37%
+            ),
+            linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+        }
+      }
+
+      tbody {
+        border-top: transparent;
+
+        tr {
+          border-top: none;
+          // line-height: 35px;
+          padding: 0px;
+          margin: 0px;
+          border-bottom: 1px solid #d9d9d9;
+        }
+
+        td {
+          line-height: 28px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          vertical-align: middle;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+          }
+          padding: 0px;
+          margin: 0px;
+          border: none;
+          background-color: transparent;
+
+          &:hover {
+            background-color: #ffffff;
+            // border: 1px solid #00a0f5;
+            outline: none;
+          }
+        }
+      }
+
+      .mdl-icons {
+        height: 30px;
+      }
+    }
+
+    .tbl-color {
+      // background: linear-gradient(271deg, #E7D9A5 0%, rgba(231, 217, 165, 0) 100%);
+      background: linear-gradient(
+        209deg,
+        #e7d9a5 0%,
+        rgba(231, 217, 165, 0) 100%
+      );
+
+      background-color: #f8f0d2;
+      border-style: solid;
+      border-color: #aebac7;
+      border-width: 1px 0px;
+    }
+
+    .colored_sub_text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .colored_label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #b6762b;
+
+      th,
+      td {
+        height: 20px;
+      }
+    }
+
+    .pull-right {
+      float: right;
+      border-radius: 6px;
+      box-shadow: none;
+    }
+
+    .clsbtn {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .clsbtn:hover {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .tnx-pur-inv-mdl-body {
+      background: transparent;
+
+      .mdl-text-box {
+        background: transparent;
+        border: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          // border: transparent !important;
+
+          border-right: none !important;
+          outline: none !important;
+        }
+      }
+
+      .int-grp {
+        border: none;
+        background: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          border-left: none !important;
+          outline: none !important;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: "1369px") and(max-width:"1400px") {
+  .accountentrystyles {
+    background: #fff;
+    margin-bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 88vh;
+    .btmstylelbl {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      width: 302px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      opacity: 0.7;
+    }
+    .shortkey {
+      font-family: "Inter";
+      font-style: italic;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      font-variation-settings: "slnt" -10;
+      opacity: 1;
+    }
+    .lbl {
+      height: 17px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      width: 115px;
+    }
+    .mdl-text-box {
+      background: transparent;
+      border: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        // border: transparent !important;
+
+        // border-right: none !important;
+        outline: none !important;
+      }
+    }
+    .form-control {
+      height: 30px;
+      font-size: 12px;
+    }
+    .form-control:focus {
+      box-shadow: none !important;
+      border: 2px solid #00a0f5 !important;
+      background-color: #d5effb !important;
+    }
+    .int-grp {
+      border: none;
+      background: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        border-left: none !important;
+        outline: none !important;
+      }
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 5px !important;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+    .delete-img {
+      height: 28px;
+    }
+    .img_delete {
+      height: 34px;
+    }
+
+    .btm-data {
+      // margin-top: 25px;
+      background-color: #cee7f1;
+      box-shadow: 0px 4px 8px 0px #0000001a;
+    }
+
+    .tbl-body-style {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 67vh;
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .tbl-body-style-new {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 61.5vh;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+    .tbl-body-style-new1 {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 41vh;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+    .voucher-info-table{
+      margin-top: 10px;
+      height: 22.7vh;
+      overflow: auto;
+      overflow-x: hidden;
+  
+      table {
+        border-collapse: collapse;
+      }
+  
+      thead {
+        background: #d9d9d9;
+        position: sticky;
+        top: 0;
+      }
+  
+      th {
+        position: sticky;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 3px 6px;
+      }
+      tbody {
+        height: 6vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border-top: 2px solid transparent;
+      }
+  
+      td {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 0;
+        border-bottom: 1px solid transparent;
+      }
+    }
+
+    .css-tj5bde-Svg {
+      color: #000000;
+    }
+
+    .css-1okebmr-indicatorSeparator {
+      background-color: transparent;
+    }
+
+    .btn-refresh {
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .btn-refresh:hover,
+    .btn-refresh:focus {
+      box-shadow: none !important;
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .create-btn {
+    //   font-size: 13px;
+    //   padding: 5px 15px;
+    //   border-color: #22c55e;
+    //   margin-right: 9px;
+    //   width: 100px;
+    //   background: #22c55e;
+    //   border-radius: 6px;
+
+    //   @media (min-width: 700px) and (max-width: 1024px) {
+    //     font-size: 12px;
+    //     padding: 2px 10px;
+    //   }
+    // }
+
+    // .create-btn:hover,
+    // .create-btn:focus,
+    // .create-btn:active {
+    //   background-color: #22c55e;
+    //   border: 1px solid #22c55e;
+    //   box-shadow: 0 0 0 0.25rem #b9f9bc !important;
+    // }
+    .srch_box {
+      width: 13px;
+      height: 13px;
+    }
+
+    .add-btn,
+    .add-btn:focus {
+      box-shadow: none;
+      border: 1px solid #f5f5f5;
+      background-color: #ffffff;
+      width: 36px;
+      padding: 0;
+      height: 36px;
+      color: #616161;
+      margin-top: auto;
+      margin-bottom: auto;
+      border-radius: 0;
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: -16px;
+    }
+
+    .input_gruop {
+      background: white;
+      border-left: none;
+    }
+
+    .pd {
+      padding-right: 0px;
+    }
+  }
+  .voucher-mdl-account-entry {
+    .mdl {
+      background: #d9f0fb;
+    }
+    .billhead {
+      font-size: 14px;
+    }
+    .bb-total {
+      font-size: 13px;
+    }
+
+    .mdl-title {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 18px;
+      line-height: 22px;
+      display: flex;
+      color: #000000;
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 15px;
+      }
+    }
+
+    .mdl-text-box {
+      border: none;
+
+      &:focus {
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 3px;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .tnx-pur-inv-ModalStyle {
+      height: 31.5vh !important;
+      overflow: auto;
+      overflow-x: hidden;
+
+      .selected-tr {
+        background: #e1e0e0;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      thead {
+        position: sticky;
+
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(218, 226, 232, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+
+        th {
+          line-height: 25px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+          }
+          padding-top: 6px;
+          padding-bottom: 6px;
+          color: #000000;
+          position: sticky;
+          border: 1px solid #d9d9d9;
+          top: -1px;
+          vertical-align: middle;
+          background: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.3) 0%,
+              rgba(218, 226, 232, 0.3) 59.37%
+            ),
+            linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+        }
+      }
+
+      tbody {
+        border-top: transparent;
+
+        tr {
+          border-top: none;
+          // line-height: 35px;
+          padding: 0px;
+          margin: 0px;
+          border-bottom: 1px solid #d9d9d9;
+        }
+
+        td {
+          line-height: 28px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          vertical-align: middle;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+          }
+          padding: 0px;
+          margin: 0px;
+          border: none;
+          background-color: transparent;
+
+          &:hover {
+            background-color: #ffffff;
+            // border: 1px solid #00a0f5;
+            outline: none;
+          }
+        }
+      }
+
+      .mdl-icons {
+        height: 30px;
+      }
+    }
+
+    .tbl-color {
+      // background: linear-gradient(271deg, #E7D9A5 0%, rgba(231, 217, 165, 0) 100%);
+      background: linear-gradient(
+        209deg,
+        #e7d9a5 0%,
+        rgba(231, 217, 165, 0) 100%
+      );
+
+      background-color: #f8f0d2;
+      border-style: solid;
+      border-color: #aebac7;
+      border-width: 1px 0px;
+    }
+
+    .colored_sub_text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .colored_label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #b6762b;
+
+      th,
+      td {
+        height: 20px;
+      }
+    }
+
+    .pull-right {
+      float: right;
+      border-radius: 6px;
+      box-shadow: none;
+    }
+
+    .clsbtn {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .clsbtn:hover {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .tnx-pur-inv-mdl-body {
+      background: transparent;
+
+      .mdl-text-box {
+        background: transparent;
+        border: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          // border: transparent !important;
+
+          border-right: none !important;
+          outline: none !important;
+        }
+      }
+
+      .int-grp {
+        border: none;
+        background: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          border-left: none !important;
+          outline: none !important;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: "1401px") and(max-width:"1440px") {
+  .accountentrystyles {
+    background: #fff;
+    margin-bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 86vh;
+    .footerstyle {
+      background: #eeeff2;
+      border: 1px solid #c7c7c7;
+      height: 29px;
+      padding-top: 6px;
+    }
+    .btmstylelbl {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      width: 302px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      opacity: 0.7;
+    }
+    .shortkey {
+      font-family: "Inter";
+      font-style: italic;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      font-variation-settings: "slnt" -10;
+      opacity: 1;
+    }
+    .mdl-text-box {
+      background: transparent;
+      border: transparent;
+      height: 30px;
+      // margin-top: -4px;
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        // border: transparent !important;
+
+        // border-right: none !important;
+        outline: none !important;
+      }
+    }
+    .form-control {
+      height: 30px;
+      font-size: 12px;
+    }
+    .form-control:focus {
+      box-shadow: none !important;
+      border: 2px solid #00a0f5 !important;
+      background-color: #d5effb !important;
+    }
+
+    .int-grp {
+      border: none;
+      background: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        border-left: none !important;
+        outline: none !important;
+      }
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 5px !important;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+    .delete-img {
+      height: 28px;
+    }
+
+    .btm-data {
+      // margin-top: 25px;
+      background-color: #cee7f1;
+      box-shadow: 0px 4px 8px 0px #0000001a;
+    }
+    .img_delete {
+      height: 34px;
+    }
+
+    .tbl-body-style {
+      height: 64vh;
+
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      tbody {
+        display: block;
+        height: 63vh;
+
+        // @media (min-width: 700px) and (max-width: 1024px) {
+        //   height: 51.95vh;
+        // }
+
+        // @media (min-width: 1025px) and (max-width: 1368px) {
+        //   height: 54.7vh;
+        // }
+
+        // @media (min-width: 1601px) {
+        //   height: 63.4vh;
+        // }
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 11px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 11.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .tbl-body-style-new {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 54.2vh;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .tbl-body-style-new1{
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 40vh !important;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        border-top: 2px solid transparent;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+    .voucher-info-table{
+      margin-top: 10px;
+      height: 17vh;
+      overflow: auto;
+      overflow-x: hidden;
+  
+      table {
+        border-collapse: collapse;
+      }
+  
+      thead {
+        background: #d9d9d9;
+        position: sticky;
+        top: 0;
+      }
+  
+      th {
+        position: sticky;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 3px 6px;
+      }
+      tbody {
+        height: 6vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border-top: 2px solid transparent;
+      }
+  
+      td {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 0;
+        border-bottom: 1px solid transparent;
+      }
+    }
+
+    .css-tj5bde-Svg {
+      color: #000000;
+    }
+
+    .css-1okebmr-indicatorSeparator {
+      background-color: transparent;
+    }
+
+    .btn-refresh {
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .btn-refresh:hover,
+    .btn-refresh:focus {
+      box-shadow: none !important;
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .create-btn {
+    //   font-size: 13px;
+    //   padding: 5px 15px;
+    //   border-color: #22c55e;
+    //   margin-right: 9px;
+    //   width: 100px;
+    //   background: #22c55e;
+    //   border-radius: 6px;
+
+    //   @media (min-width: 700px) and (max-width: 1024px) {
+    //     font-size: 12px;
+    //     padding: 2px 10px;
+    //   }
+    // }
+
+    .srch_box {
+      width: 13px;
+      height: 13px;
+    }
+
+    .add-btn,
+    .add-btn:focus {
+      box-shadow: none;
+      border: 1px solid #f5f5f5;
+      background-color: #ffffff;
+      width: 36px;
+      padding: 0;
+      height: 36px;
+      color: #616161;
+      margin-top: auto;
+      margin-bottom: auto;
+      border-radius: 0;
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: -16px;
+    }
+
+    .input_gruop {
+      background: white;
+      border-left: none;
+    }
+
+    .lbl {
+      font-size: 12px;
+      width: max-content;
+    }
+
+    .pd {
+      padding-right: 0px;
+    }
+  }
+  .voucher-mdl-account-entry {
+    .mdl {
+      background: #d9f0fb;
+    }
+    .billhead {
+      font-size: 14px;
+    }
+    .bb-total {
+      font-size: 13px;
+    }
+    .mdl-title {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 18px;
+      line-height: 22px;
+      display: flex;
+      color: #000000;
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 15px;
+      }
+    }
+
+    .mdl-text-box {
+      border: none;
+
+      &:focus {
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 3px;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .tnx-pur-inv-ModalStyle {
+      height: 31.8vh !important;
+      overflow: auto;
+      overflow-x: hidden;
+
+      .selected-tr {
+        background: #e1e0e0;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      thead {
+        position: sticky;
+
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(218, 226, 232, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+
+        th {
+          line-height: 25px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          vertical-align: middle;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+          }
+          padding-top: 6px;
+          padding-bottom: 6px;
+          color: #000000;
+          position: sticky;
+          border: 1px solid #d9d9d9;
+          top: -1px;
+          background: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.3) 0%,
+              rgba(218, 226, 232, 0.3) 59.37%
+            ),
+            linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+        }
+      }
+
+      tbody {
+        border-top: transparent;
+
+        tr {
+          border-top: none;
+          // line-height: 35px;
+          padding: 0px;
+          margin: 0px;
+          border-bottom: 1px solid #d9d9d9;
+        }
+
+        td {
+          line-height: 28px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          vertical-align: middle;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+          }
+          padding: 0px;
+          margin: 0px;
+          border: none;
+          background-color: transparent;
+
+          &:hover {
+            background-color: #ffffff;
+            // border: 1px solid #00a0f5;
+            outline: none;
+          }
+        }
+      }
+
+      .mdl-icons {
+        height: 30px;
+      }
+    }
+
+    .tbl-color {
+      // background: linear-gradient(271deg, #E7D9A5 0%, rgba(231, 217, 165, 0) 100%);
+      background: linear-gradient(
+        209deg,
+        #e7d9a5 0%,
+        rgba(231, 217, 165, 0) 100%
+      );
+
+      background-color: #f8f0d2;
+      border-style: solid;
+      border-color: #aebac7;
+      border-width: 1px 0px;
+    }
+
+    .colored_sub_text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .colored_label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #b6762b;
+
+      th,
+      td {
+        height: 20px;
+      }
+    }
+
+    .pull-right {
+      float: right;
+      border-radius: 6px;
+      box-shadow: none;
+    }
+
+    .clsbtn {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .clsbtn:hover {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .tnx-pur-inv-mdl-body {
+      background: transparent;
+
+      .mdl-text-box {
+        background: transparent;
+        border: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          // border: transparent !important;
+
+          border-right: none !important;
+          outline: none !important;
+        }
+      }
+
+      .int-grp {
+        border: none;
+        background: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          border-left: none !important;
+          outline: none !important;
+        }
+      }
+    }
+  }
+}
+@media (min-width: "1441px") and(max-width:"1600px") {
+  .accountentrystyles {
+    background: #fff;
+    margin-bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 86vh;
+    .btmstylelbl {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      width: 302px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      opacity: 0.7;
+    }
+    .shortkey {
+      font-family: "Inter";
+      font-style: italic;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      font-variation-settings: "slnt" -10;
+      opacity: 1;
+    }
+    .mdl-text-box {
+      background: transparent;
+      border: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        // border: transparent !important;
+
+        border-right: none !important;
+        outline: none !important;
+      }
+    }
+
+    .int-grp {
+      border: none;
+      background: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        border-left: none !important;
+        outline: none !important;
+      }
+    }
+    .form-control {
+      height: 30px;
+      font-size: 12px;
+    }
+    .form-control:focus {
+      box-shadow: none !important;
+      border: 2px solid #00a0f5 !important;
+      background-color: #d5effb !important;
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 5px !important;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .btm-data {
+      // margin-top: 25px;
+      background-color: #cee7f1;
+      box-shadow: 0px 4px 8px 0px #0000001a;
+      height: 17vh;
+    }
+    .img_delete {
+      height: 40px;
+    }
+
+    .tnx-pur-inv-text-box {
+      background: #ffffff;
+      height: 32px;
+      width: 100%;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      resize: none;
+      font-size: 12px;
+      line-height: 15px;
+      // letter-spacing: -0.02em;
+      border-radius: 4px;
+      border: 1px solid #dcdcdc;
+      color: #000000;
+
+      &:focus {
+        background: #d5effb;
+        border: 2px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        background: #d5effb;
+        border: 2px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      // &:hover {
+      //   border: 1px solid #00a0f5 !important;
+      //   box-shadow: none !important;
+      // }
+    }
+
+    .tbl-body-style {
+      height: 64vh;
+
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      tbody {
+        display: block;
+        height: 64vh;
+
+        // @media (min-width: 700px) and (max-width: 1024px) {
+        //   height: 51.95vh;
+        // }
+
+        // @media (min-width: 1025px) and (max-width: 1368px) {
+        //   height: 54.7vh;
+        // }
+
+        // @media (min-width: 1601px) {
+        //   height: 63.4vh;
+        // }
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 11px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 11.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .tbl-body-style-new {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 53.4vh;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .tbl-body-style-new1{
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 40vh !important;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        border-top: 2px solid transparent;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+    .voucher-info-table{
+      margin-top: 10px;
+      height: 17vh;
+      overflow: auto;
+      overflow-x: hidden;
+  
+      table {
+        border-collapse: collapse;
+      }
+  
+      thead {
+        background: #d9d9d9;
+        position: sticky;
+        top: 0;
+      }
+  
+      th {
+        position: sticky;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 3px 6px;
+      }
+      tbody {
+        height: 6vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border-top: 2px solid transparent;
+      }
+  
+      td {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 0;
+        border-bottom: 1px solid transparent;
+      }
+    }
+
+    .css-tj5bde-Svg {
+      color: #000000;
+    }
+
+    .css-1okebmr-indicatorSeparator {
+      background-color: transparent;
+    }
+
+    .btn-refresh {
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .btn-refresh:hover,
+    .btn-refresh:focus {
+      box-shadow: none !important;
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .create-btn {
+    //   font-size: 13px;
+    //   padding: 5px 15px;
+    //   border-color: #22c55e;
+    //   margin-right: 9px;
+    //   width: 100px;
+    //   background: #22c55e;
+    //   border-radius: 6px;
+
+    //   @media (min-width: 700px) and (max-width: 1024px) {
+    //     font-size: 12px;
+    //     padding: 2px 10px;
+    //   }
+    // }
+
+    .srch_box {
+      width: 13px;
+      height: 13px;
+    }
+
+    .add-btn,
+    .add-btn:focus {
+      box-shadow: none;
+      border: 1px solid #f5f5f5;
+      background-color: #ffffff;
+      width: 36px;
+      padding: 0;
+      height: 36px;
+      color: #616161;
+      margin-top: auto;
+      margin-bottom: auto;
+      border-radius: 0;
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: -16px;
+    }
+
+    .input_gruop {
+      background: white;
+      border-left: none;
+    }
+
+    .lbl {
+      font-size: 12px;
+    }
+    .footerstyle {
+      background: #eeeff2;
+      border: 1px solid #c7c7c7;
+      height: 32px;
+      padding-top: 6px;
+    }
+
+    .pd {
+      padding-right: 0px;
+    }
+  }
+  .voucher-mdl-account-entry {
+    .mdl {
+      background: #d9f0fb;
+    }
+    .billhead {
+      font-size: 14px;
+    }
+    .bb-total {
+      font-size: 13px;
+    }
+    .mdl-title {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 18px;
+      line-height: 22px;
+      display: flex;
+      color: #000000;
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 15px;
+      }
+    }
+
+    .mdl-text-box {
+      border: none;
+
+      &:focus {
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 3px;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .tnx-pur-inv-ModalStyle {
+      height: 31.5vh !important;
+      overflow: auto;
+      overflow-x: hidden;
+
+      .selected-tr {
+        background: #e1e0e0;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      thead {
+        position: sticky;
+
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(218, 226, 232, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+
+        th {
+          line-height: 25px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+          }
+          padding-top: 6px;
+          padding-bottom: 6px;
+          color: #000000;
+          position: sticky;
+          border: 1px solid #d9d9d9;
+          top: -1px;
+          vertical-align: middle;
+          background: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.3) 0%,
+              rgba(218, 226, 232, 0.3) 59.37%
+            ),
+            linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+        }
+      }
+
+      tbody {
+        border-top: transparent;
+
+        tr {
+          border-top: none;
+          // line-height: 35px;
+          padding: 0px;
+          margin: 0px;
+          border-bottom: 1px solid #d9d9d9;
+        }
+
+        td {
+          line-height: 28px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          vertical-align: middle;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+          }
+          padding: 0px;
+          margin: 0px;
+          border: none;
+          background-color: transparent;
+
+          &:hover {
+            background-color: #ffffff;
+            // border: 1px solid #00a0f5;
+            outline: none;
+          }
+        }
+      }
+
+      .mdl-icons {
+        height: 30px;
+      }
+    }
+
+    .tbl-color {
+      // background: linear-gradient(271deg, #E7D9A5 0%, rgba(231, 217, 165, 0) 100%);
+      background: linear-gradient(
+        209deg,
+        #e7d9a5 0%,
+        rgba(231, 217, 165, 0) 100%
+      );
+
+      background-color: #f8f0d2;
+      border-style: solid;
+      border-color: #aebac7;
+      border-width: 1px 0px;
+    }
+
+    .colored_sub_text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .colored_label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #b6762b;
+
+      th,
+      td {
+        height: 20px;
+      }
+    }
+
+    .pull-right {
+      float: right;
+      border-radius: 6px;
+      box-shadow: none;
+    }
+
+    .clsbtn {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .clsbtn:hover {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .tnx-pur-inv-mdl-body {
+      background: transparent;
+
+      .mdl-text-box {
+        background: transparent;
+        border: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          // border: transparent !important;
+
+          border-right: none !important;
+          outline: none !important;
+        }
+      }
+
+      .int-grp {
+        border: none;
+        background: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          border-left: none !important;
+          outline: none !important;
+        }
+      }
+    }
+  }
+}
+@media (min-width: "1601px") and(max-width:"1680px") {
+  .accountentrystyles {
+    background: #fff;
+    margin-bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 88vh;
+    .footerstyle {
+      background: #eeeff2;
+      border: 1px solid #c7c7c7;
+      height: 30px;
+      padding-top: 4px;
+    }
+    .btmstylelbl {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      width: 302px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      opacity: 0.7;
+    }
+    .shortkey {
+      font-family: "Inter";
+      font-style: italic;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      font-variation-settings: "slnt" -10;
+      opacity: 1;
+    }
+
+    .mdl-text-box {
+      background: transparent;
+      border: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        // border: transparent !important;
+
+        border-right: none !important;
+        outline: none !important;
+      }
+    }
+    .form-control {
+      height: 32px;
+      font-size: 14px;
+    }
+    .form-control:focus {
+      box-shadow: none !important;
+      border: 2px solid #00a0f5 !important;
+      background-color: #d5effb !important;
+    }
+
+    .int-grp {
+      border: none;
+      background: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        border-left: none !important;
+        outline: none !important;
+      }
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 5px !important;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .btm-data {
+      // margin-top: 25px;
+      background-color: #cee7f1;
+      box-shadow: 0px 4px 8px 0px #0000001a;
+    }
+
+    .tbl-body-style {
+      height: 64vh;
+
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      tbody {
+        display: block;
+        height: 70vh;
+
+        // @media (min-width: 700px) and (max-width: 1024px) {
+        //   height: 51.95vh;
+        // }
+
+        // @media (min-width: 1025px) and (max-width: 1368px) {
+        //   height: 54.7vh;
+        // }
+
+        // @media (min-width: 1601px) {
+        //   height: 63.4vh;
+        // }
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 11px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 11.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .tbl-body-style-new {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 59.9vh;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+    .tbl-body-style-new1{
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 40vh !important;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        border-top: 2px solid transparent;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+    .voucher-info-table{
+      margin-top: 10px;
+      height: 22.5vh;
+      overflow: auto;
+      overflow-x: hidden;
+  
+      table {
+        border-collapse: collapse;
+      }
+  
+      thead {
+        background: #d9d9d9;
+        position: sticky;
+        top: 0;
+      }
+  
+      th {
+        position: sticky;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 3px 6px;
+      }
+      tbody {
+        height: 6vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border-top: 2px solid transparent;
+      }
+  
+      td {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 0;
+        border-bottom: 1px solid transparent;
+      }
+    }
+
+    .css-tj5bde-Svg {
+      color: #000000;
+    }
+
+    .css-1okebmr-indicatorSeparator {
+      background-color: transparent;
+    }
+
+    .btn-refresh {
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .btn-refresh:hover,
+    .btn-refresh:focus {
+      box-shadow: none !important;
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .create-btn {
+    //   font-size: 13px;
+    //   padding: 5px 15px;
+    //   border-color: #22c55e;
+    //   margin-right: 9px;
+    //   width: 100px;
+    //   background: #22c55e;
+    //   border-radius: 6px;
+
+    //   @media (min-width: 700px) and (max-width: 1024px) {
+    //     font-size: 12px;
+    //     padding: 2px 10px;
+    //   }
+    // }
+
+    .srch_box {
+      width: 13px;
+      height: 13px;
+    }
+
+    .add-btn,
+    .add-btn:focus {
+      box-shadow: none;
+      border: 1px solid #f5f5f5;
+      background-color: #ffffff;
+      width: 36px;
+      padding: 0;
+      height: 36px;
+      color: #616161;
+      margin-top: auto;
+      margin-bottom: auto;
+      border-radius: 0;
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: -16px;
+    }
+
+    .input_gruop {
+      background: white;
+      border-left: none;
+    }
+
+    .lbl {
+      font-size: 14px;
+    }
+
+    .pd {
+      padding-right: 0px;
+    }
+  }
+  .voucher-mdl-account-entry {
+    .mdl {
+      background: #d9f0fb;
+    }
+    .billhead {
+      font-size: 14px;
+    }
+    .bb-total {
+      font-size: 14px;
+    }
+    .mdl-title {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 18px;
+      line-height: 22px;
+      display: flex;
+      color: #000000;
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 15px;
+      }
+    }
+
+    .mdl-text-box {
+      border: none;
+
+      &:focus {
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 3px;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .tnx-pur-inv-ModalStyle {
+      height: 34.2vh !important;
+      overflow: auto;
+      overflow-x: hidden;
+
+      .selected-tr {
+        background: #e1e0e0;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      thead {
+        position: sticky;
+
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(218, 226, 232, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+
+        th {
+          line-height: 25px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          vertical-align: middle;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+          }
+          padding-top: 6px;
+          padding-bottom: 6px;
+          color: #000000;
+          position: sticky;
+          border: 1px solid #d9d9d9;
+          top: -1px;
+          background: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.3) 0%,
+              rgba(218, 226, 232, 0.3) 59.37%
+            ),
+            linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+        }
+      }
+
+      tbody {
+        border-top: transparent;
+
+        tr {
+          border-top: none;
+          // line-height: 35px;
+          padding: 0px;
+          margin: 0px;
+          border-bottom: 1px solid #d9d9d9;
+        }
+
+        td {
+          line-height: 28px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          vertical-align: middle;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+          }
+          padding: 0px;
+          margin: 0px;
+          border: none;
+          background-color: transparent;
+
+          &:hover {
+            background-color: #ffffff;
+            // border: 1px solid #00a0f5;
+            outline: none;
+          }
+        }
+      }
+
+      .mdl-icons {
+        height: 30px;
+      }
+    }
+
+    .tbl-color {
+      // background: linear-gradient(271deg, #E7D9A5 0%, rgba(231, 217, 165, 0) 100%);
+      background: linear-gradient(
+        209deg,
+        #e7d9a5 0%,
+        rgba(231, 217, 165, 0) 100%
+      );
+
+      background-color: #f8f0d2;
+      border-style: solid;
+      border-color: #aebac7;
+      border-width: 1px 0px;
+    }
+
+    .colored_sub_text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .colored_label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #b6762b;
+
+      th,
+      td {
+        height: 20px;
+      }
+    }
+
+    .pull-right {
+      float: right;
+      border-radius: 6px;
+      box-shadow: none;
+    }
+
+    .clsbtn {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .clsbtn:hover {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .tnx-pur-inv-mdl-body {
+      background: transparent;
+
+      .mdl-text-box {
+        background: transparent;
+        border: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          // border: transparent !important;
+
+          border-right: none !important;
+          outline: none !important;
+        }
+      }
+
+      .int-grp {
+        border: none;
+        background: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          border-left: none !important;
+          outline: none !important;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: "1681px") and(max-width:"1920px") {
+  .accountentrystyles {
+    background: #fff;
+    margin-bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 88vh;
+    .footerstyle {
+      background: #eeeff2;
+      border-top: 1px solid #c7c7c7;
+      height: 30px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+    .tdmarg {
+      margin-top: -2px;
+    }
+    .btmstylelbl {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      width: 302px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      opacity: 0.7;
+    }
+    .shortkey {
+      font-family: "Inter";
+      font-style: italic;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #000000;
+      font-variation-settings: "slnt" -10;
+      opacity: 1;
+    }
+    .successbtn-style {
+      padding: 5px 14px;
+      width: 100px;
+      height: 35px;
+
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        height: 32px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 27px;
+        font-size: 13px;
+        padding: 3px 13px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 26px;
+        padding: 1px 14px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 25px;
+        font-size: 11px;
+        line-height: 0px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        height: 23px;
+        font-size: 9px;
+        line-height: 0px;
+      }
+
+      margin-right: 3px;
+      font-size: 14px;
+      background-color: #21c78a;
+      border: 1px solid #21c78a;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .successbtn-style:focus,
+    .successbtn-style:active,
+    .successbtn-style:hover {
+      // padding: 5px 14px;
+      // line-height: 0px;
+      margin-right: 3px;
+      // font-size: 14px;
+      background-color: #21c78a;
+      border: 1px solid #21c78a;
+      border-radius: 4px;
+      box-shadow: 0 0 0 0.25rem #b9f9bc !important;
+    }
+
+    .cancel-btn {
+      margin-right: 2px;
+      font-size: 14px;
+      width: 100px;
+      height: 35px;
+
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        height: 32px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 28px;
+        padding: 3px 13px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 26px;
+        padding: 1px 14px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 25px;
+        font-size: 11px;
+        line-height: 0px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        height: 23px;
+        font-size: 9px;
+        line-height: 0px;
+      }
+
+      padding: 5px 14px;
+      background-color: #a0aab4;
+      color: #fff;
+      border: 1px solid #a0aab4;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .cancel-btn:hover,
+    .cancel-btn:focus {
+      box-shadow: 0 0 0 0.25rem #d8dadc !important;
+    }
+    .mdl-text-box {
+      background: transparent;
+      border: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        // border: transparent !important;
+
+        // border-right: none !important;
+        outline: none !important;
+      }
+    }
+
+    .form-control {
+      height: 34px;
+      font-size: 14px;
+    }
+
+    .form-control:focus {
+      box-shadow: none;
+      border: 2px solid #00a0f5 !important;
+      background-color: #d5effb !important;
+    }
+
+    .int-grp {
+      border: "1px solid #fff";
+      background: transparent;
+
+      &:focus {
+        // border: 1px solid #aebac7 !important;
+        border-left: none !important;
+        outline: none !important;
+      }
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 5px !important;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+    .img_delete {
+      height: 40px;
+    }
+
+    .btm-data {
+      // margin-top: 25px;
+      background-color: #cee7f1;
+      box-shadow: 0px 4px 8px 0px #0000001a;
+      height: 17vh;
+    }
+    .delete-img {
+      height: 30px;
+    }
+
+    .tnx-pur-inv-text-box {
+      background: #ffffff;
+      height: 34px;
+      width: 100%;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      resize: none;
+      font-size: 14px;
+      line-height: 15px;
+      // letter-spacing: -0.02em;
+      border-radius: 4px;
+      border: 1px solid #dcdcdc;
+
+      color: #000000;
+
+      &:focus {
+        background: #d5effb;
+        border: 2px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        background: #d5effb;
+        border: 2px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      // &:hover {
+      //   border: 1px solid #00a0f5 !important;
+      //   box-shadow: none !important;
+      // }
+    }
+
+    .tbl-body-style {
+      height: 50.2vh;
+
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      tbody {
+        display: block;
+        height: 59.7vh;
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 11px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 11.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        height: 40px;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .tbl-body-style-new1{
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 40vh !important;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        border-top: 2px solid transparent;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+    .voucher-info-table{
+      margin-top: 10px;
+      height: 22.7vh;
+      overflow: auto;
+      overflow-x: hidden;
+  
+      table {
+        border-collapse: collapse;
+      }
+  
+      thead {
+        background: #d9d9d9;
+        position: sticky;
+        top: 0;
+      }
+  
+      th {
+        position: sticky;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 3px 6px;
+      }
+      tbody {
+        height: 6vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border-top: 2px solid transparent;
+      }
+  
+      td {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.03em;
+        color: #333333;
+        padding: 0;
+        border-bottom: 1px solid transparent;
+      }
+    }
+
+    .tbl-body-style-new {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 60vh !important;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        border-top: 2px solid transparent;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .css-tj5bde-Svg {
+      color: #000000;
+    }
+
+    .css-1okebmr-indicatorSeparator {
+      background-color: transparent;
+    }
+
+    .btn-refresh {
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .btn-refresh:hover,
+    .btn-refresh:focus {
+      box-shadow: none !important;
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    .srch_box {
+      width: 13px;
+      height: 13px;
+    }
+
+    .add-btn,
+    .add-btn:focus {
+      box-shadow: none;
+      border: 1px solid #f5f5f5;
+      background-color: #ffffff;
+      width: 36px;
+      padding: 0;
+      height: 36px;
+      color: #616161;
+      margin-top: auto;
+      margin-bottom: auto;
+      border-radius: 0;
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: -16px;
+    }
+
+    .input_gruop {
+      background: white;
+      border-left: none;
+    }
+
+    .lbl {
+      font-size: 14px;
+    }
+  }
+
+  .voucher-mdl-account-entry {
+    .mdl {
+      background: #d9f0fb;
+    }
+    .billhead {
+      font-size: 14px;
+    }
+    .bb-total {
+      font-size: 14px;
+    }
+    .mdl-title {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 18px;
+      line-height: 22px;
+      display: flex;
+      color: #000000;
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 15px;
+      }
+    }
+
+    .mdl-text-box {
+      border: none;
+
+      &:focus {
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 3px;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .form-check {
+      padding-right: 10px;
+      width: max-content;
+      white-space: nowrap;
+      .label {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+      }
+
+      .form-check-input::before {
+        background-color: #00a0f5;
+      }
+
+      .form-check-input:checked {
+        box-shadow: none !important;
+        background-color: #00a0f5 !important;
+      }
+
+      .form-check-input:focus,
+      .form-check-input:active {
+        box-shadow: none !important;
+        border: 3px solid #00a0f5 !important;
+      }
+    }
+
+    .tnx-pur-inv-ModalStyle {
+      height: 32vh !important;
+      overflow: auto;
+      overflow-x: hidden;
+
+      .selected-tr {
+        background: #e1e0e0;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      thead {
+        position: sticky;
+
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(218, 226, 232, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+
+        th {
+          line-height: 25px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          vertical-align: middle;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+          }
+          padding-top: 6px;
+          padding-bottom: 6px;
+          color: #000000;
+          position: sticky;
+          border: 1px solid #d9d9d9;
+          top: -1px;
+          background: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.3) 0%,
+              rgba(218, 226, 232, 0.3) 59.37%
+            ),
+            linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+        }
+      }
+
+      tbody {
+        border-top: transparent;
+
+        tr {
+          border-top: none;
+          // line-height: 35px;
+          padding: 0px;
+          margin: 0px;
+          border-bottom: 1px solid #d9d9d9;
+        }
+
+        td {
+          line-height: 28px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          vertical-align: middle;
+          @media (min-width: 1601px) and (max-width: 1920px) {
+            line-height: 15px;
+            font-size: 14px;
+          }
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 13px;
+            font-size: 13px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 11px;
+            font-size: 10px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 10px;
+            font-size: 10px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 8px;
+            font-size: 9px;
+          }
+          padding: 0px;
+          margin: 0px;
+          border: none;
+          background-color: transparent;
+
+          &:hover {
+            background-color: #ffffff;
+            // border: 1px solid #00a0f5;
+            outline: none;
+          }
+        }
+      }
+
+      .mdl-icons {
+        height: 30px;
+      }
+    }
+
+    .tbl-color {
+      // background: linear-gradient(271deg, #E7D9A5 0%, rgba(231, 217, 165, 0) 100%);
+      background: linear-gradient(
+        209deg,
+        #e7d9a5 0%,
+        rgba(231, 217, 165, 0) 100%
+      );
+
+      background-color: #f8f0d2;
+      border-style: solid;
+      border-color: #aebac7;
+      border-width: 1px 0px;
+    }
+
+    .colored_sub_text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .colored_label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #b6762b;
+
+      th,
+      td {
+        height: 20px;
+      }
+    }
+
+    .pull-right {
+      float: right;
+      border-radius: 6px;
+      box-shadow: none;
+    }
+
+    .clsbtn {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .clsbtn:hover {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .tnx-pur-inv-mdl-body {
+      background: transparent;
+
+      .mdl-text-box {
+        background: transparent;
+        border: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          // border: transparent !important;
+
+          border-right: none !important;
+          outline: none !important;
+        }
+      }
+
+      .int-grp {
+        border: none;
+        background: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          border-left: none !important;
+          outline: none !important;
+        }
+      }
+    }
+  }
+
+ 
+}
+@media (min-width: "1921px") {
+  .accountentrystyles {
+    background: #fff;
+    margin-bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 91vh;
+    .successbtn-style {
+      padding: 5px 14px;
+      width: 100px;
+      height: 35px;
+
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        height: 32px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 27px;
+        font-size: 13px;
+        padding: 3px 13px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 26px;
+        padding: 1px 14px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 25px;
+        font-size: 11px;
+        line-height: 0px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        height: 23px;
+        font-size: 9px;
+        line-height: 0px;
+      }
+
+      margin-right: 3px;
+      font-size: 14px;
+      background-color: #21c78a;
+      border: 1px solid #21c78a;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .successbtn-style:focus,
+    .successbtn-style:active,
+    .successbtn-style:hover {
+      // padding: 5px 14px;
+      // line-height: 0px;
+      margin-right: 3px;
+      // font-size: 14px;
+      background-color: #21c78a;
+      border: 1px solid #21c78a;
+      border-radius: 4px;
+      box-shadow: 0 0 0 0.25rem #b9f9bc !important;
+    }
+
+    .cancel-btn {
+      margin-right: 2px;
+      font-size: 14px;
+      width: 100px;
+      height: 35px;
+
+      @media (min-width: 1601px) and (max-width: 1920px) {
+        height: 32px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 28px;
+        padding: 3px 13px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 26px;
+        padding: 1px 14px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 25px;
+        font-size: 11px;
+        line-height: 0px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        height: 23px;
+        font-size: 9px;
+        line-height: 0px;
+      }
+
+      padding: 5px 14px;
+      background-color: #a0aab4;
+      color: #fff;
+      border: 1px solid #a0aab4;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .cancel-btn:hover,
+    .cancel-btn:focus {
+      box-shadow: 0 0 0 0.25rem #d8dadc !important;
+    }
+    .btm-data {
+      // margin-top: 25px;
+      background-color: #cee7f1;
+      box-shadow: 0px 4px 8px 0px #0000001a;
+    }
+
+    .tbl-body-style {
+      height: 69vh;
+
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      tbody {
+        display: block;
+        height: 77vh;
+        overflow: auto;
+      }
+      .delete-img {
+        height: 28px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 11px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 11.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .tbl-body-style-new {
+      table {
+        width: 100%;
+        margin: 0;
+      }
+
+      table,
+      td {
+        border-collapse: collapse;
+        // border: 1px solid #000;
+      }
+
+      letter-spacing: normal;
+
+      tbody {
+        display: block;
+        height: 61.7vh;
+
+        overflow: auto;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        th {
+          font-size: 10px;
+        }
+
+        td {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        th {
+          font-size: 12.5px;
+        }
+
+        td {
+          font-size: 12.5px;
+        }
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      @media (min-width: 1601px) {
+        th {
+          font-size: 14px;
+        }
+
+        td {
+          font-size: 15px;
+        }
+      }
+
+      thead,
+      tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        /* even columns width , fix width of table too*/
+      }
+
+      thead {
+        th {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          justify-content: flex-start;
+          background: #fff4df;
+          color: #222222 !important;
+          padding: 4px 0px 4px 5px;
+          // border: 2px solid #d6fcdc;
+        }
+      }
+
+      tbody {
+        td {
+          color: #2f3033;
+          padding: 4px 0px 4px 5px;
+          cursor: pointer;
+          border: none !important;
+          border-bottom: 1px solid #dee4eb !important;
+        }
+      }
+
+      .table-hover > tbody > tr:hover {
+        // background: #dde9f9;
+        color: var(--bs-table-hover-color);
+        --bs-table-accent-bg: none;
+      }
+
+      .tbl-footer {
+        th {
+          background: #dde2ed;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .css-tj5bde-Svg {
+      color: #000000;
+    }
+
+    .css-1okebmr-indicatorSeparator {
+      background-color: transparent;
+    }
+
+    .btn-refresh {
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    // .btn-refresh:hover,
+    .btn-refresh:focus {
+      box-shadow: none !important;
+      color: #222222;
+      font-size: 22px;
+      padding: 0px 0px;
+      width: 34px;
+      height: 34px;
+      right: 0px;
+      top: 0px;
+      background: #e6f2f8;
+      border: 1px solid #e6f2f8;
+      border-radius: 300px;
+      margin-top: 0px;
+      margin-right: 10px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+
+      img {
+        margin-top: -7px;
+        width: 20px;
+      }
+    }
+
+    .create-btn {
+      font-size: 13px;
+      padding: 5px 15px;
+      border-color: #22c55e;
+      margin-right: 9px;
+      width: 100px;
+      background: #22c55e;
+      border-radius: 70px;
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 12px;
+        padding: 2px 10px;
+      }
+    }
+
+    .srch_box {
+      width: 13px;
+      height: 13px;
+    }
+
+    .add-btn,
+    .add-btn:focus {
+      box-shadow: none;
+      border: 1px solid #f5f5f5;
+      background-color: #ffffff;
+      width: 36px;
+      padding: 0;
+      height: 36px;
+      color: #616161;
+      margin-top: auto;
+      margin-bottom: auto;
+      border-radius: 0;
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: -16px;
+    }
+
+    .input_gruop {
+      background: white;
+      border-left: none;
+    }
+
+    .lbl {
+      font-size: 14px;
+    }
+  }
+  .voucher-mdl-account-entry {
+    .mdl {
+      background: #d9f0fb;
+    }
+
+    .mdl-title {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 18px;
+      line-height: 22px;
+      display: flex;
+      color: #000000;
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 13px;
+      }
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        font-size: 14px;
+      }
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 15px;
+      }
+    }
+
+    .mdl-text-box {
+      border: none;
+
+      &:focus {
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .mdl-text {
+      background: #ffffff;
+      border: 1px solid #c4cbd2;
+      border-radius: 3px;
+
+      &:focus {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:focus-visible {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+
+      &:hover {
+        border: 1px solid #00a0f5 !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .tnx-pur-inv-ModalStyle {
+      height: 34.5vh !important;
+      overflow: auto;
+      overflow-x: hidden;
+
+      .selected-tr {
+        background: #e1e0e0;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      thead {
+        position: sticky;
+
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(218, 226, 232, 0.3) 59.37%
+          ),
+          linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+
+        th {
+          line-height: 25px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-bottom: 0px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+          }
+          padding-top: 6px;
+          padding-bottom: 6px;
+          color: #000000;
+          position: sticky;
+          border: 1px solid #d9d9d9;
+          top: -1px;
+          background: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.3) 0%,
+              rgba(218, 226, 232, 0.3) 59.37%
+            ),
+            linear-gradient(180deg, #ffffff 0%, #ebebeb 63.02%);
+        }
+      }
+
+      tbody {
+        border-top: transparent;
+
+        tr {
+          border-top: none;
+          // line-height: 35px;
+          padding: 0px;
+          margin: 0px;
+          border-bottom: 1px solid #d9d9d9;
+        }
+
+        td {
+          line-height: 28px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+
+          @media (min-width: 1369px) and (max-width: 1600px) {
+            line-height: 20px;
+            font-size: 13px;
+          }
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 1025px) and (max-width: 1280px) {
+            line-height: 15px;
+            font-size: 12px;
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            line-height: 12px;
+            font-size: 10px;
+          }
+          padding: 0px;
+          margin: 0px;
+          border: none;
+          background-color: transparent;
+
+          &:hover {
+            background-color: #ffffff;
+            // border: 1px solid #00a0f5;
+            outline: none;
+          }
+        }
+      }
+
+      .mdl-icons {
+        height: 30px;
+      }
+    }
+
+    .tbl-color {
+      // background: linear-gradient(271deg, #E7D9A5 0%, rgba(231, 217, 165, 0) 100%);
+      background: linear-gradient(
+        209deg,
+        #e7d9a5 0%,
+        rgba(231, 217, 165, 0) 100%
+      );
+
+      background-color: #f8f0d2;
+      border-style: solid;
+      border-color: #aebac7;
+      border-width: 1px 0px;
+    }
+
+    .colored_sub_text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .colored_label {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #b6762b;
+
+      th,
+      td {
+        height: 20px;
+      }
+    }
+
+    .pull-right {
+      float: right;
+      border-radius: 6px;
+      box-shadow: none;
+    }
+
+    .clsbtn {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .clsbtn:hover {
+      padding: 0px 7px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    .tnx-pur-inv-mdl-body {
+      background: transparent;
+
+      .mdl-text-box {
+        background: transparent;
+        border: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          // border: transparent !important;
+
+          border-right: none !important;
+          outline: none !important;
+        }
+      }
+
+      .int-grp {
+        border: none;
+        background: transparent;
+
+        &:focus {
+          // border: 1px solid #aebac7 !important;
+          border-left: none !important;
+          outline: none !important;
+        }
+      }
+    }
+  }
+}
+
+.voucher-mdl-account-entry {
+  .btn-close {
+    &:hover,
+    &:focus {
+      background-image: url("data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23FF0000%27><path d=%27M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z%27/></svg>");
+    }
+  }
+  form-control.is-valid {
+    border-color: 1px solid #ced4da !important;
+  }
+}

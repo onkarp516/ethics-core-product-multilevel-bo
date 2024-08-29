@@ -1,0 +1,1317 @@
+.new_ledger_create_style {
+  height: 88vh;
+  background: #fff;
+  overflow: hidden auto;
+
+  @media (min-width: 1441px) and (max-width: 1600px) {
+    height: 85.5vh;
+    overflow: hidden auto;
+  }
+
+  @media (min-width: 1401px) and (max-width: 1440px) {
+    height: 85vh;
+    overflow: hidden auto;
+  }
+
+  @media (min-width: 1369px) and (max-width: 1400px) {
+    height: 87vh;
+    overflow: hidden auto;
+  }
+
+  @media (min-width: 1025px) and (max-width: 1368px) {
+    height: 84vh;
+    overflow: hidden auto;
+  }
+
+  @media (min-width: 992px) and (max-width: 1024px) {
+    height: 84vh;
+    overflow: hidden auto;
+  }
+
+
+  .top_bar {
+    background: #d9f0fb;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  .top_card_style {
+    padding: 0;
+    border-radius: 6px;
+
+    .card-body {
+      padding: 14px;
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        padding: 12px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1368px) {
+        padding: 8px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        padding: 5px;
+      }
+    }
+  }
+
+  .middle_card {
+    padding: 0;
+    background: #ebf0f4;
+    border-radius: 0;
+
+    .card-body {
+      padding: 14px;
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        padding: 8px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        padding: 5px;
+      }
+    }
+  }
+
+  .middle_card_main {
+    padding: 12px;
+    height: 77vh;
+
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      height: 77vh;
+      padding: 10px;
+    }
+
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 74vh;
+      padding: 8px;
+    }
+
+    @media (min-width: 1401px) and (max-width: 1440px) {
+      height: 73vh;
+      padding: 8px;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1400px) {
+      padding: 8px;
+      height: 77vh;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 72vh;
+      padding: 8px;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 72vh;
+      padding: 8px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 75vh;
+      padding: 8px;
+    }
+  }
+
+  .ledger_small_icons {
+    height: 20px;
+
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      height: 16px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 14px;
+    }
+  }
+
+  h3 {
+    color: #00a0f5;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 16px;
+    border-left: 2px solid;
+    padding-left: 5px;
+
+    @media (min-width: 1281px) and (max-width: 1600px) {
+      font-size: 12px;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+    }
+  }
+
+  .bottom_card_style {
+    border-radius: 0;
+    margin-top: 12px;
+
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      margin-top: 6px;
+    }
+
+    @media (min-width: 1401px) and (max-width: 1440px) {
+      margin-top: 6px;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1400px) {
+      margin-top: 6px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1280px) {
+      margin-top: 5px;
+    }
+
+    .card-header {
+      border-top: 1px solid #c4cbd2;
+      border-right: 1px solid #c4cbd2;
+      border-left: 1px solid #c4cbd2;
+      background: linear-gradient(90deg,
+          rgba(0, 160, 245, 0.04) 0%,
+          rgba(0, 160, 245, 0) 51.04%,
+          rgba(0, 160, 245, 0.2) 100%),
+        #ebf0f4;
+      padding-left: 0;
+      border-radius: 0;
+      border-bottom: none;
+
+      @media (min-width: 1441px) and (max-width: 1600px) {
+        padding: 4px 4px 4px 0;
+      }
+
+      @media (min-width: 1401px) and (max-width: 1440px) {
+        padding: 4px 4px 4px 0;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1400px) {
+        padding: 4px 4px 4px 0;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        padding: 2px 2px 2px 0;
+      }
+    }
+
+    .card-body {
+      padding: 0 0 25px 0;
+
+      @media (min-width: 1281px) and (max-width: 1600px) {
+        padding: 0 0 15px 0;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        padding: 0 0 15px 0;
+      }
+    }
+
+    .card_sub_header {
+      background: rgb(229, 238, 244);
+      padding: 7px 15px 5px 5px;
+    }
+
+    .bottom_card_table {
+      height: 7vh;
+      overflow: hidden auto;
+      margin: 2px;
+      border: 1px solid #dcdcdc;
+
+      table {
+        margin-bottom: 0;
+      }
+
+      td {
+        overflow: hidden;
+        color: #000;
+        text-overflow: ellipsis;
+        font-size: 14px;
+        font-family: Inter;
+
+        @media (min-width: 1281px) and (max-width: 1600px) {
+          font-size: 12px;
+        }
+
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 12px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1024px) {
+          font-size: 10px;
+        }
+      }
+
+      .btn_img_ledger {
+        border: none;
+        background: transparent;
+        // margin-top: 4px;
+        padding: 0 4px;
+        height: 30px;
+
+        @media (min-width: 1025px) and (max-width: 1600px) {
+          height: 28px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1024px) {
+          height: 26px;
+        }
+
+        .table_delete_icon {
+          height: 16px;
+
+          @media (min-width: 1025px) and (max-width: 1600px) {
+            height: 14px;
+          }
+
+          @media (min-width: 992px) and (max-width: 1024px) {
+            height: 13px;
+          }
+        }
+
+        &:focus {
+          border: 2px solid #00a0f5 !important;
+          background-color: #d5effb !important;
+          box-shadow: none !important;
+          border-radius: 0%;
+        }
+      }
+    }
+  }
+
+  .form-label {
+    color: #000;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 600;
+    width: max-content;
+    margin-bottom: auto;
+    margin-top: auto;
+
+    @media (min-width: 1281px) and (max-width: 1600px) {
+      font-size: 12px;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+    }
+  }
+
+  .BnoP {
+    padding: 0;
+
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      .BnoP {
+        padding: 0;
+      }
+    }
+  }
+
+  @media (min-width: 1369px) and (max-width: 1600px) {
+    .noP {
+      padding: 0 !important;
+    }
+  }
+
+  @media (min-width: 1281px) and (max-width: 1368px) {
+    .noP {
+      padding: 0 !important;
+    }
+
+    .fRp {
+      padding-right: 0;
+    }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .fRp {
+      padding-right: 0;
+    }
+
+    .fLp {
+      padding-left: 0;
+    }
+
+    .noP {
+      padding: 0 !important;
+    }
+
+    .lFbP {
+      padding-left: 18px;
+      padding-right: 0;
+    }
+
+    .normalP {
+      padding-left: 5px;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1024px) {
+    .fRp {
+      padding-right: 0;
+    }
+
+    .fB {
+      padding-left: 20px;
+      // padding-right: 0;
+    }
+
+    .fLp {
+      padding-left: 0;
+    }
+
+    .fBp {
+      padding-left: 5px;
+      padding-right: 0;
+    }
+
+    .lFbP {
+      padding-left: 18px;
+      padding-right: 5px;
+    }
+
+    .sFbP {
+      padding-left: 18px;
+      padding-right: 0px;
+    }
+
+    .noP {
+      padding: 0 !important;
+    }
+
+    .lnoP {
+      padding: 0;
+    }
+
+    .normalP {
+      padding-left: 5px;
+    }
+
+    .normalrP {
+      padding-right: 5px;
+    }
+
+    .cmt {
+      margin-top: 10px;
+    }
+
+    .cpt {
+      padding-top: 6px;
+    }
+  }
+
+  .text-box {
+    box-shadow: none !important;
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    height: 34px;
+    width: 100%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    // letter-spacing: -0.02em;
+    border-radius: 4px;
+    padding: 3px;
+    color: #000000;
+
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      height: 32px !important;
+      font-size: 14px !important;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      height: 30px !important;
+      font-size: 12px !important;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 28px !important;
+      font-size: 12px !important;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 28px !important;
+      font-size: 11px !important;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 25px !important;
+      font-size: 10px !important;
+    }
+  }
+
+  .text-box:focus {
+    box-shadow: none !important;
+    border: 2px solid #00a0f5 !important;
+    background-color: #d5effb;
+  }
+
+  .form-control {
+    height: 34px;
+
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      height: 32px !important;
+      font-size: 14px !important;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      height: 30px !important;
+      font-size: 12px !important;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 28px !important;
+      font-size: 12px !important;
+      padding: 5px;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 28px !important;
+      font-size: 12px !important;
+      padding: 5px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 25px !important;
+      font-size: 10px !important;
+      padding: revert;
+    }
+  }
+
+  .form-control:focus {
+    box-shadow: none !important;
+    border: 2px solid #00a0f5 !important;
+    background-color: #d5effb;
+  }
+
+  .form-select {
+    height: 34px;
+    padding: 5px;
+
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      height: 32px !important;
+      font-size: 14px !important;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      height: 30px !important;
+      font-size: 12px !important;
+      // padding-left: 0;
+      // padding-right: 0;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 28px !important;
+      font-size: 12px !important;
+      // padding-left: 0;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 28px !important;
+      font-size: 12px !important;
+      // padding-left: 0;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 25px !important;
+      font-size: 10px !important;
+      // padding-left: 0;
+    }
+  }
+
+  .form-select:focus {
+    box-shadow: none !important;
+    border: 2px solid #00a0f5 !important;
+    background-color: #d5effb;
+  }
+
+  .rowPlusBtn {
+    border: 1px solid transparent;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: #c4f5e3;
+    border-radius: 50px;
+    border: 1px solid #2dc38c;
+    box-shadow: none;
+    margin-top: 5px;
+
+    @media (min-width: 1025px) and (max-width: 1600px) {
+      width: 16px;
+      height: 16px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      width: 14px;
+      height: 14px;
+    }
+
+    .plus-color {
+      color: #2dc38c;
+      font-size: 14px;
+      padding: 1px 0px 2px 1px;
+
+      @media (min-width: 1025px) and (max-width: 1600px) {
+        font-size: 12px;
+        padding: 0px 0px 6px 0px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 10px;
+        padding: 3px 1px 10px 1px;
+      }
+    }
+  }
+
+  .rowPlusBtn:focus {
+    border: 1px solid transparent;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: #2dc38c;
+    border-radius: 50px;
+    margin-top: 5px;
+
+    @media (min-width: 1025px) and (max-width: 1600px) {
+      width: 16px;
+      height: 16px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      width: 14px;
+      height: 14px;
+    }
+
+    .plus-color {
+      color: #ffffff;
+      font-size: 14px;
+      padding: 1px 0px 2px 1px;
+
+      @media (min-width: 1025px) and (max-width: 1600px) {
+        font-size: 12px;
+        padding: 0px 0px 6px 0px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 10px;
+        padding: 3px 1px 10px 1px;
+      }
+    }
+  }
+
+  .rowPlusBtn:hover {
+    border: 1px solid transparent;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: #2dc38c;
+    border-radius: 50px;
+    margin-top: 5px;
+
+    @media (min-width: 1025px) and (max-width: 1600px) {
+      width: 16px;
+      height: 16px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      width: 14px;
+      height: 14px;
+    }
+
+    .plus-color {
+      color: #ffffff;
+      font-size: 14px;
+      padding: 1px 0px 2px 1px;
+
+      @media (min-width: 1025px) and (max-width: 1600px) {
+        font-size: 12px;
+        padding: 0px 0px 6px 0px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1024px) {
+        font-size: 10px;
+        padding: 3px 1px 10px 1px;
+      }
+    }
+  }
+
+  .rowMinusBtn {
+    background: #fee0e0;
+    border: 1px solid transparent;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-top: 5px;
+    border: 1px solid #f86464;
+    box-shadow: none;
+
+    .minus-color {
+      color: #f86464;
+      font-size: 15px;
+      padding: 0px 1px 1px 1px;
+    }
+  }
+
+  .rowMinusBtn:hover {
+    background: #f86464;
+    border: 1px solid transparent;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-top: 5px;
+
+    .minus-color {
+      color: #ffffff;
+      font-size: 15px;
+      padding: 0px 1px 1px 1px;
+    }
+  }
+
+  .newSubmitBtn {
+    padding: 5px 14px !important;
+    width: 100px !important;
+    height: 32px !important;
+    margin-right: 0px !important;
+    font-size: 14px !important;
+    color: #fff !important;
+    background-color: #21c78a !important;
+    border: 1px solid #21c78a !important;
+    border-radius: 6px !important;
+
+    @media (min-width: 700px) and (max-width: 1024px) {
+      font-size: 10px !important;
+      height: 25px !important;
+      padding: 0px 5px !important;
+      width: 70px !important;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px !important;
+      height: 26px !important;
+      padding: 0px 0px !important;
+      width: 80px !important;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px !important;
+      height: 26px !important;
+      padding: 0px 0px !important;
+      width: 80px !important;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1440px) {
+      font-size: 12px !important;
+      height: 28px !important;
+      padding: 0px 0px !important;
+      margin-right: 0px !important;
+    }
+
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 28px !important;
+      font-size: 12px !important;
+      padding: 0px 0px !important;
+    }
+  }
+
+  .newSubmitBtn:focus,
+  .newSubmitBtn:active,
+  .newSubmitBtn:hover {
+    box-shadow: 0 0 0 0.25rem #b9f9bc !important;
+  }
+
+  .newCancelBtn {
+    margin-right: 0px !important;
+    font-size: 14px !important;
+    width: 100px !important;
+    height: 32px !important;
+    padding: 5px 14px !important;
+    background-color: #a0aab4 !important;
+    color: #fff !important;
+    border: 1px solid #a0aab4 !important;
+    border-radius: 6px !important;
+
+    @media (min-width: 700px) and (max-width: 1024px) {
+      font-size: 10px !important;
+      height: 25px !important;
+      padding: 0px 5px !important;
+      width: 70px !important;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px !important;
+      height: 26px !important;
+      padding: 0px 0px !important;
+      width: 80px !important;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 12px !important;
+      height: 26px !important;
+      padding: 0px 0px !important;
+      width: 80px !important;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1440px) {
+      font-size: 12px !important;
+      height: 28px !important;
+      padding: 0px 0px !important;
+      margin-right: 0px !important;
+    }
+
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 28px !important;
+      font-size: 12px !important;
+      padding: 0px 0px !important;
+    }
+  }
+
+  .newCancelBtn:hover,
+  .newCancelBtn:focus {
+    box-shadow: 0 0 0 0.25rem #d8dadc !important;
+  }
+
+  .middleGapTop {
+    margin-top: 5px;
+  }
+
+  .form-check {
+    color: #000;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 600;
+    padding-top: 4px;
+
+    @media (min-width: 1281px) and (max-width: 1600px) {
+      font-size: 12px;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 10px;
+    }
+  }
+
+  .column_heightC {
+    height: 62vh;
+
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      height: 61vh;
+      overflow: hidden auto;
+    }
+
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 58vh;
+      overflow: hidden auto;
+    }
+
+    @media (min-width: 1401px) and (max-width: 1440px) {
+      height: 58vh;
+      overflow: hidden auto;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1400px) {
+      height: 64vh;
+      overflow: hidden auto;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 52.5vh;
+      overflow: hidden auto;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 51.5vh;
+      overflow: hidden auto;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 56vh;
+      overflow: hidden auto;
+    }
+  }
+
+  .column_heightD {
+    height: 58vh;
+
+    @media (min-width: 1601px) and (max-width: 1680px) {
+      height: 57vh;
+      overflow: hidden auto;
+    }
+
+    @media (min-width: 1441px) and (max-width: 1600px) {
+      height: 54vh;
+      overflow: hidden auto;
+    }
+
+    @media (min-width: 1401px) and (max-width: 1440px) {
+      height: 54vh;
+      overflow: hidden auto;
+    }
+
+    @media (min-width: 1369px) and (max-width: 1400px) {
+      height: 60vh;
+      overflow: hidden auto;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 48vh;
+      overflow: hidden auto;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      height: 47vh;
+      overflow: hidden auto;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      height: 53vh;
+      overflow: hidden auto;
+    }
+  }
+
+  .form-switch .form-check-input {
+    background-image: url("data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27><circle r=%273%27 fill=%27rgba%280, 180, 280, 55%29%27/></svg>");
+
+    @media (min-width: 992px) and (max-width: 1280px) {
+      height: 12px;
+      width: 25px;
+      margin-top: 6px;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      height: 12px;
+      width: 25px;
+      margin-top: 6px;
+    }
+  }
+
+  .form-switch .form-check-input:checked {
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27%23fff%27/%3e%3c/svg%3e");
+  }
+
+  .form-check-input:focus {
+    box-shadow: 0px 0px 0px 3px #006cab !important;
+    border: 2px solid #00a0f5 !important;
+  }
+
+  .form-check-input::before {
+    background-color: #3b3c3c;
+  }
+
+  .form-check-input:checked {
+    box-shadow: none !important;
+    background-color: #3b3c3c !important;
+  }
+
+  // @media (min-width: 1281px) and (max-width: 1368px) {
+  //   .fRP {
+  //     padding-right: 0;
+  //   }
+  // }
+  .css-1fdsijx-ValueContainer {
+    @media (min-width: 992px) and (max-width: 1024px) {
+      padding: 2px 0px;
+    }
+  }
+
+
+
+}
+
+
+.opening-balance-style {
+
+  .name-header {
+    background: #D9F0FB;
+    padding: 10px;
+  }
+
+  .name-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+
+    @media (min-width: 1369px) and (max-width: 1600px) {
+      font-size: 14px;
+    }
+
+    @media (min-width: 1281px) and (max-width: 1368px) {
+      font-size: 13px;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      font-size: 12px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1024px) {
+      font-size: 12px;
+    }
+  }
+
+  .openingBalance {
+
+    .tbl-color {
+      // background: linear-gradient(271deg, #E7D9A5 0%, rgba(231, 217, 165, 0) 100%);
+      background: linear-gradient(209deg,
+          #e7d9a5 0%,
+          rgba(231, 217, 165, 0) 100%);
+      padding: 5px 0px;
+      background-color: #f8f0d2;
+      border-style: solid;
+      border-color: #aebac7;
+      border-width: 1px 0px;
+
+
+      .colored_sub_text {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          font-size: 14px;
+          line-height: 23px;
+        }
+
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 12px;
+        }
+
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 12px;
+        }
+
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 11px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1024px) {
+          font-size: 10px;
+        }
+      }
+
+      .colored_label {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #b6762b;
+
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          font-size: 14px;
+          line-height: 23px;
+        }
+
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          font-size: 12px;
+        }
+
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          font-size: 12px;
+        }
+
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          font-size: 11px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1024px) {
+          font-size: 10px;
+        }
+
+        th,
+        td {
+          height: 20px;
+
+          @media (min-width: 992px) and (max-width: 1024px) {
+            padding: 3px;
+          }
+        }
+      }
+    }
+
+
+  }
+
+  .div-text {
+    background: #E6F2F8;
+    padding: 10px;
+
+    .form-label {
+      color: #000;
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 500;
+      width: max-content;
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        font-size: 11px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1366px) {
+        font-size: 11px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        font-size: 10px;
+        line-height: 14px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        font-size: 12px;
+      }
+    }
+
+    .open-text-box {
+      border-radius: 3px;
+      border: 1px solid #C4CBD2;
+      height: 34px;
+      color: #000;
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 500;
+
+      @media (min-width: 1601px) and (max-width: 1680px) {
+        height: 32px;
+        font-size: 14px;
+        line-height: 18px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 30px;
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 28px;
+        font-size: 12px;
+        line-height: 14px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 28px;
+        font-size: 12px;
+        line-height: 13px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        height: 25px;
+        font-size: 10px !important;
+        line-height: 11px;
+      }
+
+      &:focus {
+        border: 2px solid #00a0f5 !important;
+        box-shadow: none !important;
+        background: #d5effb !important;
+      }
+
+      &:focus-visible {
+        border: 2px solid #00a0f5 !important;
+        box-shadow: none !important;
+        outline: none;
+      }
+    }
+
+    .open-date {
+      border-radius: 3px;
+      border: 1px solid #C4CBD2;
+      height: 34px;
+      color: #000;
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 500;
+      width: 100%;
+
+      @media (min-width: 1601px) and (max-width: 1680px) {
+        height: 32px;
+        font-size: 14px;
+      }
+
+      @media (min-width: 1369px) and (max-width: 1600px) {
+        height: 30px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1281px) and (max-width: 1368px) {
+        height: 28px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        height: 28px;
+        font-size: 12px;
+      }
+
+      @media (min-width: 700px) and (max-width: 1024px) {
+        height: 25px;
+        font-size: 10px;
+        padding-left: 7px !important;
+      }
+
+      &:focus {
+        border: 2px solid #00a0f5 !important;
+        box-shadow: none !important;
+        background: #d5effb !important;
+      }
+
+      &:focus-visible {
+        border: 2px solid #00a0f5 !important;
+        box-shadow: none !important;
+        outline: none;
+      }
+    }
+  }
+
+  .openingBalance-table {
+    height: 18.3vh;
+    overflow-y: auto;
+
+    // border: 1px solid #d9d9d9;
+    thead {
+      top: 0;
+      position: sticky;
+      z-index: 999;
+      border: 1px solid #d9d9d9;
+
+      th {
+        color: #000000;
+        background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(186, 189, 189, 0.3) 59.37%),
+          linear-gradient(180deg, #ffffff 0%, #e3e3e3 63.02%);
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        border-left: 1px solid #d9d9d9;
+        padding-top: 5px;
+        padding-bottom: 6px;
+        position: sticky;
+        vertical-align: middle;
+
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          line-height: 15px;
+          font-size: 13px;
+        }
+
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          line-height: 12px;
+          font-size: 12px;
+        }
+
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          line-height: 11px;
+          font-size: 10px;
+          z-index: 999;
+        }
+
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          line-height: 10px;
+          font-size: 10px;
+          z-index: 999;
+        }
+
+        @media (min-width: 992px) and (max-width: 1024px) {
+          line-height: 10px;
+          font-size: 10px;
+          z-index: 999;
+        }
+      }
+    }
+
+    tbody {
+      border-top: transparent;
+
+      tr {
+        border-bottom: 1px solid #a8adb3;
+        padding: 0px;
+        margin: 0px;
+
+        &:hover {
+          background-color: #e9f9e8;
+          // border: 1px solid #e9f9e8;
+        }
+
+        &:focus-visible {
+          outline: none;
+        }
+      }
+
+      td {
+        padding: 6px 6px !important;
+        margin: 0px;
+        border: none;
+        border-left: 1px solid #d9d9d9;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 400;
+        vertical-align: middle;
+
+        @media (min-width: 1601px) and (max-width: 1920px) {
+          line-height: 15px;
+          font-size: 13px;
+        }
+
+        @media (min-width: 1369px) and (max-width: 1600px) {
+          line-height: 12px;
+          font-size: 12px;
+        }
+
+        @media (min-width: 1281px) and (max-width: 1368px) {
+          line-height: 11px;
+          font-size: 10px;
+        }
+
+        @media (min-width: 1025px) and (max-width: 1280px) {
+          line-height: 10px;
+          font-size: 10px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1024px) {
+          line-height: 10px;
+          font-size: 10px;
+        }
+
+        .opendelete {
+          height: 18px;
+
+          @media (min-width: 1281px) and (max-width: 1368px) {
+            height: 15px;
+          }
+
+          @media (min-width: 992px) and (max-width: 1024px) {
+            height: 13px;
+          }
+        }
+      }
+    }
+  }
+}

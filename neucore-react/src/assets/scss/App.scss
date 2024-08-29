@@ -1,0 +1,43 @@
+@import "~bootstrap/scss/bootstrap";
+@import "_breakpoint.scss";
+// @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap");
+@import "./submenu.scss";
+@import "./common.scss";
+@import "./common_new.scss";
+@import "./subTabs.scss";
+@import "./newDesign.scss";
+@import "./inventory_summarry.scss";
+//@import "./product.scss";
+@import "./transaction.scss";
+@import "./purchaseinv.scss";
+@import "./usercreate.scss";
+@import "./createproduct.scss";
+@import "./ledgerList.scss";
+@import "./Dashboard.scss";
+@import "./login1.scss";
+@import "./LedgerCreate.scss";
+@import "./reports.scss";
+@import "./company.scss";
+@import "./tranxpurchase.scss";
+@import "./newcreateproduct.scss";
+@import "./CatlogStyles.scss";
+@import "./TranxPurchaseInvoice.scss";
+@import "./gst_input.scss";
+@import "./purchasereturn.scss";
+@import "./purchaseTranx.scss";
+@import "./NewCompanyCreate.scss";
+@import "./Branch.scss";
+@import "./ProductList.scss";
+@import "./accountentry.scss";
+@import "./NewLedgerCreate.scss";
+@import "./producttbl.scss";
+@import "./OpenTable.scss";
+@import "./counter_sale.scss";
+@import "./accountentrynew.scss";
+@import "./dispatchmanagement.scss";
+
+.pwd_eye:focus {
+  border: 2px solid #00a0f5 !important;
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@neutralinojs/neu": "^9.8.0"
+  }
+}

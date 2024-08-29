@@ -1,0 +1,1968 @@
+@media (min-width: "700px") and(max-width:"1024px") {
+  .Dashboard-style {
+    height: 84vh !important;
+    overflow-x: auto;
+    overflow-x: hidden;
+    background: "white";
+
+    .card {
+      border: 2px solid #eceef7;
+      border-radius: 6px;
+      box-shadow: 0px 2px 16px 0px #c2cedf80;
+    }
+
+    .card-title {
+      margin-bottom: 0.5rem !important;
+      font-family: "Inter" !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+      font-size: 14px !important;
+      line-height: 25px !important;
+      color: #000000 !important;
+    }
+
+    .text-muted {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 18px;
+      text-transform: uppercase;
+      color: #707377 !important;
+    }
+
+    .FirstBar {
+      .progress {
+        display: flex;
+        height: 7px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #d6fcdc;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #34b53a;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    .SecondBar {
+      .progress {
+        display: flex;
+        height: 7px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #e6edff;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #00a0f5;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    .ThirdBar {
+      .progress {
+        display: flex;
+        height: 7px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #fcf1db;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #efa514;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    img.card-img-style {
+      height: 30px;
+      width: 30px;
+      background: #d6fcdc;
+      border-radius: 50px;
+    }
+
+    .dates-text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 18px;
+      color: #000000;
+      mix-blend-mode: normal;
+      opacity: 0.4;
+    }
+
+    h5 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 140%;
+      color: #000000;
+    }
+
+    .td1 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .td2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 18px;
+      color: #000000;
+      flex: none;
+      order: 0;
+      background: #e6edff;
+      border-radius: 50px;
+      text-align: center;
+      flex-grow: 0;
+      padding: 6px 12px;
+    }
+
+    .td3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 18px;
+      text-align: right;
+      color: #000000;
+      background: #ffffff;
+      box-shadow: 0px 2px 10px rgba(124, 141, 181, 0.27);
+      border-radius: 12px;
+      text-align: center;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      padding: 8px 10px;
+    }
+
+    .grpico {
+      height: 12px;
+      width: 12px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .spanText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 18px;
+      text-align: right;
+      color: #000000;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 130%;
+      color: #000000;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    .cmbncardtext {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 140%;
+      text-transform: uppercase;
+      color: #707377;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    button {
+      background: #ffffff;
+      box-shadow: 0px 4px 14px rgba(124, 141, 181, 0.24);
+      border-radius: 12px;
+      height: 34px;
+      width: 34px;
+      border: none;
+      text-align: center !important;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    .bottomText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 140%;
+      color: #000000;
+      opacity: 0.4;
+      flex: none;
+      order: 2;
+      flex-grow: 1;
+    }
+
+    .coloredText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 15px;
+      letter-spacing: 0.01em;
+      color: #34b53a;
+      // width: 80px;
+      height: 18px;
+      text-align: center;
+      background: #d6fcdc;
+      border-radius: 50px;
+      padding: 1px 8px;
+      // padding: 6px 12px;
+    }
+
+    .coloredText2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 15px;
+      letter-spacing: 0.01em;
+      color: #ef4444;
+      // width: 82px;
+      height: 18px;
+      text-align: center;
+      background: #feecec;
+      border-radius: 50px;
+      // padding: 1px;
+      padding: 1px 8px;
+    }
+
+    .cartbarstyle {
+      height: 6px;
+      width: 11px;
+    }
+
+    .cartbarstyle2 {
+      height: 6px;
+      width: 11px;
+    }
+
+    .Scard-style {
+      // width: 83px;
+      height: 38px;
+      // right: 71px;
+      // top: 29px;
+      // opacity: 0.2;
+    }
+    .Mleft-style {
+      padding-left: 0;
+    }
+
+    .options-style {
+      background: transparent;
+      box-shadow: none;
+      padding-bottom: 15px;
+      color: #707377;
+    }
+
+    button img {
+      // width: 12px;
+    }
+
+    .optionsImg {
+      margin-top: -28px;
+    }
+
+    .lineStyle {
+      line-height: 10px;
+    }
+
+    .cardHeightStyle {
+      height: 315px;
+    }
+
+    .pad {
+      padding-bottom: 8px;
+    }
+  }
+}
+
+@media (min-width: "1025px") and(max-width:"1280px") {
+  .Dashboard-style {
+    height: 84vh !important;
+    overflow-x: auto;
+    overflow-x: hidden;
+    background: "white";
+
+    .card {
+      border: 2px solid #eceef7;
+      border-radius: 6px;
+      box-shadow: 0px 2px 16px 0px #c2cedf80;
+    }
+
+    .card-title {
+      margin-bottom: 0.5rem !important;
+      font-family: "Inter" !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+      font-size: 14px !important;
+      line-height: 25px !important;
+      color: #000000 !important;
+    }
+
+    .text-muted {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      text-transform: uppercase;
+      color: #707377 !important;
+    }
+
+    .FirstBar {
+      .progress {
+        display: flex;
+        height: 7px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #d6fcdc;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #34b53a;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    .SecondBar {
+      .progress {
+        display: flex;
+        height: 7px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #e6edff;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #00a0f5;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    .ThirdBar {
+      .progress {
+        display: flex;
+        height: 7px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #fcf1db;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #efa514;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    img.card-img-style {
+      height: 30px;
+      width: 30px;
+      background: #d6fcdc;
+      border-radius: 50px;
+    }
+
+    .dates-text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #000000;
+      mix-blend-mode: normal;
+      opacity: 0.4;
+    }
+
+    h5 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 140%;
+      color: #000000;
+    }
+
+    .td1 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .td2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #000000;
+      flex: none;
+      order: 0;
+      background: #e6edff;
+      border-radius: 50px;
+      text-align: center;
+      flex-grow: 0;
+      padding: 6px 12px;
+    }
+
+    .td3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      text-align: right;
+      color: #000000;
+      background: #ffffff;
+      box-shadow: 0px 2px 10px rgba(124, 141, 181, 0.27);
+      border-radius: 12px;
+      text-align: center;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      padding: 8px 10px;
+    }
+
+    .grpico {
+      height: 12px;
+      width: 12px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .spanText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      text-align: right;
+      color: #000000;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 130%;
+      color: #000000;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    .cmbncardtext {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 140%;
+      text-transform: uppercase;
+      color: #707377;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    button {
+      background: #ffffff;
+      box-shadow: 0px 4px 14px rgba(124, 141, 181, 0.24);
+      border-radius: 12px;
+      height: 37px;
+      width: 37px;
+      border: none;
+      text-align: center !important;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    .bottomText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 140%;
+      color: #000000;
+      opacity: 0.4;
+      flex: none;
+      order: 2;
+      flex-grow: 1;
+    }
+
+    .coloredText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.01em;
+      color: #34b53a;
+      // width: 80px;
+      height: 18px;
+      text-align: center;
+      background: #d6fcdc;
+      border-radius: 50px;
+      padding: 1px 8px;
+      // padding: 6px 12px;
+    }
+
+    .coloredText2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.01em;
+      color: #ef4444;
+      // width: 82px;
+      height: 18px;
+      text-align: center;
+      background: #feecec;
+      border-radius: 50px;
+      // padding: 1px;
+      padding: 1px 8px;
+    }
+
+    .cartbarstyle {
+      height: 6px;
+      width: 11px;
+    }
+
+    .cartbarstyle2 {
+      height: 6px;
+      width: 11px;
+    }
+
+    .Scard-style {
+      // width: 83px;
+      height: 45px;
+      // right: 71px;
+      // top: 29px;
+      // opacity: 0.2;
+    }
+
+    .options-style {
+      background: transparent;
+      box-shadow: none;
+      padding-bottom: 15px;
+      color: #707377;
+    }
+
+    button img {
+      // width: 12px;
+    }
+
+    .optionsImg {
+      margin-top: -26px;
+    }
+
+    .lineStyle {
+      line-height: 10px;
+    }
+
+    .cardHeightStyle {
+      height: 315px;
+    }
+
+    .pad {
+      padding-bottom: 8px;
+    }
+  }
+}
+
+@media (min-width: "1281px") and(max-width:"1366px") {
+  .Dashboard-style {
+    height: 84vh !important;
+    overflow-x: auto;
+    overflow-x: hidden;
+    background: "white";
+
+    .card {
+      border: 2px solid #eceef7;
+      border-radius: 6px;
+      box-shadow: 0px 2px 16px 0px #c2cedf80;
+    }
+
+    .card-title {
+      margin-bottom: 0.5rem !important;
+      font-family: "Inter" !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+      font-size: 14px !important;
+      line-height: 25px !important;
+      color: #000000 !important;
+    }
+
+    .text-muted {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      text-transform: uppercase;
+      color: #707377 !important;
+    }
+
+    .FirstBar {
+      .progress {
+        display: flex;
+        height: 7px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #d6fcdc;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #34b53a;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    .SecondBar {
+      .progress {
+        display: flex;
+        height: 7px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #e6edff;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #00a0f5;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    .ThirdBar {
+      .progress {
+        display: flex;
+        height: 7px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #fcf1db;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #efa514;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    img.card-img-style {
+      height: 30px;
+      width: 30px;
+      background: #d6fcdc;
+      border-radius: 50px;
+    }
+
+    .dates-text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #000000;
+      mix-blend-mode: normal;
+      opacity: 0.4;
+    }
+
+    h5 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 140%;
+      color: #000000;
+    }
+
+    .td1 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .td2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #000000;
+      flex: none;
+      order: 0;
+      background: #e6edff;
+      border-radius: 50px;
+      text-align: center;
+      flex-grow: 0;
+      padding: 6px 12px;
+    }
+
+    .td3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      text-align: right;
+      color: #000000;
+      background: #ffffff;
+      box-shadow: 0px 2px 10px rgba(124, 141, 181, 0.27);
+      border-radius: 12px;
+      text-align: center;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      padding: 8px 10px;
+    }
+
+    .grpico {
+      height: 12px;
+      width: 12px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .spanText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      text-align: right;
+      color: #000000;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 130%;
+      color: #000000;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    .cmbncardtext {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 140%;
+      text-transform: uppercase;
+      color: #707377;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    button {
+      background: #ffffff;
+      box-shadow: 0px 4px 14px rgba(124, 141, 181, 0.24);
+      border-radius: 12px;
+      height: 37px;
+      width: 37px;
+      border: none;
+      text-align: center !important;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    .bottomText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 140%;
+      color: #000000;
+      opacity: 0.4;
+      flex: none;
+      order: 2;
+      flex-grow: 1;
+    }
+
+    .coloredText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.01em;
+      color: #34b53a;
+      // width: 80px;
+      height: 18px;
+      text-align: center;
+      background: #d6fcdc;
+      border-radius: 50px;
+      padding: 1px 8px;
+      // padding: 6px 12px;
+    }
+
+    .coloredText2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.01em;
+      color: #ef4444;
+      // width: 82px;
+      height: 18px;
+      text-align: center;
+      background: #feecec;
+      border-radius: 50px;
+      // padding: 1px;
+      padding: 1px 8px;
+    }
+
+    .cartbarstyle {
+      height: 6px;
+      width: 11px;
+    }
+
+    .cartbarstyle2 {
+      height: 6px;
+      width: 11px;
+    }
+
+    .Scard-style {
+      // width: 83px;
+      height: 45px;
+      // right: 71px;
+      // top: 29px;
+      // opacity: 0.2;
+    }
+
+    .options-style {
+      background: transparent;
+      box-shadow: none;
+      padding-bottom: 15px;
+      color: #707377;
+    }
+
+    button img {
+      // width: 12px;
+    }
+
+    .optionsImg {
+      margin-top: -25px;
+    }
+
+    .lineStyle {
+      line-height: 10px;
+    }
+
+    .cardHeightStyle {
+      height: 315px;
+    }
+
+    .pad {
+      padding-bottom: 8px;
+    }
+  }
+}
+
+@media (min-width: "1367px") and(max-width:"1600px") {
+  .Dashboard-style {
+    height: 84vh !important;
+    overflow-x: auto;
+    overflow-x: hidden;
+    background: "white";
+
+    .card {
+      border: 2px solid #eceef7;
+      border-radius: 6px;
+      box-shadow: 0px 2px 16px 0px #c2cedf80;
+    }
+
+    .card-title {
+      margin-bottom: 0.5rem !important;
+      font-family: "Inter" !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+      font-size: 18px !important;
+      line-height: 25px !important;
+      color: #000000 !important;
+    }
+
+    .text-muted {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      text-transform: uppercase;
+      color: #707377 !important;
+    }
+
+    .FirstBar {
+      .progress {
+        display: flex;
+        height: 7px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #d6fcdc;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #34b53a;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    .SecondBar {
+      .progress {
+        display: flex;
+        height: 7px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #e6edff;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #00a0f5;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    .ThirdBar {
+      .progress {
+        display: flex;
+        height: 7px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #fcf1db;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #efa514;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    img.card-img-style {
+      height: 30px;
+      width: 30px;
+      background: #d6fcdc;
+      border-radius: 50px;
+    }
+
+    .dates-text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+      mix-blend-mode: normal;
+      opacity: 0.4;
+    }
+
+    h5 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      color: #000000;
+    }
+
+    .td1 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .td2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+      flex: none;
+      order: 0;
+      background: #e6edff;
+      border-radius: 50px;
+      text-align: center;
+      flex-grow: 0;
+      padding: 6px 12px;
+    }
+
+    .td3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: right;
+      color: #000000;
+      background: #ffffff;
+      box-shadow: 0px 2px 10px rgba(124, 141, 181, 0.27);
+      border-radius: 12px;
+      text-align: center;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      padding: 8px 10px;
+    }
+
+    .grpico {
+      height: 14px;
+      width: 14px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .spanText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: right;
+      color: #000000;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 130%;
+      color: #000000;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    .cmbncardtext {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 140%;
+      text-transform: uppercase;
+      color: #707377;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    button {
+      background: #ffffff;
+      box-shadow: 0px 4px 14px rgba(124, 141, 181, 0.24);
+      border-radius: 12px;
+      height: 37px;
+      width: 37px;
+      border: none;
+      text-align: center !important;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    .bottomText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+      color: #000000;
+      opacity: 0.4;
+      flex: none;
+      order: 2;
+      flex-grow: 1;
+    }
+
+    .coloredText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 15px;
+      letter-spacing: 0.01em;
+      color: #34b53a;
+      // width: 80px;
+      height: 18px;
+      text-align: center;
+      background: #d6fcdc;
+      border-radius: 50px;
+      padding: 1px 8px;
+      // padding: 6px 12px;
+    }
+
+    .coloredText2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 15px;
+      letter-spacing: 0.01em;
+      color: #ef4444;
+      // width: 82px;
+      height: 18px;
+      text-align: center;
+      background: #feecec;
+      border-radius: 50px;
+      // padding: 1px;
+      padding: 1px 8px;
+    }
+
+    .cartbarstyle {
+      height: 6px;
+      width: 11px;
+    }
+
+    .cartbarstyle2 {
+      height: 6px;
+      width: 11px;
+    }
+
+    .Scard-style {
+      // width: 83px;
+      height: 55px;
+      // right: 71px;
+      // top: 29px;
+      // opacity: 0.2;
+    }
+
+    .options-style {
+      background: transparent;
+      box-shadow: none;
+      padding-bottom: 15px;
+      color: #707377;
+    }
+
+    button img {
+      // width: 12px;
+    }
+
+    .optionsImg {
+      margin-top: -21px;
+    }
+
+    .lineStyle {
+      line-height: 10px;
+    }
+
+    .cardHeightStyle {
+      height: 315px;
+    }
+
+    .pad {
+      padding-bottom: 8px;
+    }
+  }
+}
+
+@media (min-width: "1601px") and(max-width:"1920px") {
+  .Dashboard-style {
+    height: 84vh !important;
+    overflow-x: auto;
+    overflow-x: hidden;
+    background: "white";
+
+    .card {
+      border: 2px solid #eceef7;
+      border-radius: 6px;
+      box-shadow: 0px 2px 16px 0px #c2cedf80;
+    }
+
+    .card-title {
+      margin-bottom: 0.5rem !important;
+      font-family: "Inter" !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+      font-size: 18px !important;
+      line-height: 25px !important;
+      color: #000000 !important;
+    }
+
+    .text-muted {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      color: #707377 !important;
+    }
+
+    .FirstBar {
+      .progress {
+        display: flex;
+        height: 8px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #d6fcdc;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #34b53a;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    .SecondBar {
+      .progress {
+        display: flex;
+        height: 8px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #e6edff;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #00a0f5;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    .ThirdBar {
+      .progress {
+        display: flex;
+        height: 8px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #fcf1db;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #efa514;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    img.card-img-style {
+      height: 30px;
+      width: 30px;
+      background: #d6fcdc;
+      border-radius: 50px;
+    }
+
+    .dates-text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+      mix-blend-mode: normal;
+      opacity: 0.4;
+    }
+
+    h5 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      color: #000000;
+    }
+
+    .td1 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .td2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+      flex: none;
+      order: 0;
+      background: #e6edff;
+      border-radius: 50px;
+      text-align: center;
+      flex-grow: 0;
+      padding: 6px 12px;
+    }
+
+    .td3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: right;
+      color: #000000;
+      background: #ffffff;
+      box-shadow: 0px 2px 10px rgba(124, 141, 181, 0.27);
+      border-radius: 12px;
+      text-align: center;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      padding: 8px 10px;
+    }
+
+    .grpico {
+      height: 14px;
+      width: 14px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .spanText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: right;
+      color: #000000;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 130%;
+      color: #000000;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    .cmbncardtext {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 140%;
+      text-transform: uppercase;
+      color: #707377;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    button {
+      background: #ffffff;
+      box-shadow: 0px 4px 14px rgba(124, 141, 181, 0.24);
+      border-radius: 12px;
+      height: 40px;
+      width: 40px;
+      border: none;
+      text-align: center !important;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    .bottomText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+      color: #000000;
+      opacity: 0.4;
+      flex: none;
+      order: 2;
+      flex-grow: 1;
+    }
+
+    .coloredText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 15px;
+      letter-spacing: 0.01em;
+      color: #34b53a;
+      // width: 80px;
+      height: 18px;
+      text-align: center;
+      background: #d6fcdc;
+      border-radius: 50px;
+      padding: 1px 8px;
+      // padding: 6px 12px;
+    }
+
+    .coloredText2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 15px;
+      letter-spacing: 0.01em;
+      color: #ef4444;
+      // width: 82px;
+      height: 18px;
+      text-align: center;
+      background: #feecec;
+      border-radius: 50px;
+      // padding: 1px;
+      padding: 1px 8px;
+    }
+
+    .cartbarstyle {
+      height: 6px;
+      width: 11px;
+    }
+
+    .cartbarstyle2 {
+      height: 6px;
+      width: 11px;
+    }
+
+    .Scard-style {
+      // width: 83px;
+      height: 55px;
+      // right: 71px;
+      // top: 29px;
+      // opacity: 0.2;
+    }
+
+    .options-style {
+      background: transparent;
+      box-shadow: none;
+      padding-bottom: 15px;
+      color: #707377;
+    }
+
+    button img {
+      // width: 12px;
+    }
+
+    .optionsImg {
+      margin-top: -20px;
+      margin-left: 10px;
+    }
+
+    .lineStyle {
+      line-height: 30px;
+    }
+
+    .cardHeightStyle {
+      height: 400px;
+    }
+
+    .pad {
+      // padding-bottom: 8px;
+    }
+  }
+}
+
+@media (min-width: "1921px") {
+  .Dashboard-style {
+    height: 84vh !important;
+    overflow-x: auto;
+    overflow-x: hidden;
+    background: "white";
+
+    .card {
+      border: 2px solid #eceef7;
+      border-radius: 6px;
+      box-shadow: 0px 2px 16px 0px #c2cedf80;
+    }
+
+    .card-title {
+      margin-bottom: 0.5rem !important;
+      font-family: "Inter" !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+      font-size: 18px !important;
+      line-height: 25px !important;
+      color: #000000 !important;
+    }
+
+    .text-muted {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      color: #707377 !important;
+    }
+
+    .FirstBar {
+      .progress {
+        display: flex;
+        height: 8px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #d6fcdc;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #34b53a;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    .SecondBar {
+      .progress {
+        display: flex;
+        height: 8px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #e6edff;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #00a0f5;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    .ThirdBar {
+      .progress {
+        display: flex;
+        height: 8px !important;
+        overflow: hidden;
+        font-size: 0.75rem;
+        background-color: #fcf1db;
+        border-radius: 71.5px;
+      }
+
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        background: #efa514;
+        border-radius: 71.5px;
+        transition: width 0.6s ease;
+      }
+    }
+
+    img.card-img-style {
+      height: 30px;
+      width: 30px;
+      background: #d6fcdc;
+      border-radius: 50px;
+    }
+
+    .dates-text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+      mix-blend-mode: normal;
+      opacity: 0.4;
+    }
+
+    h5 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      color: #000000;
+    }
+
+    .td1 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+
+    .td2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+      flex: none;
+      order: 0;
+      background: #e6edff;
+      border-radius: 50px;
+      text-align: center;
+      flex-grow: 0;
+      padding: 6px 12px;
+    }
+
+    .td3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: right;
+      color: #000000;
+      background: #ffffff;
+      box-shadow: 0px 2px 10px rgba(124, 141, 181, 0.27);
+      border-radius: 12px;
+      text-align: center;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      padding: 8px 10px;
+    }
+
+    .grpico {
+      height: 14px;
+      width: 14px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .spanText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: right;
+      color: #000000;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 130%;
+      color: #000000;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    .cmbncardtext {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 140%;
+      text-transform: uppercase;
+      color: #707377;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    button {
+      background: #ffffff;
+      box-shadow: 0px 4px 14px rgba(124, 141, 181, 0.24);
+      border-radius: 12px;
+      height: 40px;
+      width: 40px;
+      border: none;
+      text-align: center !important;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    .bottomText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+      color: #000000;
+      opacity: 0.4;
+      flex: none;
+      order: 2;
+      flex-grow: 1;
+    }
+
+    .coloredText {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 15px;
+      letter-spacing: 0.01em;
+      color: #34b53a;
+      // width: 80px;
+      height: 18px;
+      text-align: center;
+      background: #d6fcdc;
+      border-radius: 50px;
+      padding: 1px 8px;
+      // padding: 6px 12px;
+    }
+
+    .coloredText2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 15px;
+      letter-spacing: 0.01em;
+      color: #ef4444;
+      // width: 82px;
+      height: 18px;
+      text-align: center;
+      background: #feecec;
+      border-radius: 50px;
+      // padding: 1px;
+      padding: 1px 8px;
+    }
+
+    .cartbarstyle {
+      height: 6px;
+      width: 11px;
+    }
+
+    .cartbarstyle2 {
+      height: 6px;
+      width: 11px;
+    }
+
+    .Scard-style {
+      // width: 83px;
+      height: 55px;
+      // right: 71px;
+      // top: 29px;
+      // opacity: 0.2;
+    }
+
+    .options-style {
+      background: transparent;
+      box-shadow: none;
+      padding-bottom: 15px;
+      color: #707377;
+    }
+
+    button img {
+      // width: 12px;
+    }
+
+    .optionsImg {
+      margin-top: -34px;
+      margin-left: 10px;
+    }
+
+    .lineStyle {
+      line-height: 30px;
+    }
+
+    .cardHeightStyle {
+      height: 400px;
+    }
+
+    .pad {
+      // padding-bottom: 8px;
+    }
+  }
+}
